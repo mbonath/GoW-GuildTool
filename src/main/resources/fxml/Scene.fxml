@@ -10,16 +10,18 @@
     <tabs>
         <Tab fx:id="tab_overview" text="Overview">
             <content>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-               <children>
-                  <ProgressBar fx:id="prg_loading" layoutX="200.0" layoutY="177.0" prefWidth="200.0" />
-                  <Label fx:id="lbl_loading" layoutX="12.0" layoutY="195.0" maxWidth="577.0" minWidth="577.0" prefHeight="17.0" prefWidth="577.0" styleClass=".debug" text="Status?!" textAlignment="CENTER" />
-               </children></AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" fx:id="panel_overview">
+                    <children>
+                        <ProgressBar fx:id="prg_loading" layoutX="200.0" layoutY="177.0" prefWidth="200.0" />
+                        <Label fx:id="lbl_loading" layoutX="12.0" layoutY="195.0" maxWidth="577.0" minWidth="577.0" prefHeight="17.0" prefWidth="577.0" styleClass=".debug" text="Status?!" textAlignment="CENTER" />
+                        
+                    </children>
+                </AnchorPane>
             </content>
         </Tab>
         <Tab fx:id="tab_config" text="Configuration">
             <content>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" fx:id="panel_config">
                     <children>
                         <TextField fx:id="txt_datafile" editable="false" layoutX="72.0" layoutY="14.0" prefHeight="25.0" prefWidth="363.0" />
                         <Label fx:id="lbl_config_filepath" layoutX="14.0" layoutY="18.0" text="Data File:" />

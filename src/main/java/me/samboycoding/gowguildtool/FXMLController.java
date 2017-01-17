@@ -9,6 +9,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ProgressBar;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
 
 public class FXMLController implements Initializable {
     
@@ -36,6 +37,10 @@ public class FXMLController implements Initializable {
     public ProgressBar prg_loading;
     @FXML
     public Label lbl_loading;
+    @FXML
+    public AnchorPane panel_overview;
+    @FXML
+    public AnchorPane panel_config;
     
     
     @Override
