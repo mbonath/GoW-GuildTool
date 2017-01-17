@@ -398,7 +398,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623099,
+            "ServerTime": 1484662828633,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 19,
@@ -3024,7 +3024,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623100,
+            "ServerTime": 1484662828634,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -6143,7 +6143,7 @@
             "KingdomWeapon": {"10": 1064},
             "Name": "Oren",
             "TroopHealthBonus": 7,
-            "GuildTrophiesTotal": 820,
+            "GuildTrophiesTotal": 832,
             "GuildSealsTotal": 4521,
             "Skin_Face": 1,
             "KingdomLevels": {
@@ -6175,7 +6175,7 @@
                 "3003": 10,
                 "3025": 10
             },
-            "PvPWinStreak": 7,
+            "PvPWinStreak": 4,
             "NextStartDayTime": 1484722800000,
             "RaceAlt": 0,
             "Skin_FaceFeature": 1,
@@ -6187,7 +6187,7 @@
                 35,
                 21,
                 25,
-                31
+                32
             ],
             "DefenseTeam": 9,
             "Skin_FaceFeatureColor": 2,
@@ -6203,16 +6203,16 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623104,
+            "ServerTime": 1484662828638,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 21,
-            "PvPTier": 9,
+            "PvPTier": 7,
             "Seals": 1159,
             "Class": "warrior",
             "GuildColdContributedTotal": 0,
             "GuildName": "404GuildNotFound",
-            "Level": 152,
+            "Level": 153,
             "GuildPurchase": 0,
             "ArenaTroops": [
                 1,
@@ -6232,9 +6232,9 @@
             "NameCode": "OREN",
             "TroopAttackBonus": 4,
             "SpellPower": 5,
-            "LastDynamicDataCheck": 1484642246229,
-            "LastHeroDataSave": 1484642367642,
-            "GuildTrophiesWeekly": 46,
+            "LastDynamicDataCheck": 1484660389242,
+            "LastHeroDataSave": 1484660897747,
+            "GuildTrophiesWeekly": 58,
             "KingdomPower": {
                 "3024": {
                     "NextRank": 4,
@@ -6382,13 +6382,13 @@
                 "3014": {
                     "NextRank": 5,
                     "Troops": 9,
-                    "Points": 2370,
+                    "Points": 2380,
                     "TroopsPoints": 450,
                     "TraitsPoints": 450,
-                    "Levels": 147,
+                    "Levels": 148,
                     "CurrentRank": 4,
                     "CurrentRankRequiredPoints": 2100,
-                    "LevelsPoints": 1470,
+                    "LevelsPoints": 1480,
                     "Traits": 18,
                     "NextRankRequiredPoints": 2400
                 },
@@ -6588,7 +6588,7 @@
                     "NextRankRequiredPoints": 1700
                 }
             },
-            "LevelNew": 152,
+            "LevelNew": 153,
             "Troops": {
                 "6230": {
                     "Amount": 93,
@@ -6656,7 +6656,7 @@
                     "Amount": 3,
                     "TraitsOwned": 2,
                     "Level": 19,
-                    "Invasions": 559
+                    "Invasions": 565
                 },
                 "6226": {
                     "Amount": 6,
@@ -7303,7 +7303,7 @@
                 "6029": {
                     "Amount": 50,
                     "TraitsOwned": 2,
-                    "Level": 15
+                    "Level": 16
                 },
                 "6028": {
                     "CurrentRarity": 4,
@@ -7693,7 +7693,7 @@
                     "Amount": 8,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 725
+                    "Invasions": 731
                 },
                 "6183": {
                     "Amount": 1,
@@ -7738,7 +7738,7 @@
                     "Amount": 1,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 105
+                    "Invasions": 111
                 },
                 "6190": {
                     "Amount": 2,
@@ -7870,7 +7870,7 @@
                     "Amount": 7,
                     "TraitsOwned": 1,
                     "Level": 10,
-                    "Invasions": 22
+                    "Invasions": 28
                 },
                 "6303": {
                     "CurrentRarity": 4,
@@ -8205,7 +8205,8 @@
                     ],
                     "Banner": 3000,
                     "Income": 6,
-                    "QuestsComplete": 0
+                    "QuestsComplete": 0,
+                    "Invasions": 1
                 },
                 "3001": {
                     "Status": 2,
@@ -8241,7 +8242,7 @@
                     "Banner": 3000,
                     "Income": 4,
                     "QuestsComplete": 0,
-                    "Invasions": 194
+                    "Invasions": 195
                 },
                 "3022": {
                     "Status": 2,
@@ -8307,7 +8308,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 48
+                    "Invasions": 49
                 },
                 "3018": {
                     "Status": 2,
@@ -8372,7 +8373,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 29
+                    "Invasions": 30
                 },
                 "3014": {
                     "Status": 2,
@@ -8389,7 +8390,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 49
+                    "Invasions": 50
                 },
                 "3013": {
                     "Status": 2,
@@ -8508,7 +8509,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 45
+                    "Invasions": 46
                 },
                 "3006": {
                     "Status": 2,
@@ -8657,7 +8658,7 @@
                 "31": 15,
                 "10": 41,
                 "32": 11,
-                "11": 21,
+                "11": 22,
                 "33": 7,
                 "12": 14,
                 "34": 5,
@@ -8674,29 +8675,29 @@
                 "18": 4,
                 "19": 5,
                 "0": 92,
-                "1": 156,
+                "1": 157,
                 "2": 99,
                 "3": 30,
                 "4": 57,
-                "5": 76,
+                "5": 77,
                 "6": 69,
-                "7": 26,
+                "7": 27,
                 "8": 15,
-                "9": 44,
+                "9": 45,
                 "20": 13,
                 "21": 8
             },
-            "LastCollectTime": 1484642295090,
+            "LastCollectTime": 1484660423051,
             "GuildSealsWeekly": 299,
             "SealsTasksCompleteWeekly": [
                 1,
+                2,
+                5,
+                0,
+                1,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0
+                5
             ],
             "GuildTasksCompleted": [
                 6,
@@ -8710,7 +8711,7 @@
             "StartDayTime": 1484636400000,
             "Attack": 9,
             "Skin_Body": 7,
-            "LastPlayed": 1484612300695,
+            "LastPlayed": 1484660647594,
             "LastLoginTime": 1484642277853,
             "ClassData": {
                 "sorcerer": {
@@ -8726,7 +8727,7 @@
                 "warrior": {
                     "Level": 1,
                     "Spell": -1,
-                    "Wins": 172
+                    "Wins": 177
                 },
                 "necromancer": {
                     "TraitsOwned": 1,
@@ -8944,7 +8945,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623105,
+            "ServerTime": 1484662828639,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -11990,7 +11991,7 @@
             "Name": "Amandae",
             "TroopHealthBonus": 4,
             "GuildTrophiesTotal": 1013,
-            "GuildSealsTotal": 3082,
+            "GuildSealsTotal": 3112,
             "Skin_Face": 1,
             "KingdomLevels": {
                 "3024": 6,
@@ -12049,12 +12050,12 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623106,
+            "ServerTime": 1484662828640,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
             "PvPTier": 13,
-            "Seals": 692,
+            "Seals": 722,
             "Class": "warden",
             "GuildColdContributedTotal": 516877,
             "GuildName": "404GuildNotFound",
@@ -12080,8 +12081,8 @@
             "NameCode": "AMANDAE_2",
             "TroopAttackBonus": 4,
             "SpellPower": 6,
-            "LastDynamicDataCheck": 1484622422795,
-            "LastHeroDataSave": 1484625337619,
+            "LastDynamicDataCheck": 1484662748678,
+            "LastHeroDataSave": 1484662797107,
             "GuildTrophiesWeekly": 13,
             "KingdomPower": {
                 "3024": {
@@ -12321,13 +12322,13 @@
                 "3029": {
                     "NextRank": 6,
                     "Troops": 9,
-                    "Points": 2410,
+                    "Points": 2420,
                     "TroopsPoints": 450,
                     "TraitsPoints": 350,
-                    "Levels": 161,
+                    "Levels": 162,
                     "CurrentRank": 5,
                     "CurrentRankRequiredPoints": 2400,
-                    "LevelsPoints": 1610,
+                    "LevelsPoints": 1620,
                     "Traits": 14,
                     "NextRankRequiredPoints": 2600
                 },
@@ -12795,11 +12796,11 @@
                     "Level": 1
                 },
                 "6015": {
-                    "CurrentRarity": 3,
-                    "FusionCards": 5,
-                    "Amount": 10,
+                    "CurrentRarity": 4,
+                    "FusionCards": 15,
+                    "Amount": 1,
                     "TraitsOwned": 1,
-                    "Level": 18
+                    "Level": 19
                 },
                 "6136": {
                     "CurrentRarity": 3,
@@ -12951,7 +12952,7 @@
                 "6267": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 7,
+                    "Amount": 8,
                     "TraitsOwned": 1,
                     "Level": 1
                 },
@@ -13064,7 +13065,7 @@
                     "Level": 1
                 },
                 "6274": {
-                    "Amount": 2,
+                    "Amount": 3,
                     "TraitsOwned": 1,
                     "Level": 18,
                     "Invasions": 154
@@ -13392,7 +13393,7 @@
                 "6161": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 6,
+                    "Amount": 7,
                     "TraitsOwned": 1,
                     "Level": 9
                 },
@@ -13454,7 +13455,7 @@
                 "6055": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 5,
+                    "Amount": 7,
                     "TraitsOwned": 1,
                     "Level": 1
                 },
@@ -13790,7 +13791,7 @@
                 "6097": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 3,
                     "Level": 7
                 },
@@ -13838,7 +13839,7 @@
                 "6301": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 2,
+                    "Amount": 3,
                     "Level": 1
                 },
                 "6304": {
@@ -13954,7 +13955,7 @@
                 "6220": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 6,
+                    "Amount": 7,
                     "TraitsOwned": 2,
                     "Level": 1
                 },
@@ -13991,7 +13992,7 @@
                     "Level": 2
                 },
                 "6225": {
-                    "Amount": 4,
+                    "Amount": 5,
                     "Level": 8
                 },
                 "6103": {
@@ -14667,13 +14668,13 @@
                 "32": 1,
                 "11": 11,
                 "33": 6,
-                "12": 4,
+                "12": 5,
                 "34": 1,
                 "13": 5,
                 "35": 3,
                 "14": 5,
                 "36": 0,
-                "15": 10,
+                "15": 12,
                 "37": 16,
                 "16": 13,
                 "38": 0,
@@ -14684,18 +14685,18 @@
                 "0": 31,
                 "1": 39,
                 "2": 31,
-                "3": 23,
-                "4": 17,
+                "3": 24,
+                "4": 18,
                 "5": 69,
                 "6": 72,
                 "7": 8,
-                "8": 7,
+                "8": 8,
                 "9": 40,
                 "20": 2,
                 "21": 1
             },
-            "LastCollectTime": 1484625257909,
-            "GuildSealsWeekly": 182,
+            "LastCollectTime": 1484662782811,
+            "GuildSealsWeekly": 212,
             "SealsTasksCompleteWeekly": [
                 0,
                 0,
@@ -14704,14 +14705,14 @@
                 0,
                 0,
                 0,
-                3
+                0
             ],
             "GuildTasksCompleted": [
+                6,
+                6,
+                11,
                 5,
-                4,
-                10,
                 5,
-                4,
                 5
             ],
             "GuildTroopAttackBonus": 0,
@@ -14719,7 +14720,7 @@
             "Attack": 10,
             "Skin_Body": 13,
             "LastPlayed": 1484624860029,
-            "LastLoginTime": 1484567336492,
+            "LastLoginTime": 1484653874927,
             "ClassData": {
                 "sorcerer": {
                     "Level": 2,
@@ -14935,7 +14936,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623107,
+            "ServerTime": 1484662828640,
             "Skin_Head": 13,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -18048,7 +18049,7 @@
             },
             "Name": "Rkag",
             "TroopHealthBonus": 4,
-            "GuildTrophiesTotal": 4607,
+            "GuildTrophiesTotal": 4624,
             "GuildSealsTotal": 13469,
             "Skin_Face": 1,
             "KingdomLevels": {
@@ -18080,7 +18081,7 @@
                 "3003": 10,
                 "3025": 9
             },
-            "PvPWinStreak": 0,
+            "PvPWinStreak": 9,
             "NextStartDayTime": 1484722800000,
             "Skin_FaceFeature": 1,
             "GuildTroopMagicBonus": 2,
@@ -18088,7 +18089,7 @@
             "GemMastery": [
                 51,
                 66,
-                98,
+                99,
                 66,
                 58,
                 56
@@ -18188,16 +18189,16 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623108,
+            "ServerTime": 1484662828641,
             "Skin_Head": 13,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
-            "PvPTier": 11,
+            "PvPTier": 8,
             "Seals": 5395,
             "Class": "warrior",
             "GuildColdContributedTotal": 4847342,
             "GuildName": "404GuildNotFound",
-            "Level": 394,
+            "Level": 395,
             "GuildPurchase": 0,
             "ArenaTroops": [
                 1,
@@ -18227,9 +18228,9 @@
             "NameCode": "RKAG",
             "TroopAttackBonus": 1,
             "SpellPower": 7,
-            "LastDynamicDataCheck": 1484651463786,
-            "LastHeroDataSave": 1484628720382,
-            "GuildTrophiesWeekly": 29,
+            "LastDynamicDataCheck": 1484657057947,
+            "LastHeroDataSave": 1484657712533,
+            "GuildTrophiesWeekly": 46,
             "KingdomPower": {
                 "3024": {
                     "NextRank": 4,
@@ -18583,7 +18584,7 @@
                     "NextRankRequiredPoints": 1200
                 }
             },
-            "LevelNew": 394,
+            "LevelNew": 395,
             "Troops": {
                 "6230": {
                     "CurrentRarity": 4,
@@ -19008,7 +19009,7 @@
                     "Amount": 1,
                     "TraitsOwned": 3,
                     "Level": 20,
-                    "Invasions": 1797
+                    "Invasions": 1806
                 },
                 "6258": {
                     "CurrentRarity": 2,
@@ -19563,7 +19564,7 @@
                     "Amount": 10,
                     "TraitsOwned": 3,
                     "Level": 20,
-                    "Invasions": 1797
+                    "Invasions": 1806
                 },
                 "6166": {
                     "CurrentRarity": 3,
@@ -19578,7 +19579,7 @@
                     "Amount": 16,
                     "TraitsOwned": 3,
                     "Level": 20,
-                    "Invasions": 1656
+                    "Invasions": 1665
                 },
                 "6286": {
                     "Amount": 9,
@@ -19608,7 +19609,7 @@
                     "Amount": 5,
                     "TraitsOwned": 3,
                     "Level": 20,
-                    "Invasions": 1797
+                    "Invasions": 1806
                 },
                 "6167": {
                     "CurrentRarity": 4,
@@ -20726,7 +20727,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 33
+                    "Invasions": 34
                 },
                 "3021": {
                     "Status": 2,
@@ -20775,7 +20776,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 27
+                    "Invasions": 30
                 },
                 "3018": {
                     "Status": 2,
@@ -20807,7 +20808,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 134
+                    "Invasions": 135
                 },
                 "3016": {
                     "Status": 2,
@@ -20840,7 +20841,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 109
+                    "Invasions": 110
                 },
                 "3014": {
                     "Status": 2,
@@ -20857,7 +20858,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 247
+                    "Invasions": 249
                 },
                 "3013": {
                     "Status": 2,
@@ -21024,7 +21025,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 74
+                    "Invasions": 75
                 },
                 "3027": {
                     "Status": 2,
@@ -21110,7 +21111,7 @@
                 }
             },
             "Skin_Costume": 13,
-            "DefendWins": 17,
+            "DefendWins": 22,
             "Runes": {
                 "22": 10,
                 "23": 9,
@@ -21141,44 +21142,44 @@
                 "18": 11,
                 "19": 2,
                 "0": 318,
-                "1": 53,
-                "2": 149,
-                "3": 330,
-                "4": 337,
-                "5": 197,
+                "1": 54,
+                "2": 151,
+                "3": 333,
+                "4": 338,
+                "5": 198,
                 "6": 450,
                 "7": 408,
-                "8": 349,
+                "8": 350,
                 "9": 380,
                 "20": 3,
                 "21": 10
             },
-            "LastCollectTime": 1484625691464,
+            "LastCollectTime": 1484657088334,
             "GuildSealsWeekly": 0,
             "SealsTasksCompleteWeekly": [
-                0,
-                5,
-                12,
-                0,
                 1,
+                7,
+                21,
+                0,
+                2,
                 0,
                 0,
-                13
+                22
             ],
             "GuildTasksCompleted": [
+                6,
                 5,
-                4,
-                10,
+                11,
                 5,
-                4,
+                5,
                 5
             ],
             "GuildTroopAttackBonus": 0,
             "StartDayTime": 1484636400000,
             "Attack": 11,
             "Skin_Body": 13,
-            "LastPlayed": 1484630854993,
-            "LastLoginTime": 1484551640475,
+            "LastPlayed": 1484659849216,
+            "LastLoginTime": 1484651854266,
             "ClassData": {
                 "sorcerer": {
                     "Level": 20,
@@ -21195,7 +21196,7 @@
                     "TraitsOwned": 2,
                     "Level": 20,
                     "Spell": 1,
-                    "Wins": 994
+                    "Wins": 1003
                 },
                 "necromancer": {
                     "TraitsOwned": 1,
@@ -21242,16 +21243,16 @@
             "ClassChangeTime": 1478096795656
         },
         {
-            "GuildGoldContributedWeekly": 435824,
+            "GuildGoldContributedWeekly": 448709,
             "Difficulty": 5,
-            "GuildGoldContributedTotal": 1508973,
+            "GuildGoldContributedTotal": 1521858,
             "Gender": 0,
             "HomeKingdomId": 3020,
             "KingdomWeapon": {"10": 1056},
             "Name": "Sweet-t310",
             "TroopHealthBonus": 15,
-            "GuildTrophiesTotal": 587,
-            "GuildSealsTotal": 2390,
+            "GuildTrophiesTotal": 600,
+            "GuildSealsTotal": 2414,
             "Skin_Face": 1,
             "KingdomLevels": {
                 "3024": 10,
@@ -21282,7 +21283,7 @@
                 "3003": 10,
                 "3025": 10
             },
-            "PvPWinStreak": 5,
+            "PvPWinStreak": 0,
             "NextStartDayTime": 1484722800000,
             "RaceAlt": 0,
             "Skin_FaceFeature": 1,
@@ -21293,7 +21294,7 @@
                 99,
                 100,
                 99,
-                99,
+                100,
                 99
             ],
             "DefenseTeam": 15,
@@ -21431,16 +21432,16 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623109,
+            "ServerTime": 1484662828641,
             "Skin_Head": 14,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
-            "PvPTier": 6,
-            "Seals": 987,
+            "PvPTier": 4,
+            "Seals": 1011,
             "Class": "sorcerer",
-            "GuildColdContributedTotal": 1508973,
+            "GuildColdContributedTotal": 1521858,
             "GuildName": "404GuildNotFound",
-            "Level": 595,
+            "Level": 596,
             "GuildPurchase": 0,
             "ArenaTroops": [
                 6213,
@@ -21458,9 +21459,9 @@
             "NameCode": "SWEET-T310",
             "TroopAttackBonus": 5,
             "SpellPower": 8,
-            "LastDynamicDataCheck": 1484623772571,
-            "LastHeroDataSave": 1484624287248,
-            "GuildTrophiesWeekly": 53,
+            "LastDynamicDataCheck": 1484661485013,
+            "LastHeroDataSave": 1484662646972,
+            "GuildTrophiesWeekly": 66,
             "KingdomPower": {
                 "3024": {
                     "NextRank": 7,
@@ -21790,13 +21791,13 @@
                 "3003": {
                     "NextRank": 7,
                     "Troops": 11,
-                    "Points": 2800,
+                    "Points": 2810,
                     "TroopsPoints": 510,
                     "TraitsPoints": 450,
-                    "Levels": 184,
+                    "Levels": 185,
                     "CurrentRank": 6,
                     "CurrentRankRequiredPoints": 2600,
-                    "LevelsPoints": 1840,
+                    "LevelsPoints": 1850,
                     "Traits": 18,
                     "NextRankRequiredPoints": 2900
                 },
@@ -21814,7 +21815,7 @@
                     "NextRankRequiredPoints": 2600
                 }
             },
-            "LevelNew": 595,
+            "LevelNew": 596,
             "Troops": {
                 "6230": {
                     "CurrentRarity": 4,
@@ -21874,7 +21875,7 @@
                 "6233": {
                     "CurrentRarity": 4,
                     "FusionCards": 40,
-                    "Amount": 41,
+                    "Amount": 42,
                     "TraitsOwned": 3,
                     "Level": 19,
                     "Invasions": 31
@@ -21890,7 +21891,7 @@
                     "Amount": 4,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 473
+                    "Invasions": 480
                 },
                 "6114": {
                     "CurrentRarity": 5,
@@ -21912,7 +21913,7 @@
                     "Level": 15
                 },
                 "6227": {
-                    "Amount": 2,
+                    "Amount": 3,
                     "TraitsOwned": 2,
                     "Level": 19,
                     "Invasions": 10
@@ -21973,7 +21974,7 @@
                     "Amount": 2,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 227
+                    "Invasions": 234
                 },
                 "6240": {
                     "CurrentRarity": 4,
@@ -21992,7 +21993,7 @@
                 "6122": {
                     "CurrentRarity": 4,
                     "FusionCards": 5,
-                    "Amount": 7,
+                    "Amount": 8,
                     "Level": 15
                 },
                 "6243": {
@@ -22085,7 +22086,7 @@
                 "6004": {
                     "CurrentRarity": 5,
                     "FusionCards": 190,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 1,
                     "Level": 20
                 },
@@ -22177,7 +22178,6 @@
                     "Amount": 4,
                     "TraitsOwned": 1,
                     "Level": 20,
-                    "Limit": 1,
                     "Invasions": 13
                 },
                 "6012": {
@@ -22190,7 +22190,7 @@
                 "6133": {
                     "CurrentRarity": 5,
                     "FusionCards": 40,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 1,
                     "Level": 15
                 },
@@ -22204,7 +22204,7 @@
                 "6011": {
                     "CurrentRarity": 5,
                     "FusionCards": 40,
-                    "Amount": 1,
+                    "Amount": 2,
                     "TraitsOwned": 3,
                     "Level": 20
                 },
@@ -22218,14 +22218,14 @@
                 "6253": {
                     "CurrentRarity": 4,
                     "FusionCards": 15,
-                    "Amount": 9,
+                    "Amount": 10,
                     "TraitsOwned": 1,
                     "Level": 15
                 },
                 "6014": {
                     "CurrentRarity": 5,
                     "FusionCards": 90,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 1,
                     "Level": 15
                 },
@@ -22339,7 +22339,7 @@
                 "6006": {
                     "CurrentRarity": 5,
                     "FusionCards": 90,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 1,
                     "Level": 20,
                     "Invasions": 2
@@ -22374,7 +22374,7 @@
                     "Amount": 1,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 867
+                    "Invasions": 873
                 },
                 "6021": {
                     "CurrentRarity": 5,
@@ -22408,7 +22408,7 @@
                 "6141": {
                     "CurrentRarity": 5,
                     "FusionCards": 40,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 1,
                     "Level": 15
                 },
@@ -22571,7 +22571,7 @@
                 "6139": {
                     "CurrentRarity": 5,
                     "FusionCards": 90,
-                    "Amount": 2,
+                    "Amount": 3,
                     "TraitsOwned": 3,
                     "Level": 19,
                     "Invasions": 21
@@ -22617,7 +22617,7 @@
                 "6031": {
                     "CurrentRarity": 5,
                     "FusionCards": 40,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 1,
                     "Level": 15
                 },
@@ -22637,14 +22637,14 @@
                 "6034": {
                     "CurrentRarity": 5,
                     "FusionCards": 90,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 1,
                     "Level": 15
                 },
                 "6155": {
                     "CurrentRarity": 5,
                     "FusionCards": 190,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 3,
                     "Level": 15
                 },
@@ -22665,8 +22665,8 @@
                 "6154": {
                     "CurrentRarity": 4,
                     "FusionCards": 5,
-                    "Amount": 9,
-                    "Level": 15
+                    "Amount": 10,
+                    "Level": 16
                 },
                 "6275": {
                     "Amount": 2,
@@ -22720,8 +22720,7 @@
                     "FusionCards": 90,
                     "Amount": 4,
                     "TraitsOwned": 1,
-                    "Level": 16,
-                    "Limit": 1
+                    "Level": 16
                 },
                 "6159": {
                     "CurrentRarity": 4,
@@ -22746,7 +22745,7 @@
                 "6279": {
                     "CurrentRarity": 4,
                     "FusionCards": 90,
-                    "Amount": 2,
+                    "Amount": 3,
                     "TraitsOwned": 1,
                     "Level": 18
                 },
@@ -22772,7 +22771,7 @@
                 "6272": {
                     "CurrentRarity": 4,
                     "FusionCards": 90,
-                    "Amount": 18,
+                    "Amount": 19,
                     "TraitsOwned": 1,
                     "Level": 15
                 },
@@ -22801,14 +22800,14 @@
                 "6028": {
                     "CurrentRarity": 5,
                     "FusionCards": 190,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 3,
                     "Level": 15
                 },
                 "6149": {
                     "CurrentRarity": 5,
                     "FusionCards": 40,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 1,
                     "Level": 15
                 },
@@ -23022,7 +23021,7 @@
                 "6054": {
                     "CurrentRarity": 5,
                     "FusionCards": 90,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 3,
                     "Level": 20,
                     "Invasions": 38
@@ -23064,7 +23063,7 @@
                 "6056": {
                     "CurrentRarity": 5,
                     "FusionCards": 190,
-                    "Amount": 4,
+                    "Amount": 6,
                     "TraitsOwned": 3,
                     "Level": 15
                 },
@@ -23081,7 +23080,7 @@
                 "6055": {
                     "CurrentRarity": 4,
                     "FusionCards": 15,
-                    "Amount": 24,
+                    "Amount": 25,
                     "TraitsOwned": 1,
                     "Level": 15
                 },
@@ -23130,7 +23129,7 @@
                 "6059": {
                     "CurrentRarity": 5,
                     "FusionCards": 40,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 3,
                     "Level": 20,
                     "Invasions": 4
@@ -23213,7 +23212,7 @@
                     "Amount": 2,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 267
+                    "Invasions": 268
                 },
                 "6186": {
                     "CurrentRarity": 5,
@@ -23299,7 +23298,7 @@
                 "6060": {
                     "CurrentRarity": 5,
                     "FusionCards": 90,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 3,
                     "Level": 20,
                     "Invasions": 4
@@ -23361,7 +23360,7 @@
                 "6196": {
                     "CurrentRarity": 4,
                     "FusionCards": 15,
-                    "Amount": 19,
+                    "Amount": 20,
                     "TraitsOwned": 1,
                     "Level": 15
                 },
@@ -23397,7 +23396,7 @@
                     "Amount": 1,
                     "TraitsOwned": 3,
                     "Level": 20,
-                    "Invasions": 214
+                    "Invasions": 221
                 },
                 "6070": {
                     "Amount": 4,
@@ -23613,19 +23612,19 @@
                 "6302": {
                     "CurrentRarity": 4,
                     "FusionCards": 15,
-                    "Amount": 2,
+                    "Amount": 3,
                     "TraitsOwned": 1,
                     "Level": 15
                 },
                 "6301": {
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 1,
                     "Level": 15
                 },
                 "6304": {
                     "CurrentRarity": 4,
                     "FusionCards": 15,
-                    "Amount": 1,
+                    "Amount": 3,
                     "TraitsOwned": 1,
                     "Level": 19,
                     "Invasions": 21
@@ -23696,7 +23695,7 @@
                 "6213": {
                     "CurrentRarity": 5,
                     "FusionCards": 190,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 3,
                     "Level": 15
                 },
@@ -23787,7 +23786,7 @@
                 "6222": {
                     "CurrentRarity": 5,
                     "FusionCards": 190,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 1,
                     "Level": 15
                 },
@@ -23808,7 +23807,7 @@
                 "6103": {
                     "CurrentRarity": 5,
                     "FusionCards": 190,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 3,
                     "Level": 20,
                     "Invasions": 5
@@ -23838,7 +23837,7 @@
                 "6218": {
                     "CurrentRarity": 4,
                     "FusionCards": 15,
-                    "Amount": 9,
+                    "Amount": 11,
                     "TraitsOwned": 3,
                     "Level": 19,
                     "Invasions": 14
@@ -23846,7 +23845,7 @@
                 "6217": {
                     "CurrentRarity": 5,
                     "FusionCards": 190,
-                    "Amount": 4,
+                    "Amount": 5,
                     "TraitsOwned": 1,
                     "Level": 20
                 },
@@ -24011,10 +24010,10 @@
                     "Troops": [
                         6236,
                         6079,
-                        6065,
+                        6129,
                         6241
                     ],
-                    "Banner": 3007,
+                    "Banner": 3017,
                     "Name": "Dragons"
                 },
                 {
@@ -24139,7 +24138,7 @@
                     "Banner": 3000,
                     "Income": 2,
                     "QuestsComplete": 0,
-                    "Invasions": 28
+                    "Invasions": 29
                 },
                 "3021": {
                     "Status": 2,
@@ -24216,7 +24215,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 205
+                    "Invasions": 206
                 },
                 "3016": {
                     "Status": 2,
@@ -24266,7 +24265,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 635
+                    "Invasions": 636
                 },
                 "3013": {
                     "Status": 2,
@@ -24289,7 +24288,7 @@
                     "Banner": 3000,
                     "Income": 1,
                     "QuestsComplete": 0,
-                    "Invasions": 88
+                    "Invasions": 90
                 },
                 "3011": {
                     "Status": 2,
@@ -24301,7 +24300,7 @@
                     "Banner": 3000,
                     "Income": 1,
                     "QuestsComplete": 0,
-                    "Invasions": 16
+                    "Invasions": 17
                 },
                 "3010": {
                     "Status": 0,
@@ -24365,7 +24364,7 @@
                     "Banner": 3000,
                     "Income": 2,
                     "QuestsComplete": 0,
-                    "Invasions": 152
+                    "Invasions": 153
                 },
                 "3006": {
                     "Status": 2,
@@ -24485,9 +24484,9 @@
             "Skin_Costume": 14,
             "DefendWins": 56,
             "Runes": {
-                "22": 14,
-                "23": 5,
-                "24": 18,
+                "22": 15,
+                "23": 6,
+                "24": 19,
                 "25": 22,
                 "26": 6,
                 "27": 6,
@@ -24497,67 +24496,67 @@
                 "31": 54,
                 "10": 257,
                 "32": 15,
-                "11": 224,
+                "11": 226,
                 "33": 16,
-                "12": 7,
+                "12": 19,
                 "34": 23,
-                "13": 9,
+                "13": 11,
                 "35": 10,
                 "14": 4,
                 "36": 20,
-                "15": 9,
+                "15": 11,
                 "37": 3,
-                "16": 5,
+                "16": 6,
                 "38": 5,
-                "17": 10,
+                "17": 13,
                 "39": 36,
-                "18": 20,
-                "19": 6,
-                "0": 372,
-                "1": 494,
-                "2": 80,
-                "3": 712,
-                "4": 134,
+                "18": 21,
+                "19": 7,
+                "0": 414,
+                "1": 495,
+                "2": 81,
+                "3": 713,
+                "4": 136,
                 "5": 146,
-                "6": 195,
+                "6": 196,
                 "7": 213,
                 "8": 117,
                 "9": 323,
-                "20": 5,
-                "21": 19
+                "20": 6,
+                "21": 20
             },
-            "LastCollectTime": 1484622801148,
-            "GuildSealsWeekly": 309,
+            "LastCollectTime": 1484661488109,
+            "GuildSealsWeekly": 333,
             "SealsTasksCompleteWeekly": [
                 0,
+                2,
+                4,
                 0,
                 1,
                 0,
                 0,
-                0,
-                0,
-                1
+                5
             ],
             "GuildTasksCompleted": [
+                6,
+                6,
+                11,
                 5,
-                4,
-                10,
                 5,
-                4,
                 5
             ],
             "GuildTroopAttackBonus": 0,
             "StartDayTime": 1484636400000,
             "Attack": 11,
             "Skin_Body": 14,
-            "LastPlayed": 1484623812422,
-            "LastLoginTime": 1484570043350,
+            "LastPlayed": 1484662645687,
+            "LastLoginTime": 1484657669870,
             "ClassData": {
                 "sorcerer": {
                     "TraitsOwned": 3,
                     "Level": 20,
                     "Spell": 0,
-                    "Wins": 4204
+                    "Wins": 4210
                 },
                 "mechanist": {
                     "Level": 1,
@@ -24614,7 +24613,7 @@
             },
             "Name": "SansPants",
             "TroopHealthBonus": 8,
-            "GuildTrophiesTotal": 801,
+            "GuildTrophiesTotal": 809,
             "GuildSealsTotal": 3241,
             "Skin_Face": 1,
             "KingdomLevels": {
@@ -24646,7 +24645,7 @@
                 "3003": 10,
                 "3025": 10
             },
-            "PvPWinStreak": 10,
+            "PvPWinStreak": 13,
             "NextStartDayTime": 1484722800000,
             "RaceAlt": 0,
             "Skin_FaceFeature": 1,
@@ -24657,7 +24656,7 @@
                 65,
                 65,
                 65,
-                64,
+                65,
                 65
             ],
             "DefenseTeam": 3,
@@ -24789,16 +24788,16 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623110,
+            "ServerTime": 1484662828642,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
-            "PvPTier": 6,
+            "PvPTier": 5,
             "Seals": 634,
             "Class": "warden",
             "GuildColdContributedTotal": 1135071,
             "GuildName": "404GuildNotFound",
-            "Level": 389,
+            "Level": 390,
             "GuildPurchase": 0,
             "ArenaTroops": [
                 6107,
@@ -24816,9 +24815,9 @@
             "NameCode": "SANSPANTS",
             "TroopAttackBonus": 4,
             "SpellPower": 7,
-            "LastDynamicDataCheck": 1484630549766,
-            "LastHeroDataSave": 1484631826810,
-            "GuildTrophiesWeekly": 115,
+            "LastDynamicDataCheck": 1484659875381,
+            "LastHeroDataSave": 1484660905478,
+            "GuildTrophiesWeekly": 123,
             "KingdomPower": {
                 "3024": {
                     "NextRank": 2,
@@ -25172,7 +25171,7 @@
                     "NextRankRequiredPoints": 1700
                 }
             },
-            "LevelNew": 389,
+            "LevelNew": 390,
             "Troops": {
                 "6230": {
                     "CurrentRarity": 4,
@@ -25314,7 +25313,7 @@
                     "Amount": 2,
                     "TraitsOwned": 1,
                     "Level": 19,
-                    "Invasions": 67
+                    "Invasions": 70
                 },
                 "6240": {
                     "CurrentRarity": 4,
@@ -25568,8 +25567,7 @@
                     "FusionCards": 40,
                     "Amount": 42,
                     "TraitsOwned": 1,
-                    "Level": 19,
-                    "Limit": 1
+                    "Level": 19
                 },
                 "6134": {
                     "Amount": 3,
@@ -25605,8 +25603,7 @@
                     "FusionCards": 15,
                     "Amount": 18,
                     "TraitsOwned": 1,
-                    "Level": 19,
-                    "Limit": 1
+                    "Level": 19
                 },
                 "6136": {
                     "CurrentRarity": 4,
@@ -25846,7 +25843,7 @@
                     "FusionCards": 40,
                     "Amount": 39,
                     "Level": 18,
-                    "Invasions": 67
+                    "Invasions": 70
                 },
                 "6260": {
                     "Amount": 5,
@@ -26551,7 +26548,7 @@
                     "Amount": 5,
                     "TraitsOwned": 3,
                     "Level": 20,
-                    "Invasions": 92
+                    "Invasions": 95
                 },
                 "6183": {
                     "Amount": 3,
@@ -26606,7 +26603,7 @@
                     "Amount": 1,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 67
+                    "Invasions": 70
                 },
                 "6190": {
                     "CurrentRarity": 4,
@@ -26973,8 +26970,7 @@
                     "CurrentRarity": 4,
                     "FusionCards": 90,
                     "Amount": 59,
-                    "Level": 14,
-                    "Limit": 1
+                    "Level": 14
                 },
                 "6338": {
                     "CurrentRarity": 3,
@@ -27228,7 +27224,7 @@
                     "Banner": 3006,
                     "Income": 4,
                     "QuestsComplete": 0,
-                    "Invasions": 448
+                    "Invasions": 449
                 },
                 "3022": {
                     "Status": 2,
@@ -27359,7 +27355,7 @@
                     "Banner": 3006,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 96
+                    "Invasions": 97
                 },
                 "3014": {
                     "Status": 2,
@@ -27604,7 +27600,7 @@
                     "Banner": 3006,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 25
+                    "Invasions": 26
                 },
                 "3025": {
                     "Status": 2,
@@ -27654,30 +27650,30 @@
                 "39": 21,
                 "18": 4,
                 "19": 11,
-                "0": 213,
+                "0": 214,
                 "1": 226,
                 "2": 255,
                 "3": 307,
                 "4": 316,
                 "5": 302,
                 "6": 148,
-                "7": 120,
+                "7": 121,
                 "8": 195,
-                "9": 177,
+                "9": 178,
                 "20": 22,
                 "21": 9
             },
             "LastCollectTime": 1484630564077,
             "GuildSealsWeekly": 527,
             "SealsTasksCompleteWeekly": [
+                1,
+                1,
+                3,
+                0,
+                1,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
+                3
             ],
             "GuildTasksCompleted": [
                 6,
@@ -27691,8 +27687,8 @@
             "StartDayTime": 1484636400000,
             "Attack": 11,
             "Skin_Body": 14,
-            "LastPlayed": 1484631825764,
-            "LastLoginTime": 1484585768529,
+            "LastPlayed": 1484660904458,
+            "LastLoginTime": 1484659888817,
             "ClassData": {
                 "sorcerer": {
                     "Level": 1,
@@ -27733,7 +27729,7 @@
                     "TraitsOwned": 1,
                     "Level": 20,
                     "Spell": 0,
-                    "Wins": 2667
+                    "Wins": 2670
                 },
                 "assassin": {
                     "Level": 1,
@@ -27910,7 +27906,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623111,
+            "ServerTime": 1484662828643,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -30827,8 +30823,8 @@
             "HomeKingdomId": 3029,
             "KingdomWeapon": {},
             "Name": "Arelana",
-            "TroopHealthBonus": 1,
-            "GuildTrophiesTotal": 941,
+            "TroopHealthBonus": 2,
+            "GuildTrophiesTotal": 948,
             "GuildSealsTotal": 5432,
             "Skin_Face": 1,
             "KingdomLevels": {
@@ -30849,7 +30845,7 @@
                 "3011": 5,
                 "3031": 0,
                 "3008": 5,
-                "3007": 5,
+                "3007": 10,
                 "3029": 10,
                 "3006": 5,
                 "3028": 10,
@@ -30860,7 +30856,7 @@
                 "3003": 5,
                 "3025": 5
             },
-            "PvPWinStreak": 2,
+            "PvPWinStreak": 7,
             "NextStartDayTime": 1484722800000,
             "RaceAlt": 0,
             "Skin_FaceFeature": 1,
@@ -30869,7 +30865,7 @@
             "GemMastery": [
                 25,
                 26,
-                24,
+                25,
                 25,
                 26,
                 25
@@ -30888,16 +30884,16 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623112,
+            "ServerTime": 1484662828644,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 21,
-            "PvPTier": 10,
+            "PvPTier": 9,
             "Seals": 0,
             "Class": "sorcerer",
             "GuildColdContributedTotal": 270000,
             "GuildName": "404GuildNotFound",
-            "Level": 152,
+            "Level": 153,
             "GuildPurchase": 0,
             "ArenaTroops": [
                 1,
@@ -30915,9 +30911,9 @@
             "NameCode": "ISIS.KEMET",
             "TroopAttackBonus": 4,
             "SpellPower": 5,
-            "LastDynamicDataCheck": 1484623638440,
-            "LastHeroDataSave": 1484632369041,
-            "GuildTrophiesWeekly": 55,
+            "LastDynamicDataCheck": 1484659871736,
+            "LastHeroDataSave": 1484662774890,
+            "GuildTrophiesWeekly": 62,
             "KingdomPower": {
                 "3024": {
                     "NextRank": 2,
@@ -31271,7 +31267,7 @@
                     "NextRankRequiredPoints": 600
                 }
             },
-            "LevelNew": 152,
+            "LevelNew": 153,
             "Troops": {
                 "6230": {
                     "CurrentRarity": 2,
@@ -31362,7 +31358,7 @@
                 "6107": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 6,
+                    "Amount": 7,
                     "Level": 1
                 },
                 "6228": {
@@ -31519,7 +31515,7 @@
                 "6251": {
                     "CurrentRarity": 2,
                     "FusionCards": 15,
-                    "Amount": 23,
+                    "Amount": 24,
                     "Level": 1
                 },
                 "6012": {
@@ -31570,7 +31566,7 @@
                     "Amount": 4,
                     "TraitsOwned": 2,
                     "Level": 18,
-                    "Invasions": 70
+                    "Invasions": 75
                 },
                 "6013": {
                     "CurrentRarity": 3,
@@ -31693,7 +31689,7 @@
                 "6141": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 7,
+                    "Amount": 9,
                     "TraitsOwned": 2,
                     "Level": 13,
                     "Invasions": 2
@@ -31727,7 +31723,7 @@
                     "Level": 1
                 },
                 "6143": {
-                    "Amount": 3,
+                    "Amount": 4,
                     "Level": 1
                 },
                 "6264": {
@@ -31918,7 +31914,7 @@
                 "6035": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 8,
+                    "Amount": 9,
                     "Level": 1
                 },
                 "6156": {
@@ -32015,7 +32011,7 @@
                     "Amount": 9,
                     "TraitsOwned": 3,
                     "Level": 17,
-                    "Invasions": 70
+                    "Invasions": 75
                 },
                 "6163": {
                     "Amount": 2,
@@ -32102,7 +32098,7 @@
                 "6280": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 2,
+                    "Amount": 3,
                     "Level": 1
                 },
                 "6041": {
@@ -32130,7 +32126,7 @@
                 "6282": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 2,
+                    "Amount": 3,
                     "Level": 1
                 },
                 "6039": {
@@ -32361,7 +32357,7 @@
                     "Level": 1
                 },
                 "6184": {
-                    "Amount": 2,
+                    "Amount": 3,
                     "Level": 1
                 },
                 "6062": {
@@ -32521,7 +32517,7 @@
                     "Level": 1
                 },
                 "6304": {
-                    "Amount": 1,
+                    "Amount": 4,
                     "TraitsOwned": 1,
                     "Level": 17,
                     "Invasions": 2
@@ -32532,7 +32528,7 @@
                     "Amount": 3,
                     "TraitsOwned": 3,
                     "Level": 18,
-                    "Invasions": 76
+                    "Invasions": 81
                 },
                 "6201": {
                     "CurrentRarity": 3,
@@ -32547,7 +32543,7 @@
                 "6203": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 1,
+                    "Amount": 2,
                     "Level": 1
                 },
                 "6202": {
@@ -32669,7 +32665,7 @@
                     "Amount": 23,
                     "TraitsOwned": 2,
                     "Level": 17,
-                    "Invasions": 80
+                    "Invasions": 85
                 },
                 "6224": {
                     "CurrentRarity": 2,
@@ -32702,7 +32698,7 @@
                 "6338": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 2,
+                    "Amount": 3,
                     "Level": 1
                 },
                 "6219": {
@@ -32885,7 +32881,7 @@
                     "Banner": 3000,
                     "Income": 4,
                     "QuestsComplete": 0,
-                    "Invasions": 257
+                    "Invasions": 259
                 },
                 "3022": {
                     "Status": 2,
@@ -32957,7 +32953,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 35
+                    "Invasions": 36
                 },
                 "3016": {
                     "Status": 2,
@@ -33005,7 +33001,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 9
+                    "Invasions": 10
                 },
                 "3013": {
                     "Status": 2,
@@ -33137,7 +33133,7 @@
                     "Banner": 3000,
                     "Income": 1,
                     "QuestsComplete": 0,
-                    "Invasions": 16
+                    "Invasions": 17
                 },
                 "3026": {
                     "Status": 2,
@@ -33170,7 +33166,7 @@
                 }
             },
             "Skin_Costume": 2,
-            "DefendWins": 15,
+            "DefendWins": 16,
             "Runes": {
                 "22": 2,
                 "23": 2,
@@ -33186,58 +33182,58 @@
                 "13": 5,
                 "14": 18,
                 "36": 3,
-                "15": 16,
+                "15": 18,
                 "37": 2,
-                "16": 4,
-                "17": 2,
+                "16": 5,
+                "17": 3,
                 "39": 4,
                 "18": 3,
                 "19": 1,
-                "0": 151,
+                "0": 154,
                 "1": 52,
                 "2": 140,
                 "3": 143,
-                "4": 194,
-                "5": 124,
+                "4": 195,
+                "5": 125,
                 "6": 102,
                 "7": 77,
-                "8": 86,
+                "8": 87,
                 "9": 115,
                 "20": 0,
                 "21": 1
             },
-            "LastCollectTime": 1484632369042,
+            "LastCollectTime": 1484659897045,
             "GuildSealsWeekly": 0,
             "SealsTasksCompleteWeekly": [
-                0,
-                5,
-                44,
-                0,
+                1,
                 6,
+                49,
+                0,
+                7,
                 0,
                 0,
-                47
+                52
             ],
             "GuildTasksCompleted": [
+                6,
+                6,
+                11,
                 5,
-                4,
-                10,
                 5,
-                4,
                 5
             ],
             "GuildTroopAttackBonus": 0,
             "StartDayTime": 1484636400000,
             "Attack": 9,
             "Skin_Body": 14,
-            "LastPlayed": 1484624852869,
-            "LastLoginTime": 1484550276703,
+            "LastPlayed": 1484661916673,
+            "LastLoginTime": 1484659888160,
             "ClassData": {
                 "sorcerer": {
                     "TraitsOwned": 1,
                     "Level": 20,
                     "Spell": 0,
-                    "Wins": 263
+                    "Wins": 268
                 },
                 "mechanist": {
                     "Level": 1,
@@ -33292,7 +33288,7 @@
             "KingdomWeapon": {"10": 1012},
             "Name": "TobiL",
             "TroopHealthBonus": 8,
-            "GuildTrophiesTotal": 3074,
+            "GuildTrophiesTotal": 3077,
             "GuildSealsTotal": 15593,
             "Skin_Face": 1,
             "KingdomLevels": {
@@ -33324,7 +33320,7 @@
                 "3003": 10,
                 "3025": 10
             },
-            "PvPWinStreak": 43,
+            "PvPWinStreak": 44,
             "NextStartDayTime": 1484722800000,
             "Skin_FaceFeature": 1,
             "GuildTroopMagicBonus": 2,
@@ -33351,7 +33347,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623113,
+            "ServerTime": 1484662828645,
             "Skin_Head": 13,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -33378,9 +33374,9 @@
             "NameCode": "TOBIL",
             "TroopAttackBonus": 4,
             "SpellPower": 6,
-            "LastDynamicDataCheck": 1484630960991,
-            "LastHeroDataSave": 1484633367577,
-            "GuildTrophiesWeekly": 30,
+            "LastDynamicDataCheck": 1484658857717,
+            "LastHeroDataSave": 1484658936246,
+            "GuildTrophiesWeekly": 33,
             "KingdomPower": {
                 "3024": {
                     "NextRank": 2,
@@ -33783,7 +33779,7 @@
                     "Amount": 2,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 431
+                    "Invasions": 432
                 },
                 "6233": {
                     "CurrentRarity": 4,
@@ -33803,7 +33799,7 @@
                     "Amount": 3,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 437
+                    "Invasions": 438
                 },
                 "6114": {
                     "CurrentRarity": 5,
@@ -33867,7 +33863,7 @@
                     "Amount": 1,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 442
+                    "Invasions": 443
                 },
                 "6240": {
                     "CurrentRarity": 4,
@@ -34635,8 +34631,7 @@
                     "CurrentRarity": 3,
                     "FusionCards": 5,
                     "Amount": 5,
-                    "Level": 18,
-                    "Limit": 1
+                    "Level": 18
                 },
                 "6047": {
                     "CurrentRarity": 5,
@@ -35212,7 +35207,7 @@
                 "6304": {
                     "Amount": 1,
                     "Level": 1,
-                    "Invasions": 5
+                    "Invasions": 6
                 },
                 "6303": {
                     "CurrentRarity": 4,
@@ -35829,7 +35824,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 7
+                    "Invasions": 8
                 },
                 "3010": {
                     "Status": 0,
@@ -36065,7 +36060,7 @@
                 "1": 363,
                 "2": 457,
                 "3": 557,
-                "4": 306,
+                "4": 307,
                 "5": 524,
                 "6": 317,
                 "7": 325,
@@ -36074,21 +36069,21 @@
                 "20": 9,
                 "21": 0
             },
-            "LastCollectTime": 1484630977642,
+            "LastCollectTime": 1484658882678,
             "GuildSealsWeekly": 0,
             "SealsTasksCompleteWeekly": [
-                0,
+                1,
                 6,
-                10,
+                11,
                 0,
                 1,
                 0,
                 0,
-                10
+                11
             ],
             "GuildTasksCompleted": [
                 6,
-                5,
+                6,
                 11,
                 5,
                 5,
@@ -36098,13 +36093,13 @@
             "StartDayTime": 1484636400000,
             "Attack": 10,
             "Skin_Body": 13,
-            "LastPlayed": 1484633365758,
-            "LastLoginTime": 1484560006291,
+            "LastPlayed": 1484658934808,
+            "LastLoginTime": 1484658871315,
             "ClassData": {
                 "sorcerer": {
                     "Level": 1,
                     "Spell": -1,
-                    "Wins": 234
+                    "Wins": 235
                 },
                 "mechanist": {
                     "Level": 1,
@@ -36359,7 +36354,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623114,
+            "ServerTime": 1484662828646,
             "Skin_Head": 13,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 19,
@@ -38401,16 +38396,16 @@
             "ClassChangeTime": 1
         },
         {
-            "GuildGoldContributedWeekly": 120000,
+            "GuildGoldContributedWeekly": 220000,
             "Difficulty": 0,
-            "GuildGoldContributedTotal": 1112174,
+            "GuildGoldContributedTotal": 1212174,
             "Gender": 0,
             "HomeKingdomId": 3029,
-            "KingdomWeapon": {"10": 1061},
+            "KingdomWeapon": {"10": 1132},
             "Name": "Bilbo46",
             "TroopHealthBonus": 8,
-            "GuildTrophiesTotal": 393,
-            "GuildSealsTotal": 4889,
+            "GuildTrophiesTotal": 396,
+            "GuildSealsTotal": 5079,
             "Skin_Face": 0,
             "KingdomLevels": {
                 "3024": 10,
@@ -38441,7 +38436,7 @@
                 "3003": 10,
                 "3025": 10
             },
-            "PvPWinStreak": 13,
+            "PvPWinStreak": 14,
             "NextStartDayTime": 1484722800000,
             "RaceAlt": 0,
             "Skin_FaceFeature": 0,
@@ -38469,14 +38464,14 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623115,
+            "ServerTime": 1484662828646,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
             "PvPTier": 1,
-            "Seals": 873,
+            "Seals": 1063,
             "Class": "orbweaver",
-            "GuildColdContributedTotal": 1112174,
+            "GuildColdContributedTotal": 1212174,
             "GuildName": "404GuildNotFound",
             "Level": 239,
             "GuildPurchase": 0,
@@ -38489,20 +38484,23 @@
             "ProgressArena": {
                 "Status": 1,
                 "Losses": 0,
-                "LastUpdateTime": 1482393704108,
-                "Opponents": ["RYMATO"],
+                "LastUpdateTime": 1484656155897,
+                "Opponents": [
+                    "RYMATO",
+                    "FISHIMUSHI"
+                ],
                 "Difficulty": 0,
                 "Reward": 0,
                 "TroopSelectionData": null,
-                "Wins": 1
+                "Wins": 2
             },
             "TroopMagicBonus": 7,
             "NameCode": "BILBO46",
             "TroopAttackBonus": 4,
             "SpellPower": 6,
-            "LastDynamicDataCheck": 1484650569916,
-            "LastHeroDataSave": 1484650635993,
-            "GuildTrophiesWeekly": 79,
+            "LastDynamicDataCheck": 1484658688131,
+            "LastHeroDataSave": 1484659245952,
+            "GuildTrophiesWeekly": 82,
             "KingdomPower": {
                 "3024": {
                     "NextRank": 2,
@@ -38883,7 +38881,7 @@
                     "Amount": 23,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 664
+                    "Invasions": 665
                 },
                 "6231": {
                     "CurrentRarity": 4,
@@ -38916,7 +38914,7 @@
                     "Amount": 27,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 629
+                    "Invasions": 630
                 },
                 "6115": {
                     "CurrentRarity": 4,
@@ -38928,7 +38926,7 @@
                     "Amount": 2,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 669
+                    "Invasions": 670
                 },
                 "6114": {
                     "CurrentRarity": 4,
@@ -39116,7 +39114,7 @@
                     "Amount": 5,
                     "TraitsOwned": 1,
                     "Level": 19,
-                    "Invasions": 148
+                    "Invasions": 149
                 },
                 "6119": {
                     "Amount": 5,
@@ -40875,7 +40873,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 82
+                    "Invasions": 83
                 },
                 "3013": {
                     "Status": 2,
@@ -41160,31 +41158,31 @@
                 "0": 631,
                 "1": 622,
                 "2": 540,
-                "3": 752,
+                "3": 753,
                 "4": 485,
                 "5": 728,
-                "6": 343,
+                "6": 344,
                 "7": 335,
                 "8": 367,
                 "9": 388,
                 "20": 21,
                 "21": 16
             },
-            "LastCollectTime": 1484650610437,
-            "GuildSealsWeekly": 364,
+            "LastCollectTime": 1484659245952,
+            "GuildSealsWeekly": 554,
             "SealsTasksCompleteWeekly": [
-                1,
-                5,
-                9,
-                0,
-                1,
                 0,
                 0,
-                9
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
             ],
             "GuildTasksCompleted": [
                 6,
-                5,
+                6,
                 11,
                 5,
                 5,
@@ -41194,7 +41192,7 @@
             "StartDayTime": 1484636400000,
             "Attack": 10,
             "Skin_Body": 14,
-            "LastPlayed": 1484650634090,
+            "LastPlayed": 1484655741434,
             "LastLoginTime": 1484636923987,
             "ClassData": {
                 "sorcerer": {
@@ -41245,7 +41243,7 @@
                 "orbweaver": {
                     "Level": 1,
                     "Spell": 1,
-                    "Wins": 153
+                    "Wins": 155
                 }
             },
             "EquippedWeaponId": 1064,
@@ -41454,7 +41452,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623116,
+            "ServerTime": 1484662828647,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -44288,16 +44286,16 @@
             "ClassChangeTime": 1483709746874
         },
         {
-            "GuildGoldContributedWeekly": 75000,
+            "GuildGoldContributedWeekly": 115000,
             "Difficulty": 1,
-            "GuildGoldContributedTotal": 527000,
+            "GuildGoldContributedTotal": 567000,
             "Gender": 1,
             "HomeKingdomId": 3029,
             "KingdomWeapon": {"10": 1135},
             "Name": "CanadianChicken",
             "TroopHealthBonus": 1,
-            "GuildTrophiesTotal": 420,
-            "GuildSealsTotal": 2934,
+            "GuildTrophiesTotal": 426,
+            "GuildSealsTotal": 3168,
             "Skin_Face": 0,
             "KingdomLevels": {
                 "3024": 5,
@@ -44328,7 +44326,7 @@
                 "3003": 8,
                 "3025": 4
             },
-            "PvPWinStreak": 3,
+            "PvPWinStreak": 6,
             "NextStartDayTime": 1484722800000,
             "RaceAlt": 0,
             "Skin_FaceFeature": 0,
@@ -44340,7 +44338,7 @@
                 15,
                 24,
                 16,
-                36
+                37
             ],
             "DefenseTeam": 6,
             "Skin_FaceFeatureColor": 0,
@@ -44356,16 +44354,16 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623117,
+            "ServerTime": 1484662828648,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 21,
-            "PvPTier": 13,
-            "Seals": 107,
+            "PvPTier": 12,
+            "Seals": 341,
             "Class": "archer",
-            "GuildColdContributedTotal": 527000,
+            "GuildColdContributedTotal": 567000,
             "GuildName": "404GuildNotFound",
-            "Level": 158,
+            "Level": 159,
             "GuildPurchase": 0,
             "ArenaTroops": [
                 6113,
@@ -44383,9 +44381,9 @@
             "NameCode": "CANADIANCHICKEN",
             "TroopAttackBonus": 1,
             "SpellPower": 5,
-            "LastDynamicDataCheck": 1484616703716,
-            "LastHeroDataSave": 1484620380806,
-            "GuildTrophiesWeekly": 16,
+            "LastDynamicDataCheck": 1484658275126,
+            "LastHeroDataSave": 1484659103925,
+            "GuildTrophiesWeekly": 22,
             "KingdomPower": {
                 "3024": {
                     "NextRank": 2,
@@ -44676,26 +44674,26 @@
                 "3027": {
                     "NextRank": 2,
                     "Troops": 10,
-                    "Points": 760,
+                    "Points": 820,
                     "TroopsPoints": 500,
                     "TraitsPoints": 50,
-                    "Levels": 21,
+                    "Levels": 27,
                     "CurrentRank": 1,
                     "CurrentRankRequiredPoints": 600,
-                    "LevelsPoints": 210,
+                    "LevelsPoints": 270,
                     "Traits": 2,
                     "NextRankRequiredPoints": 1200
                 },
                 "3004": {
                     "NextRank": 2,
                     "Troops": 11,
-                    "Points": 880,
+                    "Points": 890,
                     "TroopsPoints": 510,
                     "TraitsPoints": 100,
-                    "Levels": 27,
+                    "Levels": 28,
                     "CurrentRank": 1,
                     "CurrentRankRequiredPoints": 600,
-                    "LevelsPoints": 270,
+                    "LevelsPoints": 280,
                     "Traits": 4,
                     "NextRankRequiredPoints": 1200
                 },
@@ -44715,14 +44713,14 @@
                 "3003": {
                     "NextRank": 2,
                     "Troops": 9,
-                    "Points": 610,
+                    "Points": 710,
                     "TroopsPoints": 450,
-                    "TraitsPoints": 0,
-                    "Levels": 16,
+                    "TraitsPoints": 50,
+                    "Levels": 21,
                     "CurrentRank": 1,
                     "CurrentRankRequiredPoints": 600,
-                    "LevelsPoints": 160,
-                    "Traits": 0,
+                    "LevelsPoints": 210,
+                    "Traits": 2,
                     "NextRankRequiredPoints": 1200
                 },
                 "3025": {
@@ -44739,7 +44737,7 @@
                     "NextRankRequiredPoints": 1200
                 }
             },
-            "LevelNew": 158,
+            "LevelNew": 159,
             "Troops": {
                 "6230": {
                     "CurrentRarity": 3,
@@ -44751,26 +44749,26 @@
                 "6232": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 5,
+                    "Amount": 7,
                     "Level": 1
                 },
                 "6110": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 1,
+                    "Amount": 2,
                     "TraitsOwned": 1,
                     "Level": 4
                 },
                 "6231": {
-                    "CurrentRarity": 2,
-                    "FusionCards": 15,
-                    "Amount": 26,
+                    "CurrentRarity": 3,
+                    "FusionCards": 40,
+                    "Amount": 2,
                     "Level": 1
                 },
                 "6113": {
-                    "CurrentRarity": 2,
-                    "FusionCards": 15,
-                    "Amount": 24,
+                    "CurrentRarity": 3,
+                    "FusionCards": 40,
+                    "Amount": 2,
                     "Level": 1
                 },
                 "6234": {
@@ -44786,13 +44784,13 @@
                 "6233": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 7,
+                    "Amount": 8,
                     "Level": 1
                 },
                 "6115": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 14,
+                    "Amount": 15,
                     "Level": 1
                 },
                 "6236": {
@@ -44803,7 +44801,7 @@
                 "6114": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 10,
+                    "Amount": 11,
                     "Level": 1
                 },
                 "6235": {
@@ -44837,7 +44835,7 @@
                 "6229": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 17,
+                    "Amount": 18,
                     "TraitsOwned": 1,
                     "Level": 1
                 },
@@ -44867,9 +44865,9 @@
                     "Level": 1
                 },
                 "6240": {
-                    "CurrentRarity": 3,
-                    "FusionCards": 5,
-                    "Amount": 11,
+                    "CurrentRarity": 4,
+                    "FusionCards": 15,
+                    "Amount": 1,
                     "TraitsOwned": 1,
                     "Level": 1
                 },
@@ -44886,13 +44884,13 @@
                 "6243": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 16,
+                    "Amount": 17,
                     "Level": 1
                 },
                 "6000": {
-                    "CurrentRarity": 2,
-                    "FusionCards": 15,
-                    "Amount": 26,
+                    "CurrentRarity": 3,
+                    "FusionCards": 40,
+                    "Amount": 2,
                     "Level": 1
                 },
                 "6121": {
@@ -44914,12 +44912,13 @@
                 },
                 "6124": {
                     "Amount": 1,
-                    "Level": 1
+                    "Level": 1,
+                    "Invasions": 1
                 },
                 "6245": {
-                    "CurrentRarity": 2,
-                    "FusionCards": 15,
-                    "Amount": 24,
+                    "CurrentRarity": 3,
+                    "FusionCards": 40,
+                    "Amount": 1,
                     "Level": 1
                 },
                 "6002": {
@@ -44945,9 +44944,9 @@
                     "Invasions": 21
                 },
                 "6247": {
-                    "CurrentRarity": 2,
-                    "FusionCards": 15,
-                    "Amount": 29,
+                    "CurrentRarity": 3,
+                    "FusionCards": 40,
+                    "Amount": 6,
                     "Level": 1
                 },
                 "6004": {
@@ -45000,7 +44999,7 @@
                 "6010": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 17,
+                    "Amount": 18,
                     "TraitsOwned": 1,
                     "Level": 1,
                     "Invasions": 1
@@ -45041,13 +45040,13 @@
                 "6254": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 18,
+                    "Amount": 19,
                     "Level": 2
                 },
                 "6011": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 7,
+                    "Amount": 8,
                     "TraitsOwned": 1,
                     "Level": 1
                 },
@@ -45107,7 +45106,7 @@
                 "6258": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 7,
+                    "Amount": 9,
                     "Level": 1
                 },
                 "6015": {
@@ -45120,12 +45119,12 @@
                 "6136": {
                     "CurrentRarity": 2,
                     "FusionCards": 15,
-                    "Amount": 23,
+                    "Amount": 24,
                     "TraitsOwned": 1,
                     "Level": 4
                 },
                 "6257": {
-                    "Amount": 4,
+                    "Amount": 5,
                     "Level": 1
                 },
                 "6250": {
@@ -45156,7 +45155,7 @@
                 "6006": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 7,
+                    "Amount": 8,
                     "Level": 1
                 },
                 "6127": {
@@ -45170,20 +45169,20 @@
                 "6009": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 14,
+                    "Amount": 15,
                     "TraitsOwned": 1,
                     "Level": 1
                 },
                 "6008": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 8,
+                    "Amount": 11,
                     "Level": 1
                 },
                 "6021": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 16,
+                    "Amount": 17,
                     "Level": 2
                 },
                 "6142": {
@@ -45205,7 +45204,7 @@
                 "6141": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 5,
+                    "Amount": 7,
                     "Level": 1
                 },
                 "6262": {
@@ -45252,14 +45251,14 @@
                 "6025": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 17,
+                    "Amount": 18,
                     "Level": 4,
                     "Invasions": 2
                 },
                 "6146": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 5,
+                    "Amount": 6,
                     "Level": 1
                 },
                 "6267": {
@@ -45271,7 +45270,7 @@
                 "6024": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 11,
+                    "Amount": 14,
                     "Level": 1
                 },
                 "6145": {
@@ -45325,7 +45324,7 @@
                     "Amount": 5,
                     "TraitsOwned": 1,
                     "Level": 18,
-                    "Invasions": 328
+                    "Invasions": 331
                 },
                 "6260": {
                     "Amount": 1,
@@ -45351,9 +45350,9 @@
                     "Level": 1
                 },
                 "6138": {
-                    "CurrentRarity": 2,
-                    "FusionCards": 15,
-                    "Amount": 26,
+                    "CurrentRarity": 3,
+                    "FusionCards": 40,
+                    "Amount": 2,
                     "Level": 2
                 },
                 "6019": {
@@ -45364,10 +45363,13 @@
                     "Level": 1
                 },
                 "6032": {
-                    "CurrentRarity": 2,
-                    "FusionCards": 15,
-                    "Amount": 27,
-                    "Level": 2
+                    "CurrentRarity": 3,
+                    "FusionCards": 40,
+                    "Amount": 3,
+                    "TraitsOwned": 2,
+                    "Level": 7,
+                    "Limit": 1,
+                    "Invasions": 2
                 },
                 "6274": {
                     "Amount": 1,
@@ -45397,13 +45399,13 @@
                 "6034": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 14,
+                    "Amount": 15,
                     "Level": 2
                 },
                 "6155": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 7,
+                    "Amount": 8,
                     "Level": 1
                 },
                 "6276": {
@@ -45433,7 +45435,7 @@
                 "6157": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 13,
+                    "Amount": 14,
                     "Level": 2
                 },
                 "6278": {
@@ -45443,13 +45445,13 @@
                 "6035": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 7,
+                    "Amount": 8,
                     "Level": 2
                 },
                 "6156": {
                     "CurrentRarity": 2,
                     "FusionCards": 5,
-                    "Amount": 7,
+                    "Amount": 8,
                     "Level": 1
                 },
                 "6277": {
@@ -45462,7 +45464,7 @@
                 "6038": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 9,
+                    "Amount": 10,
                     "Level": 1
                 },
                 "6159": {
@@ -45474,7 +45476,7 @@
                 "6037": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 20,
+                    "Amount": 21,
                     "Level": 1
                 },
                 "6158": {
@@ -45484,9 +45486,9 @@
                 "6279": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 3,
+                    "Amount": 6,
                     "TraitsOwned": 3,
-                    "Level": 17
+                    "Level": 18
                 },
                 "6270": {
                     "CurrentRarity": 3,
@@ -45510,7 +45512,7 @@
                 "6272": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 15,
+                    "Amount": 17,
                     "TraitsOwned": 1,
                     "Level": 3
                 },
@@ -45521,7 +45523,7 @@
                 "6271": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 9,
+                    "Amount": 10,
                     "TraitsOwned": 3,
                     "Level": 10,
                     "Invasions": 35
@@ -45537,7 +45539,7 @@
                 "6028": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 6,
+                    "Amount": 9,
                     "TraitsOwned": 1,
                     "Level": 10
                 },
@@ -45550,7 +45552,7 @@
                 "6043": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 8,
+                    "Amount": 9,
                     "Level": 1
                 },
                 "6164": {
@@ -45558,7 +45560,7 @@
                     "Level": 1
                 },
                 "6285": {
-                    "Amount": 1,
+                    "Amount": 2,
                     "Level": 1
                 },
                 "6042": {
@@ -45578,7 +45580,7 @@
                 "6045": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 16,
+                    "Amount": 17,
                     "TraitsOwned": 1,
                     "Level": 1
                 },
@@ -45589,7 +45591,7 @@
                 "6044": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 6,
+                    "Amount": 8,
                     "Level": 1
                 },
                 "6165": {
@@ -45631,7 +45633,7 @@
                 "6049": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 16,
+                    "Amount": 17,
                     "TraitsOwned": 1,
                     "Level": 1
                 },
@@ -45648,7 +45650,7 @@
                 "6281": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 16,
+                    "Amount": 17,
                     "Level": 1
                 },
                 "6280": {
@@ -45682,7 +45684,7 @@
                 "6161": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 5,
+                    "Amount": 6,
                     "TraitsOwned": 1,
                     "Level": 3
                 },
@@ -45724,13 +45726,13 @@
                 "6174": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 4,
+                    "Amount": 6,
                     "Level": 1
                 },
                 "6295": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 5,
+                    "Amount": 7,
                     "Level": 1
                 },
                 "6056": {
@@ -45755,7 +45757,7 @@
                 "6058": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 9,
+                    "Amount": 10,
                     "Level": 1
                 },
                 "6179": {
@@ -45771,19 +45773,21 @@
                     "Level": 1
                 },
                 "6178": {
-                    "CurrentRarity": 2,
-                    "FusionCards": 15,
-                    "Amount": 28,
+                    "CurrentRarity": 3,
+                    "FusionCards": 40,
+                    "Amount": 4,
                     "Level": 3
                 },
                 "6299": {
                     "CurrentRarity": 2,
                     "FusionCards": 5,
-                    "Amount": 5,
+                    "Amount": 6,
                     "Level": 1
                 },
                 "6059": {
-                    "Amount": 6,
+                    "CurrentRarity": 3,
+                    "FusionCards": 5,
+                    "Amount": 1,
                     "TraitsOwned": 1,
                     "Level": 10
                 },
@@ -45821,7 +45825,7 @@
                 "6052": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 7,
+                    "Amount": 8,
                     "Level": 1
                 },
                 "6173": {
@@ -45847,7 +45851,7 @@
                 "6293": {
                     "CurrentRarity": 1,
                     "FusionCards": 5,
-                    "Amount": 2,
+                    "Amount": 3,
                     "Level": 1
                 },
                 "6186": {
@@ -45859,7 +45863,7 @@
                 "6064": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 13,
+                    "Amount": 14,
                     "Level": 1
                 },
                 "6185": {
@@ -45917,7 +45921,7 @@
                 "6060": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 12,
+                    "Amount": 14,
                     "Level": 1
                 },
                 "6181": {
@@ -45929,7 +45933,7 @@
                 "6063": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 11,
+                    "Amount": 13,
                     "Level": 1
                 },
                 "6062": {
@@ -45938,7 +45942,7 @@
                     "Amount": 6,
                     "TraitsOwned": 1,
                     "Level": 18,
-                    "Invasions": 158
+                    "Invasions": 161
                 },
                 "6183": {
                     "Amount": 0,
@@ -45996,7 +46000,7 @@
                 "6192": {
                     "Amount": 2,
                     "Level": 19,
-                    "Invasions": 325
+                    "Invasions": 328
                 },
                 "6195": {
                     "Amount": 5,
@@ -46058,13 +46062,13 @@
                 "6097": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 12,
+                    "Amount": 14,
                     "Level": 1
                 },
                 "6099": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 13,
+                    "Amount": 14,
                     "Level": 1
                 },
                 "6090": {
@@ -46111,10 +46115,10 @@
                 "6304": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 1,
+                    "Amount": 4,
                     "TraitsOwned": 1,
-                    "Level": 2,
-                    "Invasions": 10
+                    "Level": 8,
+                    "Invasions": 13
                 },
                 "6303": {
                     "CurrentRarity": 3,
@@ -46166,7 +46170,7 @@
                 "6213": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 3,
+                    "Amount": 4,
                     "Level": 1
                 },
                 "6204": {
@@ -46174,9 +46178,9 @@
                     "Level": 1
                 },
                 "6207": {
-                    "CurrentRarity": 3,
-                    "FusionCards": 5,
-                    "Amount": 14,
+                    "CurrentRarity": 4,
+                    "FusionCards": 15,
+                    "Amount": 4,
                     "Level": 1
                 },
                 "6206": {
@@ -46201,7 +46205,8 @@
                     "FusionCards": 15,
                     "Amount": 11,
                     "TraitsOwned": 1,
-                    "Level": 3
+                    "Level": 3,
+                    "Invasions": 1
                 },
                 "6221": {
                     "CurrentRarity": 3,
@@ -46224,20 +46229,20 @@
                 "6223": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 10,
+                    "Amount": 11,
                     "TraitsOwned": 1,
                     "Level": 1
                 },
                 "6101": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 6,
+                    "Amount": 7,
                     "Level": 1
                 },
                 "6222": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 10,
+                    "Amount": 12,
                     "TraitsOwned": 1,
                     "Level": 1
                 },
@@ -46255,13 +46260,13 @@
                 "6103": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 14,
+                    "Amount": 17,
                     "Level": 1
                 },
                 "6224": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 13,
+                    "Amount": 14,
                     "TraitsOwned": 1,
                     "Level": 1
                 },
@@ -46285,19 +46290,21 @@
                 "6217": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 18,
+                    "Amount": 19,
                     "Level": 3
                 },
                 "6338": {
-                    "Amount": 5,
+                    "CurrentRarity": 3,
+                    "FusionCards": 5,
+                    "Amount": 1,
                     "TraitsOwned": 1,
                     "Level": 9,
                     "Invasions": 99
                 },
                 "6219": {
-                    "CurrentRarity": 2,
-                    "FusionCards": 15,
-                    "Amount": 23,
+                    "CurrentRarity": 3,
+                    "FusionCards": 40,
+                    "Amount": 2,
                     "Level": 1
                 }
             },
@@ -46384,13 +46391,13 @@
                 },
                 {
                     "Troops": [
-                        null,
-                        null,
-                        null,
-                        null
+                        6032,
+                        6124,
+                        6032,
+                        6100
                     ],
-                    "Banner": 3000,
-                    "Name": ""
+                    "Banner": 3015,
+                    "Name": "Go Green"
                 },
                 {
                     "Troops": [
@@ -46487,7 +46494,7 @@
                     "Banner": 3000,
                     "Income": 4,
                     "QuestsComplete": 0,
-                    "Invasions": 172
+                    "Invasions": 173
                 },
                 "3022": {
                     "Status": 2,
@@ -46500,7 +46507,7 @@
                     "Banner": 3000,
                     "Income": 4,
                     "QuestsComplete": 0,
-                    "Invasions": 1
+                    "Invasions": 2
                 },
                 "3021": {
                     "Status": 2,
@@ -46728,7 +46735,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 47
+                    "Invasions": 48
                 },
                 "3006": {
                     "Status": 2,
@@ -46745,7 +46752,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 15
+                    "Invasions": 16
                 },
                 "3028": {
                     "Status": 2,
@@ -46854,7 +46861,7 @@
                 }
             },
             "Skin_Costume": 13,
-            "DefendWins": 21,
+            "DefendWins": 22,
             "Runes": {
                 "22": 0,
                 "23": 1,
@@ -46865,13 +46872,13 @@
                 "29": 5,
                 "30": 8,
                 "31": 0,
-                "10": 118,
+                "10": 121,
                 "32": 1,
                 "11": 154,
                 "33": 4,
-                "12": 32,
+                "12": 33,
                 "34": 1,
-                "13": 46,
+                "13": 43,
                 "35": 5,
                 "14": 46,
                 "36": 2,
@@ -46883,45 +46890,45 @@
                 "39": 4,
                 "18": 5,
                 "19": 1,
-                "0": 233,
-                "1": 147,
-                "2": 246,
-                "3": 225,
-                "4": 128,
-                "5": 326,
-                "6": 140,
-                "7": 134,
+                "0": 236,
+                "1": 126,
+                "2": 248,
+                "3": 227,
+                "4": 132,
+                "5": 331,
+                "6": 143,
+                "7": 129,
                 "8": 143,
-                "9": 85,
+                "9": 86,
                 "20": 3,
                 "21": 1
             },
-            "LastCollectTime": 1484616743176,
-            "GuildSealsWeekly": 0,
+            "LastCollectTime": 1484658730789,
+            "GuildSealsWeekly": 234,
             "SealsTasksCompleteWeekly": [
                 0,
-                2,
-                13,
-                0,
-                1,
                 0,
                 0,
-                15
+                0,
+                0,
+                0,
+                0,
+                0
             ],
             "GuildTasksCompleted": [
+                6,
+                6,
+                11,
                 5,
-                4,
-                10,
                 5,
-                4,
-                4
+                5
             ],
             "GuildTroopAttackBonus": 0,
             "StartDayTime": 1484636400000,
             "Attack": 9,
             "Skin_Body": 13,
-            "LastPlayed": 1484620382212,
-            "LastLoginTime": 1484568202884,
+            "LastPlayed": 1484659105568,
+            "LastLoginTime": 1484654743038,
             "ClassData": {
                 "sorcerer": {
                     "Level": 1,
@@ -46946,7 +46953,7 @@
                 "archer": {
                     "Level": 2,
                     "Spell": -1,
-                    "Wins": 31
+                    "Wins": 35
                 },
                 "knight": {
                     "Level": 9,
@@ -47041,7 +47048,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623118,
+            "ServerTime": 1484662828648,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -49843,7 +49850,7 @@
             "KingdomWeapon": {"10": 1101},
             "Name": "AkumulatoR",
             "TroopHealthBonus": 8,
-            "GuildTrophiesTotal": 1656,
+            "GuildTrophiesTotal": 1673,
             "GuildSealsTotal": 15063,
             "Skin_Face": 0,
             "KingdomLevels": {
@@ -49875,7 +49882,7 @@
                 "3003": 10,
                 "3025": 10
             },
-            "PvPWinStreak": 27,
+            "PvPWinStreak": 0,
             "NextStartDayTime": 1484722800000,
             "RaceAlt": 0,
             "Skin_FaceFeature": 0,
@@ -49886,7 +49893,7 @@
                 59,
                 60,
                 60,
-                58,
+                59,
                 59
             ],
             "DefenseTeam": 7,
@@ -49898,21 +49905,21 @@
             "GuildStatueLevels": [
                 92,
                 75,
-                81,
+                82,
                 76,
                 82,
                 75
             ],
-            "ServerTime": 1484651623119,
+            "ServerTime": 1484662828649,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
-            "PvPTier": 12,
+            "PvPTier": 10,
             "Seals": 185,
             "Class": "necromancer",
             "GuildColdContributedTotal": 3180000,
             "GuildName": "404GuildNotFound",
-            "Level": 357,
+            "Level": 358,
             "GuildPurchase": 0,
             "ArenaTroops": [
                 1,
@@ -49930,9 +49937,9 @@
             "NameCode": "AKUMULATOR_1",
             "TroopAttackBonus": 7,
             "SpellPower": 7,
-            "LastDynamicDataCheck": 1484565297071,
-            "LastHeroDataSave": 1484567758940,
-            "GuildTrophiesWeekly": 18,
+            "LastDynamicDataCheck": 1484661015153,
+            "LastHeroDataSave": 1484662735431,
+            "GuildTrophiesWeekly": 35,
             "KingdomPower": {
                 "3024": {
                     "NextRank": 3,
@@ -50286,7 +50293,7 @@
                     "NextRankRequiredPoints": 1200
                 }
             },
-            "LevelNew": 357,
+            "LevelNew": 358,
             "Troops": {
                 "6230": {
                     "CurrentRarity": 4,
@@ -50378,7 +50385,7 @@
                     "Amount": 1,
                     "TraitsOwned": 3,
                     "Level": 20,
-                    "Invasions": 301
+                    "Invasions": 311
                 },
                 "6105": {
                     "CurrentRarity": 4,
@@ -51660,7 +51667,7 @@
                     "Amount": 47,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 1525
+                    "Invasions": 1535
                 },
                 "6183": {
                     "Amount": 1,
@@ -51709,7 +51716,7 @@
                     "Amount": 1,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 301
+                    "Invasions": 311
                 },
                 "6190": {
                     "CurrentRarity": 4,
@@ -51879,8 +51886,7 @@
                     "Amount": 4,
                     "TraitsOwned": 3,
                     "Level": 11,
-                    "Limit": 1,
-                    "Invasions": 10
+                    "Invasions": 20
                 },
                 "6303": {
                     "CurrentRarity": 5,
@@ -52284,7 +52290,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 48
+                    "Invasions": 49
                 },
                 "3023": {
                     "Status": 0,
@@ -52304,7 +52310,7 @@
                     "Banner": 3000,
                     "Income": 4,
                     "QuestsComplete": 0,
-                    "Invasions": 379
+                    "Invasions": 382
                 },
                 "3022": {
                     "Status": 2,
@@ -52353,7 +52359,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 20
+                    "Invasions": 21
                 },
                 "3019": {
                     "Status": 2,
@@ -52452,7 +52458,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 7
+                    "Invasions": 10
                 },
                 "3013": {
                     "Status": 2,
@@ -52572,7 +52578,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 115
+                    "Invasions": 116
                 },
                 "3006": {
                     "Status": 2,
@@ -52636,7 +52642,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 9
+                    "Invasions": 10
                 },
                 "3004": {
                     "Status": 2,
@@ -52704,7 +52710,7 @@
                 }
             },
             "Skin_Costume": 13,
-            "DefendWins": 17,
+            "DefendWins": 18,
             "Runes": {
                 "22": 6,
                 "23": 0,
@@ -52734,45 +52740,45 @@
                 "39": 17,
                 "18": 4,
                 "19": 8,
-                "0": 299,
+                "0": 302,
                 "1": 110,
-                "2": 68,
-                "3": 197,
-                "4": 147,
-                "5": 78,
+                "2": 69,
+                "3": 198,
+                "4": 148,
+                "5": 79,
                 "6": 286,
                 "7": 171,
                 "8": 133,
-                "9": 155,
+                "9": 157,
                 "20": 4,
                 "21": 5
             },
-            "LastCollectTime": 1484565395321,
+            "LastCollectTime": 1484661030234,
             "GuildSealsWeekly": 145,
             "SealsTasksCompleteWeekly": [
+                1,
+                2,
+                9,
+                0,
+                1,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
+                9
             ],
             "GuildTasksCompleted": [
-                4,
-                4,
-                7,
-                2,
-                4,
-                3
+                6,
+                6,
+                11,
+                5,
+                5,
+                5
             ],
             "GuildTroopAttackBonus": 0,
             "StartDayTime": 1484636400000,
             "Attack": 11,
-            "Skin_Body": 7,
-            "LastPlayed": 1484567488958,
-            "LastLoginTime": 1484565309147,
+            "Skin_Body": 13,
+            "LastPlayed": 1484662734411,
+            "LastLoginTime": 1484661025016,
             "ClassData": {
                 "sorcerer": {
                     "Level": 10,
@@ -52792,7 +52798,7 @@
                 "necromancer": {
                     "Level": 20,
                     "Spell": 0,
-                    "Wins": 1406
+                    "Wins": 1415
                 },
                 "archer": {
                     "Level": 10,
@@ -53011,7 +53017,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623120,
+            "ServerTime": 1484662828650,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -56468,7 +56474,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623122,
+            "ServerTime": 1484662828651,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -59497,7 +59503,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623123,
+            "ServerTime": 1484662828652,
             "Skin_Head": 13,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 15,
@@ -61283,7 +61289,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623123,
+            "ServerTime": 1484662828653,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 15,
@@ -61298,7 +61304,7 @@
             "NameCode": "SAMBOYGAMING",
             "TroopAttackBonus": 0,
             "SpellPower": 3,
-            "LastDynamicDataCheck": 1484651618589,
+            "LastDynamicDataCheck": 1484662825502,
             "LastHeroDataSave": 1484642650376,
             "GuildTrophiesWeekly": 12,
             "KingdomPower": {
@@ -63232,7 +63238,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623124,
+            "ServerTime": 1484662828653,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -66110,8 +66116,8 @@
             "KingdomWeapon": {"10": 1142},
             "Name": "seth",
             "TroopHealthBonus": 4,
-            "GuildTrophiesTotal": 890,
-            "GuildSealsTotal": 10544,
+            "GuildTrophiesTotal": 916,
+            "GuildSealsTotal": 11051,
             "Skin_Face": 2,
             "KingdomLevels": {
                 "3024": 1,
@@ -66136,13 +66142,13 @@
                 "3006": 5,
                 "3028": 4,
                 "3005": 10,
-                "3027": 1,
+                "3027": 7,
                 "3004": 10,
                 "3026": 1,
                 "3003": 10,
                 "3025": 1
             },
-            "PvPWinStreak": 1,
+            "PvPWinStreak": 10,
             "NextStartDayTime": 1484722800000,
             "RaceAlt": 0,
             "Skin_FaceFeature": 2,
@@ -66153,7 +66159,7 @@
                 28,
                 26,
                 26,
-                28,
+                29,
                 27
             ],
             "DefenseTeam": 4,
@@ -66170,16 +66176,16 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623125,
+            "ServerTime": 1484662828654,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 21,
-            "PvPTier": 5,
-            "Seals": 188,
+            "PvPTier": 1,
+            "Seals": 695,
             "Class": "archer",
             "GuildColdContributedTotal": 196475,
             "GuildName": "404GuildNotFound",
-            "Level": 162,
+            "Level": 163,
             "GuildPurchase": 0,
             "ArenaTroops": [
                 1,
@@ -66197,9 +66203,9 @@
             "NameCode": "SETH_106",
             "TroopAttackBonus": 2,
             "SpellPower": 5,
-            "LastDynamicDataCheck": 1484647925980,
-            "LastHeroDataSave": 1484648322347,
-            "GuildTrophiesWeekly": 57,
+            "LastDynamicDataCheck": 1484655919504,
+            "LastHeroDataSave": 1484658748647,
+            "GuildTrophiesWeekly": 83,
             "KingdomPower": {
                 "3024": {
                     "NextRank": 2,
@@ -66553,7 +66559,7 @@
                     "NextRankRequiredPoints": 600
                 }
             },
-            "LevelNew": 162,
+            "LevelNew": 163,
             "Troops": {
                 "6230": {
                     "CurrentRarity": 3,
@@ -66586,16 +66592,16 @@
                 "6231": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 31,
+                    "Amount": 32,
                     "Level": 1
                 },
                 "6113": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 24,
+                    "Amount": 25,
                     "TraitsOwned": 3,
                     "Level": 17,
-                    "Invasions": 133
+                    "Invasions": 142
                 },
                 "6234": {
                     "CurrentRarity": 3,
@@ -66610,14 +66616,14 @@
                 "6233": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 17,
+                    "Amount": 18,
                     "Level": 5,
                     "Invasions": 43
                 },
                 "6115": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 15,
+                    "Amount": 16,
                     "Level": 1
                 },
                 "6114": {
@@ -66656,7 +66662,7 @@
                 "6107": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 7,
+                    "Amount": 8,
                     "Level": 6,
                     "Invasions": 26
                 },
@@ -66695,7 +66701,7 @@
                 "6243": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 20,
+                    "Amount": 21,
                     "Level": 4
                 },
                 "6000": {
@@ -66733,7 +66739,7 @@
                 "6002": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 18,
+                    "Amount": 19,
                     "Level": 1
                 },
                 "6123": {
@@ -66801,7 +66807,7 @@
                     "Amount": 3,
                     "TraitsOwned": 1,
                     "Level": 19,
-                    "Invasions": 133
+                    "Invasions": 142
                 },
                 "6010": {
                     "CurrentRarity": 4,
@@ -66885,7 +66891,7 @@
                 "6013": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 22,
+                    "Amount": 24,
                     "Level": 1
                 },
                 "6134": {
@@ -66918,7 +66924,7 @@
                 "6015": {
                     "CurrentRarity": 4,
                     "FusionCards": 15,
-                    "Amount": 8,
+                    "Amount": 10,
                     "Level": 1
                 },
                 "6136": {
@@ -66948,7 +66954,7 @@
                 "6128": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 8,
+                    "Amount": 9,
                     "Level": 4
                 },
                 "6249": {
@@ -67051,7 +67057,7 @@
                 "6022": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 15,
+                    "Amount": 16,
                     "TraitsOwned": 3,
                     "Level": 17,
                     "Invasions": 158
@@ -67065,13 +67071,13 @@
                 "6025": {
                     "CurrentRarity": 4,
                     "FusionCards": 40,
-                    "Amount": 10,
+                    "Amount": 12,
                     "Level": 1
                 },
                 "6146": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 22,
+                    "Amount": 23,
                     "Level": 1
                 },
                 "6267": {
@@ -67083,7 +67089,7 @@
                 "6024": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 36,
+                    "Amount": 37,
                     "Level": 1
                 },
                 "6266": {
@@ -67126,7 +67132,7 @@
                 "6140": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 20,
+                    "Amount": 21,
                     "Level": 5
                 },
                 "6261": {
@@ -67149,13 +67155,13 @@
                 "6139": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 16,
+                    "Amount": 17,
                     "Level": 1
                 },
                 "6017": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 23,
+                    "Amount": 24,
                     "Level": 5,
                     "Invasions": 2
                 },
@@ -67192,7 +67198,7 @@
                     "Level": 1
                 },
                 "6152": {
-                    "Amount": 2,
+                    "Amount": 3,
                     "Level": 1
                 },
                 "6273": {
@@ -67210,7 +67216,7 @@
                 "6155": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 38,
+                    "Amount": 40,
                     "Level": 1
                 },
                 "6276": {
@@ -67254,7 +67260,7 @@
                 "6156": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 23,
+                    "Amount": 24,
                     "Level": 1
                 },
                 "6277": {
@@ -67289,13 +67295,13 @@
                 "6279": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 14,
+                    "Amount": 15,
                     "Level": 1
                 },
                 "6270": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 6,
+                    "Amount": 7,
                     "Level": 1
                 },
                 "6030": {
@@ -67340,7 +67346,7 @@
                 "6149": {
                     "CurrentRarity": 4,
                     "FusionCards": 15,
-                    "Amount": 4,
+                    "Amount": 5,
                     "Level": 1
                 },
                 "6043": {
@@ -67376,7 +67382,7 @@
                 "6045": {
                     "CurrentRarity": 4,
                     "FusionCards": 40,
-                    "Amount": 5,
+                    "Amount": 6,
                     "Level": 4
                 },
                 "6166": {
@@ -67433,7 +67439,7 @@
                 "6049": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 18,
+                    "Amount": 20,
                     "Level": 1
                 },
                 "6048": {
@@ -67466,7 +67472,7 @@
                     "Amount": 2,
                     "TraitsOwned": 1,
                     "Level": 18,
-                    "Invasions": 133
+                    "Invasions": 142
                 },
                 "6283": {
                     "Amount": 8,
@@ -67517,7 +67523,7 @@
                 "6174": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 9,
+                    "Amount": 10,
                     "Level": 1
                 },
                 "6295": {
@@ -67529,7 +67535,7 @@
                 "6056": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 35,
+                    "Amount": 36,
                     "TraitsOwned": 1,
                     "Level": 3,
                     "Invasions": 17
@@ -67538,7 +67544,7 @@
                     "Amount": 2,
                     "TraitsOwned": 1,
                     "Level": 19,
-                    "Invasions": 133
+                    "Invasions": 142
                 },
                 "6055": {
                     "CurrentRarity": 3,
@@ -67553,7 +67559,7 @@
                 "6058": {
                     "CurrentRarity": 4,
                     "FusionCards": 40,
-                    "Amount": 5,
+                    "Amount": 6,
                     "Level": 1
                 },
                 "6179": {
@@ -67565,7 +67571,7 @@
                 "6057": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 12,
+                    "Amount": 13,
                     "Level": 1
                 },
                 "6178": {
@@ -67577,7 +67583,7 @@
                 "6299": {
                     "CurrentRarity": 2,
                     "FusionCards": 5,
-                    "Amount": 8,
+                    "Amount": 9,
                     "Level": 1
                 },
                 "6059": {
@@ -67613,7 +67619,7 @@
                 "6052": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 30,
+                    "Amount": 32,
                     "Level": 5
                 },
                 "6173": {
@@ -67649,7 +67655,7 @@
                 "6186": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 37,
+                    "Amount": 38,
                     "Level": 1
                 },
                 "6064": {
@@ -67700,7 +67706,7 @@
                 "6180": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 25,
+                    "Amount": 27,
                     "Level": 1
                 },
                 "6061": {
@@ -67813,7 +67819,7 @@
                 "6195": {
                     "CurrentRarity": 4,
                     "FusionCards": 15,
-                    "Amount": 3,
+                    "Amount": 4,
                     "Level": 1
                 },
                 "6073": {
@@ -67830,7 +67836,7 @@
                     "Invasions": 16
                 },
                 "6089": {
-                    "Amount": 2,
+                    "Amount": 3,
                     "Level": 1
                 },
                 "6088": {
@@ -67887,7 +67893,7 @@
                     "Invasions": 3
                 },
                 "6090": {
-                    "Amount": 5,
+                    "Amount": 6,
                     "Level": 1
                 },
                 "6092": {
@@ -67919,7 +67925,7 @@
                 "6302": {
                     "CurrentRarity": 3,
                     "FusionCards": 5,
-                    "Amount": 6,
+                    "Amount": 7,
                     "Level": 1
                 },
                 "6301": {
@@ -68054,13 +68060,13 @@
                 "6101": {
                     "CurrentRarity": 3,
                     "FusionCards": 15,
-                    "Amount": 22,
+                    "Amount": 23,
                     "Level": 1
                 },
                 "6222": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 16,
+                    "Amount": 17,
                     "Level": 1
                 },
                 "6104": {
@@ -68093,7 +68099,7 @@
                 "6215": {
                     "CurrentRarity": 3,
                     "FusionCards": 40,
-                    "Amount": 29,
+                    "Amount": 30,
                     "Level": 1
                 },
                 "6218": {
@@ -68309,7 +68315,7 @@
                     "Banner": 3000,
                     "Income": 4,
                     "QuestsComplete": 0,
-                    "Invasions": 52
+                    "Invasions": 53
                 },
                 "3022": {
                     "Status": 2,
@@ -68374,7 +68380,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 21
+                    "Invasions": 22
                 },
                 "3018": {
                     "Status": 2,
@@ -68407,7 +68413,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 34
+                    "Invasions": 36
                 },
                 "3016": {
                     "Status": 2,
@@ -68456,7 +68462,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 33
+                    "Invasions": 35
                 },
                 "3013": {
                     "Status": 2,
@@ -68572,7 +68578,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 29
+                    "Invasions": 31
                 },
                 "3006": {
                     "Status": 2,
@@ -68620,7 +68626,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 6
+                    "Invasions": 7
                 },
                 "3027": {
                     "Status": 2,
@@ -68685,7 +68691,7 @@
                 }
             },
             "Skin_Costume": 7,
-            "DefendWins": 30,
+            "DefendWins": 32,
             "Runes": {
                 "22": 2,
                 "23": 5,
@@ -68696,9 +68702,9 @@
                 "29": 0,
                 "30": 5,
                 "31": 10,
-                "10": 152,
+                "10": 153,
                 "32": 5,
-                "11": 168,
+                "11": 172,
                 "33": 3,
                 "12": 26,
                 "34": 1,
@@ -68710,37 +68716,37 @@
                 "37": 1,
                 "16": 22,
                 "38": 1,
-                "17": 35,
-                "39": 7,
+                "17": 36,
+                "39": 8,
                 "18": 2,
                 "19": 1,
                 "0": 363,
-                "1": 230,
-                "2": 205,
-                "3": 352,
-                "4": 307,
-                "5": 333,
-                "6": 203,
+                "1": 232,
+                "2": 207,
+                "3": 353,
+                "4": 309,
+                "5": 334,
+                "6": 204,
                 "7": 172,
-                "8": 154,
-                "9": 201,
+                "8": 155,
+                "9": 204,
                 "20": 1
             },
-            "LastCollectTime": 1484647961711,
-            "GuildSealsWeekly": 0,
+            "LastCollectTime": 1484655948472,
+            "GuildSealsWeekly": 507,
             "SealsTasksCompleteWeekly": [
-                1,
-                10,
-                20,
-                0,
-                2,
                 0,
                 0,
-                20
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
             ],
             "GuildTasksCompleted": [
                 6,
-                5,
+                6,
                 11,
                 5,
                 5,
@@ -68750,7 +68756,7 @@
             "StartDayTime": 1484636400000,
             "Attack": 9,
             "Skin_Body": 7,
-            "LastPlayed": 1484648037535,
+            "LastPlayed": 1484658443077,
             "LastLoginTime": 1484642238450,
             "ClassData": {
                 "sorcerer": {
@@ -68776,7 +68782,7 @@
                 "archer": {
                     "Level": 1,
                     "Spell": -1,
-                    "Wins": 183
+                    "Wins": 192
                 },
                 "knight": {
                     "Level": 1,
@@ -68877,7 +68883,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623126,
+            "ServerTime": 1484662828655,
             "Skin_Head": 2,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 22,
@@ -71248,7 +71254,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623127,
+            "ServerTime": 1484662828655,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -74083,7 +74089,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623128,
+            "ServerTime": 1484662828656,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 20,
@@ -76511,7 +76517,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484651623129,
+            "ServerTime": 1484662828657,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -79426,10 +79432,10 @@
         12
     ],
     "LeagueData": {
-        "Trophies": 207444,
+        "Trophies": 207553,
         "RankingsGuild": [
             {
-                "Trophies": 286776,
+                "Trophies": 286877,
                 "ShieldColor": 10,
                 "ShieldEmblem": 1,
                 "Level": 504,
@@ -79439,7 +79445,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 272272,
+                "Trophies": 272415,
                 "ShieldColor": 6,
                 "ShieldEmblem": 1,
                 "Level": 409,
@@ -79449,7 +79455,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 267270,
+                "Trophies": 267411,
                 "ShieldColor": 8,
                 "ShieldEmblem": 11,
                 "Level": 492,
@@ -79459,17 +79465,17 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 256540,
+                "Trophies": 256642,
                 "ShieldColor": 11,
                 "ShieldEmblem": 11,
                 "Level": 506,
                 "Rank": 38,
-                "TotalMembers": 30,
+                "TotalMembers": 29,
                 "Name": "Die or Fight",
                 "ShieldRim": 2
             },
             {
-                "Trophies": 252319,
+                "Trophies": 252455,
                 "ShieldColor": 12,
                 "ShieldEmblem": 11,
                 "Level": 491,
@@ -79479,7 +79485,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 247840,
+                "Trophies": 247952,
                 "ShieldColor": 5,
                 "ShieldEmblem": 15,
                 "Level": 509,
@@ -79489,7 +79495,7 @@
                 "ShieldRim": 11
             },
             {
-                "Trophies": 247001,
+                "Trophies": 247209,
                 "ShieldColor": 8,
                 "ShieldEmblem": 16,
                 "Level": 327,
@@ -79499,7 +79505,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 243908,
+                "Trophies": 244001,
                 "ShieldColor": 12,
                 "ShieldEmblem": 7,
                 "Level": 395,
@@ -79509,7 +79515,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 243712,
+                "Trophies": 243775,
                 "ShieldColor": 4,
                 "ShieldEmblem": 7,
                 "Level": 410,
@@ -79519,7 +79525,7 @@
                 "ShieldRim": 3
             },
             {
-                "Trophies": 243008,
+                "Trophies": 243503,
                 "ShieldColor": 8,
                 "ShieldEmblem": 4,
                 "Level": 263,
@@ -79529,7 +79535,7 @@
                 "ShieldRim": 3
             },
             {
-                "Trophies": 242146,
+                "Trophies": 242286,
                 "ShieldColor": 12,
                 "ShieldEmblem": 15,
                 "Level": 391,
@@ -79539,7 +79545,7 @@
                 "ShieldRim": 11
             },
             {
-                "Trophies": 238898,
+                "Trophies": 238999,
                 "ShieldColor": 2,
                 "ShieldEmblem": 11,
                 "Level": 427,
@@ -79549,7 +79555,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 235020,
+                "Trophies": 235160,
                 "ShieldColor": 1,
                 "ShieldEmblem": 10,
                 "Level": 694,
@@ -79559,7 +79565,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 230732,
+                "Trophies": 230773,
                 "ShieldColor": 4,
                 "ShieldEmblem": 13,
                 "Level": 426,
@@ -79569,7 +79575,7 @@
                 "ShieldRim": 3
             },
             {
-                "Trophies": 229296,
+                "Trophies": 229380,
                 "ShieldColor": 1,
                 "ShieldEmblem": 1,
                 "Level": 362,
@@ -79579,7 +79585,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 229205,
+                "Trophies": 229217,
                 "ShieldColor": 12,
                 "ShieldEmblem": 1,
                 "Level": 452,
@@ -79589,7 +79595,7 @@
                 "ShieldRim": 11
             },
             {
-                "Trophies": 228953,
+                "Trophies": 229045,
                 "ShieldColor": 2,
                 "ShieldEmblem": 10,
                 "Level": 411,
@@ -79599,7 +79605,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 226335,
+                "Trophies": 226443,
                 "ShieldColor": 9,
                 "ShieldEmblem": 13,
                 "Level": 427,
@@ -79609,7 +79615,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 226165,
+                "Trophies": 226265,
                 "ShieldColor": 11,
                 "ShieldEmblem": 15,
                 "Level": 552,
@@ -79619,7 +79625,7 @@
                 "ShieldRim": 11
             },
             {
-                "Trophies": 217374,
+                "Trophies": 217528,
                 "ShieldColor": 12,
                 "ShieldEmblem": 10,
                 "Level": 241,
@@ -79629,27 +79635,27 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 216511,
+                "Trophies": 216597,
                 "ShieldColor": 12,
                 "ShieldEmblem": 14,
-                "Level": 569,
+                "Level": 570,
                 "Rank": 55,
                 "TotalMembers": 12,
                 "Name": "Lolcats",
                 "ShieldRim": 1
             },
             {
-                "Trophies": 214199,
+                "Trophies": 214635,
                 "ShieldColor": 1,
                 "ShieldEmblem": 11,
-                "Level": 392,
+                "Level": 393,
                 "Rank": 56,
                 "TotalMembers": 28,
                 "Name": "Olimp ",
                 "ShieldRim": 9
             },
             {
-                "Trophies": 213305,
+                "Trophies": 213463,
                 "ShieldColor": 12,
                 "ShieldEmblem": 12,
                 "Level": 487,
@@ -79659,7 +79665,7 @@
                 "ShieldRim": 6
             },
             {
-                "Trophies": 212416,
+                "Trophies": 212452,
                 "ShieldColor": 12,
                 "ShieldEmblem": 10,
                 "Level": 411,
@@ -79669,7 +79675,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 209928,
+                "Trophies": 209937,
                 "ShieldColor": 9,
                 "ShieldEmblem": 11,
                 "Level": 403,
@@ -79679,7 +79685,7 @@
                 "ShieldRim": 9
             },
             {
-                "Trophies": 207444,
+                "Trophies": 207553,
                 "ShieldColor": 4,
                 "UserGuild": true,
                 "ShieldEmblem": 10,
@@ -79690,7 +79696,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 204888,
+                "Trophies": 204955,
                 "ShieldColor": 10,
                 "ShieldEmblem": 11,
                 "Level": 377,
@@ -79700,7 +79706,7 @@
                 "ShieldRim": 4
             },
             {
-                "Trophies": 203562,
+                "Trophies": 203630,
                 "ShieldColor": 12,
                 "ShieldEmblem": 7,
                 "Level": 313,
@@ -79710,7 +79716,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 201283,
+                "Trophies": 201501,
                 "ShieldColor": 12,
                 "ShieldEmblem": 11,
                 "Level": 291,
@@ -79720,7 +79726,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 200255,
+                "Trophies": 200328,
                 "ShieldColor": 11,
                 "ShieldEmblem": 15,
                 "Level": 444,
@@ -79730,7 +79736,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 199190,
+                "Trophies": 199205,
                 "ShieldColor": 8,
                 "ShieldEmblem": 1,
                 "Level": 361,
@@ -79740,7 +79746,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 193599,
+                "Trophies": 193836,
                 "ShieldColor": 1,
                 "ShieldEmblem": 11,
                 "Level": 336,
@@ -79750,7 +79756,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 193178,
+                "Trophies": 193229,
                 "ShieldColor": 12,
                 "ShieldEmblem": 11,
                 "Level": 280,
@@ -79760,7 +79766,7 @@
                 "ShieldRim": 4
             },
             {
-                "Trophies": 192361,
+                "Trophies": 192420,
                 "ShieldColor": 12,
                 "ShieldEmblem": 11,
                 "Level": 309,
@@ -79770,7 +79776,7 @@
                 "ShieldRim": 6
             },
             {
-                "Trophies": 191982,
+                "Trophies": 192058,
                 "ShieldColor": 11,
                 "ShieldEmblem": 10,
                 "Level": 365,
@@ -79780,7 +79786,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 189742,
+                "Trophies": 190114,
                 "ShieldColor": 9,
                 "ShieldEmblem": 11,
                 "Level": 228,
@@ -79790,7 +79796,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 188195,
+                "Trophies": 188241,
                 "ShieldColor": 4,
                 "ShieldEmblem": 7,
                 "Level": 355,
@@ -79800,7 +79806,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 188096,
+                "Trophies": 188176,
                 "ShieldColor": 1,
                 "ShieldEmblem": 15,
                 "Level": 370,
@@ -79810,7 +79816,7 @@
                 "ShieldRim": 5
             },
             {
-                "Trophies": 187052,
+                "Trophies": 187096,
                 "ShieldColor": 1,
                 "ShieldEmblem": 11,
                 "Level": 308,
@@ -79820,7 +79826,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 186982,
+                "Trophies": 187004,
                 "ShieldColor": 9,
                 "ShieldEmblem": 11,
                 "Level": 333,
@@ -79830,27 +79836,27 @@
                 "ShieldRim": 3
             },
             {
-                "Trophies": 186258,
-                "ShieldColor": 7,
-                "ShieldEmblem": 3,
-                "Level": 348,
-                "Rank": 75,
-                "TotalMembers": 29,
-                "Name": "Twilight Avengers",
-                "ShieldRim": 8
-            },
-            {
-                "Trophies": 186168,
+                "Trophies": 186329,
                 "ShieldColor": 12,
                 "ShieldEmblem": 12,
-                "Level": 223,
-                "Rank": 76,
+                "Level": 224,
+                "Rank": 75,
                 "TotalMembers": 30,
                 "Name": "Nowhere to Hide",
                 "ShieldRim": 12
             },
             {
-                "Trophies": 185070,
+                "Trophies": 186310,
+                "ShieldColor": 7,
+                "ShieldEmblem": 3,
+                "Level": 349,
+                "Rank": 76,
+                "TotalMembers": 29,
+                "Name": "Twilight Avengers",
+                "ShieldRim": 8
+            },
+            {
+                "Trophies": 185150,
                 "ShieldColor": 10,
                 "ShieldEmblem": 1,
                 "Level": 299,
@@ -79860,7 +79866,7 @@
                 "ShieldRim": 9
             },
             {
-                "Trophies": 183723,
+                "Trophies": 183944,
                 "ShieldColor": 12,
                 "ShieldEmblem": 7,
                 "Level": 171,
@@ -79870,7 +79876,7 @@
                 "ShieldRim": 4
             },
             {
-                "Trophies": 182904,
+                "Trophies": 183063,
                 "ShieldColor": 12,
                 "ShieldEmblem": 16,
                 "Level": 465,
@@ -79880,7 +79886,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 181784,
+                "Trophies": 181930,
                 "ShieldColor": 4,
                 "ShieldEmblem": 7,
                 "Level": 236,
@@ -79890,7 +79896,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 180807,
+                "Trophies": 180956,
                 "ShieldColor": 1,
                 "ShieldEmblem": 11,
                 "Level": 256,
@@ -79900,17 +79906,17 @@
                 "ShieldRim": 4
             },
             {
-                "Trophies": 180745,
+                "Trophies": 180943,
                 "ShieldColor": 10,
                 "ShieldEmblem": 11,
-                "Level": 191,
+                "Level": 192,
                 "Rank": 82,
                 "TotalMembers": 30,
                 "Name": "Mitribain",
                 "ShieldRim": 1
             },
             {
-                "Trophies": 179177,
+                "Trophies": 179280,
                 "ShieldColor": 4,
                 "ShieldEmblem": 5,
                 "Level": 226,
@@ -79920,7 +79926,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 179073,
+                "Trophies": 179265,
                 "ShieldColor": 12,
                 "ShieldEmblem": 6,
                 "Level": 225,
@@ -79932,7 +79938,7 @@
         ],
         "RankingsTop": [
             {
-                "Trophies": 1019223,
+                "Trophies": 1019677,
                 "ShieldColor": 12,
                 "ShieldEmblem": 10,
                 "Level": 2458,
@@ -79942,7 +79948,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 791560,
+                "Trophies": 791732,
                 "ShieldColor": 7,
                 "ShieldEmblem": 10,
                 "Level": 2495,
@@ -79952,7 +79958,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 725235,
+                "Trophies": 725915,
                 "ShieldColor": 8,
                 "ShieldEmblem": 5,
                 "Level": 1338,
@@ -79962,7 +79968,7 @@
                 "ShieldRim": 9
             },
             {
-                "Trophies": 722719,
+                "Trophies": 722958,
                 "ShieldColor": 4,
                 "ShieldEmblem": 12,
                 "Level": 1572,
@@ -79972,17 +79978,17 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 660411,
+                "Trophies": 660756,
                 "ShieldColor": 1,
                 "ShieldEmblem": 16,
-                "Level": 1563,
+                "Level": 1565,
                 "Rank": 5,
                 "TotalMembers": 30,
                 "Name": "Marthos Guardians",
                 "ShieldRim": 1
             },
             {
-                "Trophies": 602553,
+                "Trophies": 602817,
                 "ShieldColor": 1,
                 "ShieldEmblem": 11,
                 "Level": 1824,
@@ -79992,7 +79998,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 595734,
+                "Trophies": 596048,
                 "ShieldColor": 12,
                 "ShieldEmblem": 7,
                 "Level": 1582,
@@ -80002,7 +80008,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 511619,
+                "Trophies": 512001,
                 "ShieldColor": 12,
                 "ShieldEmblem": 15,
                 "Level": 1127,
@@ -80012,7 +80018,7 @@
                 "ShieldRim": 10
             },
             {
-                "Trophies": 495390,
+                "Trophies": 495656,
                 "ShieldColor": 8,
                 "ShieldEmblem": 2,
                 "Level": 884,
@@ -80022,7 +80028,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 487819,
+                "Trophies": 488069,
                 "ShieldColor": 12,
                 "ShieldEmblem": 11,
                 "Level": 1090,
@@ -80032,7 +80038,7 @@
                 "ShieldRim": 9
             },
             {
-                "Trophies": 467609,
+                "Trophies": 468224,
                 "ShieldColor": 8,
                 "ShieldEmblem": 5,
                 "Level": 691,
@@ -80042,7 +80048,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 429680,
+                "Trophies": 429869,
                 "ShieldColor": 12,
                 "ShieldEmblem": 13,
                 "Level": 1497,
@@ -80052,7 +80058,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 421379,
+                "Trophies": 421747,
                 "ShieldColor": 2,
                 "ShieldEmblem": 10,
                 "Level": 839,
@@ -80062,17 +80068,17 @@
                 "ShieldRim": 4
             },
             {
-                "Trophies": 421298,
+                "Trophies": 421588,
                 "ShieldColor": 1,
                 "ShieldEmblem": 8,
-                "Level": 773,
+                "Level": 774,
                 "Rank": 14,
                 "TotalMembers": 30,
                 "Name": "Ultra Marines",
                 "ShieldRim": 4
             },
             {
-                "Trophies": 408605,
+                "Trophies": 408983,
                 "ShieldColor": 9,
                 "ShieldEmblem": 12,
                 "Level": 2072,
@@ -80082,7 +80088,7 @@
                 "ShieldRim": 7
             },
             {
-                "Trophies": 400866,
+                "Trophies": 400955,
                 "ShieldColor": 8,
                 "ShieldEmblem": 5,
                 "Level": 1092,
@@ -80092,7 +80098,7 @@
                 "ShieldRim": 11
             },
             {
-                "Trophies": 395541,
+                "Trophies": 395753,
                 "ShieldColor": 11,
                 "ShieldEmblem": 1,
                 "Level": 600,
@@ -80102,7 +80108,7 @@
                 "ShieldRim": 11
             },
             {
-                "Trophies": 364142,
+                "Trophies": 364217,
                 "ShieldColor": 12,
                 "ShieldEmblem": 4,
                 "Level": 1131,
@@ -80112,7 +80118,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 360005,
+                "Trophies": 360162,
                 "ShieldColor": 12,
                 "ShieldEmblem": 11,
                 "Level": 648,
@@ -80122,7 +80128,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 351351,
+                "Trophies": 351488,
                 "ShieldColor": 12,
                 "ShieldEmblem": 9,
                 "Level": 686,
@@ -80132,7 +80138,7 @@
                 "ShieldRim": 10
             },
             {
-                "Trophies": 349877,
+                "Trophies": 350005,
                 "ShieldColor": 12,
                 "ShieldEmblem": 7,
                 "Level": 561,
@@ -80142,7 +80148,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 347578,
+                "Trophies": 347684,
                 "ShieldColor": 8,
                 "ShieldEmblem": 12,
                 "Level": 593,
@@ -80152,7 +80158,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 341366,
+                "Trophies": 341629,
                 "ShieldColor": 10,
                 "ShieldEmblem": 16,
                 "Level": 619,
@@ -80162,7 +80168,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 340994,
+                "Trophies": 341150,
                 "ShieldColor": 9,
                 "ShieldEmblem": 10,
                 "Level": 509,
@@ -80172,7 +80178,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 333650,
+                "Trophies": 334039,
                 "ShieldColor": 12,
                 "ShieldEmblem": 12,
                 "Level": 567,
@@ -80182,7 +80188,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 320326,
+                "Trophies": 320713,
                 "ShieldColor": 2,
                 "ShieldEmblem": 11,
                 "Level": 395,
@@ -80192,7 +80198,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 316719,
+                "Trophies": 316854,
                 "ShieldColor": 12,
                 "ShieldEmblem": 6,
                 "Level": 384,
@@ -80202,7 +80208,7 @@
                 "ShieldRim": 4
             },
             {
-                "Trophies": 311783,
+                "Trophies": 312122,
                 "ShieldColor": 8,
                 "ShieldEmblem": 7,
                 "Level": 702,
@@ -80212,7 +80218,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 305476,
+                "Trophies": 305702,
                 "ShieldColor": 12,
                 "ShieldEmblem": 12,
                 "Level": 502,
@@ -80222,7 +80228,7 @@
                 "ShieldRim": 9
             },
             {
-                "Trophies": 298242,
+                "Trophies": 298553,
                 "ShieldColor": 10,
                 "ShieldEmblem": 11,
                 "Level": 309,
@@ -80232,7 +80238,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 298178,
+                "Trophies": 298276,
                 "ShieldColor": 12,
                 "ShieldEmblem": 13,
                 "Level": 606,
@@ -80242,7 +80248,7 @@
                 "ShieldRim": 7
             },
             {
-                "Trophies": 294661,
+                "Trophies": 294823,
                 "ShieldColor": 12,
                 "ShieldEmblem": 2,
                 "Level": 385,
@@ -80252,7 +80258,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 293634,
+                "Trophies": 293808,
                 "ShieldColor": 6,
                 "ShieldEmblem": 3,
                 "Level": 678,
@@ -80262,17 +80268,17 @@
                 "ShieldRim": 7
             },
             {
-                "Trophies": 289953,
+                "Trophies": 290136,
                 "ShieldColor": 11,
                 "ShieldEmblem": 11,
                 "Level": 478,
                 "Rank": 34,
-                "TotalMembers": 30,
+                "TotalMembers": 29,
                 "Name": "GiantBomb!",
                 "ShieldRim": 8
             },
             {
-                "Trophies": 286776,
+                "Trophies": 286877,
                 "ShieldColor": 10,
                 "ShieldEmblem": 1,
                 "Level": 504,
@@ -80282,7 +80288,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 272272,
+                "Trophies": 272415,
                 "ShieldColor": 6,
                 "ShieldEmblem": 1,
                 "Level": 409,
@@ -80292,7 +80298,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 267270,
+                "Trophies": 267411,
                 "ShieldColor": 8,
                 "ShieldEmblem": 11,
                 "Level": 492,
@@ -80302,17 +80308,17 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 256540,
+                "Trophies": 256642,
                 "ShieldColor": 11,
                 "ShieldEmblem": 11,
                 "Level": 506,
                 "Rank": 38,
-                "TotalMembers": 30,
+                "TotalMembers": 29,
                 "Name": "Die or Fight",
                 "ShieldRim": 2
             },
             {
-                "Trophies": 252319,
+                "Trophies": 252455,
                 "ShieldColor": 12,
                 "ShieldEmblem": 11,
                 "Level": 491,
@@ -80322,7 +80328,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 247840,
+                "Trophies": 247952,
                 "ShieldColor": 5,
                 "ShieldEmblem": 15,
                 "Level": 509,
@@ -80332,7 +80338,7 @@
                 "ShieldRim": 11
             },
             {
-                "Trophies": 247001,
+                "Trophies": 247209,
                 "ShieldColor": 8,
                 "ShieldEmblem": 16,
                 "Level": 327,
@@ -80342,7 +80348,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 243908,
+                "Trophies": 244001,
                 "ShieldColor": 12,
                 "ShieldEmblem": 7,
                 "Level": 395,
@@ -80352,7 +80358,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 243712,
+                "Trophies": 243775,
                 "ShieldColor": 4,
                 "ShieldEmblem": 7,
                 "Level": 410,
@@ -80362,7 +80368,7 @@
                 "ShieldRim": 3
             },
             {
-                "Trophies": 243008,
+                "Trophies": 243503,
                 "ShieldColor": 8,
                 "ShieldEmblem": 4,
                 "Level": 263,
@@ -80372,7 +80378,7 @@
                 "ShieldRim": 3
             },
             {
-                "Trophies": 242146,
+                "Trophies": 242286,
                 "ShieldColor": 12,
                 "ShieldEmblem": 15,
                 "Level": 391,
@@ -80382,7 +80388,7 @@
                 "ShieldRim": 11
             },
             {
-                "Trophies": 238898,
+                "Trophies": 238999,
                 "ShieldColor": 2,
                 "ShieldEmblem": 11,
                 "Level": 427,
@@ -80392,7 +80398,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 235020,
+                "Trophies": 235160,
                 "ShieldColor": 1,
                 "ShieldEmblem": 10,
                 "Level": 694,
@@ -80402,7 +80408,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 230732,
+                "Trophies": 230773,
                 "ShieldColor": 4,
                 "ShieldEmblem": 13,
                 "Level": 426,
@@ -80412,7 +80418,7 @@
                 "ShieldRim": 3
             },
             {
-                "Trophies": 229296,
+                "Trophies": 229380,
                 "ShieldColor": 1,
                 "ShieldEmblem": 1,
                 "Level": 362,
@@ -80422,7 +80428,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 229205,
+                "Trophies": 229217,
                 "ShieldColor": 12,
                 "ShieldEmblem": 1,
                 "Level": 452,
@@ -80433,293 +80439,63 @@
             }
         ],
         "Rank": 60,
-        "Time": 1484651369569
+        "Time": 1484662794958
     },
     "Name": "404GuildNotFound",
     "Rank2Max": 35,
-    "Xp": 15982,
+    "Xp": 15988,
     "NextPromotion": 100,
     "Tokens": 45,
     "ActivityLog": [
         {
             "Type": 12,
             "Data": [
-                "SockMonkey",
+                "seth",
+                0,
+                3005,
+                2
+            ],
+            "Time": 1484657403819
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Rkag",
+                0,
+                3017,
+                1
+            ],
+            "Time": 1484657669970
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "seth",
+                0,
+                3000,
+                3
+            ],
+            "Time": 1484657846893
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Sweet-t310",
+                0,
+                3017,
+                3
+            ],
+            "Time": 1484658060151
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Rkag",
                 0,
                 3019,
-                3
-            ],
-            "Time": 1484635792579
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Xari",
-                0,
-                3000,
-                3
-            ],
-            "Time": 1484635801202
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "SockMonkey",
-                0,
-                3004,
-                3
-            ],
-            "Time": 1484635927744
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Xari",
-                0,
-                3000,
                 2
             ],
-            "Time": 1484636983157
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Bilbo46",
-                0,
-                3007,
-                3
-            ],
-            "Time": 1484637194382
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Xari",
-                0,
-                3008,
-                3
-            ],
-            "Time": 1484637410743
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Xari",
-                0,
-                3004,
-                0
-            ],
-            "Time": 1484637594838
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Xari",
-                0,
-                3004,
-                0
-            ],
-            "Time": 1484637691328
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "SockMonkey",
-                0,
-                3014,
-                3
-            ],
-            "Time": 1484637942065
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Bilbo46",
-                0,
-                3017,
-                3
-            ],
-            "Time": 1484638333187
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Xari",
-                0,
-                3004,
-                0
-            ],
-            "Time": 1484639508089
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Xari",
-                0,
-                3004,
-                0
-            ],
-            "Time": 1484639652551
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Xari",
-                0,
-                3004,
-                0
-            ],
-            "Time": 1484639849710
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Xari",
-                0,
-                3004,
-                0
-            ],
-            "Time": 1484640099603
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Xari",
-                0,
-                3000,
-                2
-            ],
-            "Time": 1484640793933
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Bilbo46",
-                0,
-                3004,
-                3
-            ],
-            "Time": 1484640926183
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "SockMonkey",
-                0,
-                3017,
-                3
-            ],
-            "Time": 1484640941757
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Xari",
-                0,
-                3027,
-                2
-            ],
-            "Time": 1484640997101
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "SockMonkey",
-                0,
-                3027,
-                3
-            ],
-            "Time": 1484641181794
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "SockMonkey",
-                0,
-                3014,
-                3
-            ],
-            "Time": 1484641320034
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "SamboyGaming",
-                0,
-                3016,
-                2
-            ],
-            "Time": 1484641999813
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "SamboyGaming",
-                0,
-                3024,
-                2
-            ],
-            "Time": 1484642407560
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "SamboyGaming",
-                0,
-                3000,
-                2
-            ],
-            "Time": 1484642626185
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "seth",
-                0,
-                3000,
-                2
-            ],
-            "Time": 1484643434811
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "seth",
-                0,
-                3004,
-                3
-            ],
-            "Time": 1484644096546
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "seth",
-                0,
-                3006,
-                3
-            ],
-            "Time": 1484645872248
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "seth",
-                0,
-                3027,
-                3
-            ],
-            "Time": 1484646850077
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "seth",
-                0,
-                3006,
-                3
-            ],
-            "Time": 1484647570717
+            "Time": 1484658200118
         },
         {
             "Type": 12,
@@ -80727,19 +80503,249 @@
                 "seth",
                 0,
                 3017,
-                2
+                3
             ],
-            "Time": 1484648260010
+            "Time": 1484658498417
         },
         {
             "Type": 12,
             "Data": [
-                "Bilbo46",
+                "Sweet-t310",
                 0,
-                3014,
+                3011,
                 3
             ],
-            "Time": 1484650894726
+            "Time": 1484658773965
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "TobiL",
+                0,
+                3011,
+                3
+            ],
+            "Time": 1484659042070
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "SansPants",
+                0,
+                3003,
+                3
+            ],
+            "Time": 1484660593591
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Oren",
+                0,
+                3015,
+                2
+            ],
+            "Time": 1484660605922
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Oren",
+                0,
+                3029,
+                2
+            ],
+            "Time": 1484660843216
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "SansPants",
+                0,
+                3015,
+                3
+            ],
+            "Time": 1484660868709
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Arelana",
+                0,
+                3000,
+                1
+            ],
+            "Time": 1484660915446
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "SansPants",
+                0,
+                3000,
+                2
+            ],
+            "Time": 1484661150811
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "AkumulatoR",
+                0,
+                3000,
+                1
+            ],
+            "Time": 1484661266710
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "AkumulatoR",
+                0,
+                3014,
+                2
+            ],
+            "Time": 1484661422317
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Sweet-t310",
+                0,
+                3012,
+                1
+            ],
+            "Time": 1484661429407
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Arelana",
+                0,
+                3017,
+                2
+            ],
+            "Time": 1484661467219
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "AkumulatoR",
+                0,
+                3000,
+                2
+            ],
+            "Time": 1484661627436
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Arelana",
+                0,
+                3000,
+                1
+            ],
+            "Time": 1484661701339
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "AkumulatoR",
+                0,
+                3000,
+                2
+            ],
+            "Time": 1484661801678
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Arelana",
+                0,
+                3014,
+                1
+            ],
+            "Time": 1484661868037
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "AkumulatoR",
+                0,
+                3020,
+                3
+            ],
+            "Time": 1484661972624
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "AkumulatoR",
+                0,
+                3014,
+                2
+            ],
+            "Time": 1484662198417
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "AkumulatoR",
+                0,
+                3029,
+                2
+            ],
+            "Time": 1484662373855
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Sweet-t310",
+                0,
+                3029,
+                3
+            ],
+            "Time": 1484662451463
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "AkumulatoR",
+                0,
+                3001,
+                1
+            ],
+            "Time": 1484662476678
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Sweet-t310",
+                0,
+                3012,
+                3
+            ],
+            "Time": 1484662602400
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "AkumulatoR",
+                0,
+                3027,
+                2
+            ],
+            "Time": 1484662714706
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Arelana",
+                0,
+                3004,
+                2
+            ],
+            "Time": 1484662761212
         }
     ],
     "Rank2Members": 0,
@@ -80890,12 +80896,12 @@
         }
     ],
     "Rank5Max": 348,
-    "ChestLevel": 2,
+    "ChestLevel": 3,
     "Level": 339,
-    "SealsWeekly": 4921,
+    "SealsWeekly": 5906,
     "TotalMembers": 28,
     "Id": "WmP20Ppu5K",
-    "Trophies": 207444,
+    "Trophies": 207553,
     "StatueXpRequiredPrev": [
         2252,
         1517,
@@ -80909,7 +80915,7 @@
     "TaskProgress": [
         0,
         0,
-        265000,
+        317885,
         0,
         0,
         0,
@@ -82730,7 +82736,7 @@
     ],
     "TasksCompleted": [
         6,
-        5,
+        6,
         11,
         5,
         5,
@@ -82787,7 +82793,7 @@
     "PlayerLevelRequirement": 100,
     "StatueXp": [
         2285,
-        1549,
+        1555,
         1815,
         1589,
         1840,
@@ -82809,10 +82815,10 @@
         },
         {
             "Type": "EventKeys",
-            "Xp": 6,
-            "Id": 5,
-            "Reward": 3,
-            "Cost": 100000
+            "Xp": 7,
+            "Id": 6,
+            "Reward": 4,
+            "Cost": 150000
         },
         {
             "Type": "GemKeys",

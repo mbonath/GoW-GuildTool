@@ -117,4 +117,25 @@ public class User
         }
         return trophies;
     }
+    
+    private StringProperty score;
+
+    public void setScore(String value)
+    {
+        scoreProperty().set(value);
+    }
+
+    public String getScore()
+    {
+        return scoreProperty().get();
+    }
+
+    public StringProperty scoreProperty()
+    {
+        if (score == null)
+        {
+            score = new SimpleStringProperty(this, "score");
+        }
+        return score;
+    }
 }
