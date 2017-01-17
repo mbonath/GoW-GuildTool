@@ -2580,7 +2580,7 @@
             "Demotion": 999900
         }
     ],
-    "ServerToken": "SwxxLg6smt2x",
+    "ServerToken": "H7iRMb4Xiwnk",
     "pTraitsTable": [
         {
             "Runes": [
@@ -19043,7 +19043,7 @@
             82,
             75
         ],
-        "ServerTime": 1484662825691,
+        "ServerTime": 1484663385635,
         "GuildTroopHealthBonus": 0,
         "PvPTier": 14,
         "GuildId": "WmP20Ppu5K",
@@ -19059,12 +19059,12 @@
             "AmountToday": 3,
             "Amount": 801
         },
-        "HasPvPRewards": false,
+        "HasPvPRewards": true,
         "TroopAttackBonus": 0,
         "OfferCurrent": 0,
         "ServerVersion": "2.2",
         "SpellPower": 3,
-        "LastDynamicDataCheck": 1484662825502,
+        "LastDynamicDataCheck": 1484663385395,
         "LastHeroDataSave": 1484642650376,
         "EmailLinked": true,
         "SkinsOwned": [
@@ -21419,7 +21419,7 @@
         "Souls": 0,
         "XP": 0
     },
-    "nLastDynamicDataCheck": 1484662825502,
+    "nLastDynamicDataCheck": 1484663385395,
     "pEvents": [
         {
             "BonusType": "wildfolk",

@@ -398,7 +398,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828633,
+            "ServerTime": 1484663393128,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 19,
@@ -3024,7 +3024,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828634,
+            "ServerTime": 1484663393130,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -6203,7 +6203,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828638,
+            "ServerTime": 1484663393133,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 21,
@@ -8945,7 +8945,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828639,
+            "ServerTime": 1484663393134,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -12050,7 +12050,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828640,
+            "ServerTime": 1484663393135,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -12082,7 +12082,7 @@
             "TroopAttackBonus": 4,
             "SpellPower": 6,
             "LastDynamicDataCheck": 1484662748678,
-            "LastHeroDataSave": 1484662797107,
+            "LastHeroDataSave": 1484662890405,
             "GuildTrophiesWeekly": 13,
             "KingdomPower": {
                 "3024": {
@@ -14936,7 +14936,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828640,
+            "ServerTime": 1484663393136,
             "Skin_Head": 13,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -18189,7 +18189,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828641,
+            "ServerTime": 1484663393138,
             "Skin_Head": 13,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -21251,7 +21251,7 @@
             "KingdomWeapon": {"10": 1056},
             "Name": "Sweet-t310",
             "TroopHealthBonus": 15,
-            "GuildTrophiesTotal": 600,
+            "GuildTrophiesTotal": 606,
             "GuildSealsTotal": 2414,
             "Skin_Face": 1,
             "KingdomLevels": {
@@ -21432,11 +21432,11 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828641,
+            "ServerTime": 1484663393139,
             "Skin_Head": 14,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
-            "PvPTier": 4,
+            "PvPTier": 3,
             "Seals": 1011,
             "Class": "sorcerer",
             "GuildColdContributedTotal": 1521858,
@@ -21460,8 +21460,8 @@
             "TroopAttackBonus": 5,
             "SpellPower": 8,
             "LastDynamicDataCheck": 1484661485013,
-            "LastHeroDataSave": 1484662646972,
-            "GuildTrophiesWeekly": 66,
+            "LastHeroDataSave": 1484663212469,
+            "GuildTrophiesWeekly": 72,
             "KingdomPower": {
                 "3024": {
                     "NextRank": 7,
@@ -21891,7 +21891,7 @@
                     "Amount": 4,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 480
+                    "Invasions": 482
                 },
                 "6114": {
                     "CurrentRarity": 5,
@@ -21974,7 +21974,7 @@
                     "Amount": 2,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 234
+                    "Invasions": 236
                 },
                 "6240": {
                     "CurrentRarity": 4,
@@ -22374,7 +22374,7 @@
                     "Amount": 1,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 873
+                    "Invasions": 875
                 },
                 "6021": {
                     "CurrentRarity": 5,
@@ -23396,7 +23396,7 @@
                     "Amount": 1,
                     "TraitsOwned": 3,
                     "Level": 20,
-                    "Invasions": 221
+                    "Invasions": 223
                 },
                 "6070": {
                     "Amount": 4,
@@ -24166,7 +24166,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 122
+                    "Invasions": 124
                 },
                 "3019": {
                     "Status": 2,
@@ -24496,9 +24496,9 @@
                 "31": 54,
                 "10": 257,
                 "32": 15,
-                "11": 226,
+                "11": 227,
                 "33": 16,
-                "12": 19,
+                "12": 20,
                 "34": 23,
                 "13": 11,
                 "35": 10,
@@ -24529,13 +24529,13 @@
             "GuildSealsWeekly": 333,
             "SealsTasksCompleteWeekly": [
                 0,
-                2,
-                4,
+                3,
+                6,
                 0,
                 1,
                 0,
                 0,
-                5
+                7
             ],
             "GuildTasksCompleted": [
                 6,
@@ -24549,14 +24549,14 @@
             "StartDayTime": 1484636400000,
             "Attack": 11,
             "Skin_Body": 14,
-            "LastPlayed": 1484662645687,
+            "LastPlayed": 1484663210950,
             "LastLoginTime": 1484657669870,
             "ClassData": {
                 "sorcerer": {
                     "TraitsOwned": 3,
                     "Level": 20,
                     "Spell": 0,
-                    "Wins": 4210
+                    "Wins": 4212
                 },
                 "mechanist": {
                     "Level": 1,
@@ -24788,7 +24788,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828642,
+            "ServerTime": 1484663393140,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -27906,7 +27906,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828643,
+            "ServerTime": 1484663393141,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -30824,7 +30824,7 @@
             "KingdomWeapon": {},
             "Name": "Arelana",
             "TroopHealthBonus": 2,
-            "GuildTrophiesTotal": 948,
+            "GuildTrophiesTotal": 951,
             "GuildSealsTotal": 5432,
             "Skin_Face": 1,
             "KingdomLevels": {
@@ -30856,7 +30856,7 @@
                 "3003": 5,
                 "3025": 5
             },
-            "PvPWinStreak": 7,
+            "PvPWinStreak": 0,
             "NextStartDayTime": 1484722800000,
             "RaceAlt": 0,
             "Skin_FaceFeature": 1,
@@ -30884,11 +30884,11 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828644,
+            "ServerTime": 1484663393142,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 21,
-            "PvPTier": 9,
+            "PvPTier": 8,
             "Seals": 0,
             "Class": "sorcerer",
             "GuildColdContributedTotal": 270000,
@@ -30912,8 +30912,8 @@
             "TroopAttackBonus": 4,
             "SpellPower": 5,
             "LastDynamicDataCheck": 1484659871736,
-            "LastHeroDataSave": 1484662774890,
-            "GuildTrophiesWeekly": 62,
+            "LastHeroDataSave": 1484663384977,
+            "GuildTrophiesWeekly": 65,
             "KingdomPower": {
                 "3024": {
                     "NextRank": 2,
@@ -31566,7 +31566,7 @@
                     "Amount": 4,
                     "TraitsOwned": 2,
                     "Level": 18,
-                    "Invasions": 75
+                    "Invasions": 78
                 },
                 "6013": {
                     "CurrentRarity": 3,
@@ -32011,7 +32011,7 @@
                     "Amount": 9,
                     "TraitsOwned": 3,
                     "Level": 17,
-                    "Invasions": 75
+                    "Invasions": 78
                 },
                 "6163": {
                     "Amount": 2,
@@ -32528,7 +32528,7 @@
                     "Amount": 3,
                     "TraitsOwned": 3,
                     "Level": 18,
-                    "Invasions": 81
+                    "Invasions": 84
                 },
                 "6201": {
                     "CurrentRarity": 3,
@@ -32665,7 +32665,7 @@
                     "Amount": 23,
                     "TraitsOwned": 2,
                     "Level": 17,
-                    "Invasions": 85
+                    "Invasions": 88
                 },
                 "6224": {
                     "CurrentRarity": 2,
@@ -32953,7 +32953,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 36
+                    "Invasions": 38
                 },
                 "3016": {
                     "Status": 2,
@@ -33133,7 +33133,7 @@
                     "Banner": 3000,
                     "Income": 1,
                     "QuestsComplete": 0,
-                    "Invasions": 17
+                    "Invasions": 18
                 },
                 "3026": {
                     "Status": 2,
@@ -33166,7 +33166,7 @@
                 }
             },
             "Skin_Costume": 2,
-            "DefendWins": 16,
+            "DefendWins": 18,
             "Runes": {
                 "22": 2,
                 "23": 2,
@@ -33174,7 +33174,7 @@
                 "27": 2,
                 "28": 7,
                 "30": 0,
-                "10": 118,
+                "10": 119,
                 "32": 0,
                 "11": 78,
                 "33": 3,
@@ -33194,7 +33194,7 @@
                 "2": 140,
                 "3": 143,
                 "4": 195,
-                "5": 125,
+                "5": 126,
                 "6": 102,
                 "7": 77,
                 "8": 87,
@@ -33206,13 +33206,13 @@
             "GuildSealsWeekly": 0,
             "SealsTasksCompleteWeekly": [
                 1,
-                6,
-                49,
+                7,
+                51,
                 0,
                 7,
                 0,
                 0,
-                52
+                54
             ],
             "GuildTasksCompleted": [
                 6,
@@ -33226,14 +33226,14 @@
             "StartDayTime": 1484636400000,
             "Attack": 9,
             "Skin_Body": 14,
-            "LastPlayed": 1484661916673,
+            "LastPlayed": 1484663383065,
             "LastLoginTime": 1484659888160,
             "ClassData": {
                 "sorcerer": {
                     "TraitsOwned": 1,
                     "Level": 20,
                     "Spell": 0,
-                    "Wins": 268
+                    "Wins": 270
                 },
                 "mechanist": {
                     "Level": 1,
@@ -33347,7 +33347,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828645,
+            "ServerTime": 1484663393143,
             "Skin_Head": 13,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -36354,7 +36354,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828646,
+            "ServerTime": 1484663393144,
             "Skin_Head": 13,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 19,
@@ -38464,7 +38464,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828646,
+            "ServerTime": 1484663393145,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -41452,7 +41452,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828647,
+            "ServerTime": 1484663393146,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -44354,7 +44354,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828648,
+            "ServerTime": 1484663393147,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 21,
@@ -47048,7 +47048,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828648,
+            "ServerTime": 1484663393148,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -49850,7 +49850,7 @@
             "KingdomWeapon": {"10": 1101},
             "Name": "AkumulatoR",
             "TroopHealthBonus": 8,
-            "GuildTrophiesTotal": 1673,
+            "GuildTrophiesTotal": 1676,
             "GuildSealsTotal": 15063,
             "Skin_Face": 0,
             "KingdomLevels": {
@@ -49910,7 +49910,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828649,
+            "ServerTime": 1484663393149,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -49938,8 +49938,8 @@
             "TroopAttackBonus": 7,
             "SpellPower": 7,
             "LastDynamicDataCheck": 1484661015153,
-            "LastHeroDataSave": 1484662735431,
-            "GuildTrophiesWeekly": 35,
+            "LastHeroDataSave": 1484663375513,
+            "GuildTrophiesWeekly": 38,
             "KingdomPower": {
                 "3024": {
                     "NextRank": 3,
@@ -50385,7 +50385,7 @@
                     "Amount": 1,
                     "TraitsOwned": 3,
                     "Level": 20,
-                    "Invasions": 311
+                    "Invasions": 313
                 },
                 "6105": {
                     "CurrentRarity": 4,
@@ -51667,7 +51667,7 @@
                     "Amount": 47,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 1535
+                    "Invasions": 1537
                 },
                 "6183": {
                     "Amount": 1,
@@ -51716,7 +51716,7 @@
                     "Amount": 1,
                     "TraitsOwned": 3,
                     "Level": 19,
-                    "Invasions": 311
+                    "Invasions": 313
                 },
                 "6190": {
                     "CurrentRarity": 4,
@@ -51886,7 +51886,7 @@
                     "Amount": 4,
                     "TraitsOwned": 3,
                     "Level": 11,
-                    "Invasions": 20
+                    "Invasions": 22
                 },
                 "6303": {
                     "CurrentRarity": 5,
@@ -52446,7 +52446,7 @@
                 "3014": {
                     "Status": 2,
                     "Battles": [
-                        6,
+                        7,
                         6,
                         6,
                         6,
@@ -52458,7 +52458,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 10
+                    "Invasions": 11
                 },
                 "3013": {
                     "Status": 2,
@@ -52658,7 +52658,7 @@
                     "Banner": 3000,
                     "Income": 6,
                     "QuestsComplete": 0,
-                    "Invasions": 142
+                    "Invasions": 143
                 },
                 "3026": {
                     "Status": 2,
@@ -52725,14 +52725,14 @@
                 "10": 254,
                 "32": 5,
                 "11": 109,
-                "33": 7,
+                "33": 8,
                 "12": 6,
                 "34": 5,
                 "13": 11,
                 "35": 0,
                 "14": 10,
                 "36": 26,
-                "15": 20,
+                "15": 21,
                 "37": 0,
                 "16": 12,
                 "38": 7,
@@ -52743,7 +52743,7 @@
                 "0": 302,
                 "1": 110,
                 "2": 69,
-                "3": 198,
+                "3": 199,
                 "4": 148,
                 "5": 79,
                 "6": 286,
@@ -52758,12 +52758,12 @@
             "SealsTasksCompleteWeekly": [
                 1,
                 2,
-                9,
+                11,
                 0,
                 1,
                 0,
                 0,
-                9
+                12
             ],
             "GuildTasksCompleted": [
                 6,
@@ -52777,7 +52777,7 @@
             "StartDayTime": 1484636400000,
             "Attack": 11,
             "Skin_Body": 13,
-            "LastPlayed": 1484662734411,
+            "LastPlayed": 1484663374571,
             "LastLoginTime": 1484661025016,
             "ClassData": {
                 "sorcerer": {
@@ -52798,7 +52798,7 @@
                 "necromancer": {
                     "Level": 20,
                     "Spell": 0,
-                    "Wins": 1415
+                    "Wins": 1418
                 },
                 "archer": {
                     "Level": 10,
@@ -53017,7 +53017,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828650,
+            "ServerTime": 1484663393150,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -56474,7 +56474,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828651,
+            "ServerTime": 1484663393151,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -59503,7 +59503,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828652,
+            "ServerTime": 1484663393152,
             "Skin_Head": 13,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 15,
@@ -61289,7 +61289,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828653,
+            "ServerTime": 1484663393152,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 15,
@@ -61304,7 +61304,7 @@
             "NameCode": "SAMBOYGAMING",
             "TroopAttackBonus": 0,
             "SpellPower": 3,
-            "LastDynamicDataCheck": 1484662825502,
+            "LastDynamicDataCheck": 1484663385395,
             "LastHeroDataSave": 1484642650376,
             "GuildTrophiesWeekly": 12,
             "KingdomPower": {
@@ -63238,7 +63238,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828653,
+            "ServerTime": 1484663393153,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -66176,7 +66176,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828654,
+            "ServerTime": 1484663393154,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 21,
@@ -68883,7 +68883,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828655,
+            "ServerTime": 1484663393155,
             "Skin_Head": 2,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 22,
@@ -71254,7 +71254,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828655,
+            "ServerTime": 1484663393157,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -74089,7 +74089,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828656,
+            "ServerTime": 1484663393158,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 20,
@@ -76517,7 +76517,7 @@
                 82,
                 75
             ],
-            "ServerTime": 1484662828657,
+            "ServerTime": 1484663393159,
             "Skin_Head": -1,
             "GuildTroopHealthBonus": 0,
             "MaxHealth": 23,
@@ -79432,10 +79432,10 @@
         12
     ],
     "LeagueData": {
-        "Trophies": 207553,
+        "Trophies": 207565,
         "RankingsGuild": [
             {
-                "Trophies": 286877,
+                "Trophies": 286884,
                 "ShieldColor": 10,
                 "ShieldEmblem": 1,
                 "Level": 504,
@@ -79445,7 +79445,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 272415,
+                "Trophies": 272431,
                 "ShieldColor": 6,
                 "ShieldEmblem": 1,
                 "Level": 409,
@@ -79455,7 +79455,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 267411,
+                "Trophies": 267417,
                 "ShieldColor": 8,
                 "ShieldEmblem": 11,
                 "Level": 492,
@@ -79475,7 +79475,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 252455,
+                "Trophies": 252459,
                 "ShieldColor": 12,
                 "ShieldEmblem": 11,
                 "Level": 491,
@@ -79485,7 +79485,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 247952,
+                "Trophies": 247955,
                 "ShieldColor": 5,
                 "ShieldEmblem": 15,
                 "Level": 509,
@@ -79495,7 +79495,7 @@
                 "ShieldRim": 11
             },
             {
-                "Trophies": 247209,
+                "Trophies": 247226,
                 "ShieldColor": 8,
                 "ShieldEmblem": 16,
                 "Level": 327,
@@ -79505,7 +79505,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 244001,
+                "Trophies": 244004,
                 "ShieldColor": 12,
                 "ShieldEmblem": 7,
                 "Level": 395,
@@ -79515,7 +79515,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 243775,
+                "Trophies": 243782,
                 "ShieldColor": 4,
                 "ShieldEmblem": 7,
                 "Level": 410,
@@ -79525,7 +79525,7 @@
                 "ShieldRim": 3
             },
             {
-                "Trophies": 243503,
+                "Trophies": 243526,
                 "ShieldColor": 8,
                 "ShieldEmblem": 4,
                 "Level": 263,
@@ -79535,7 +79535,7 @@
                 "ShieldRim": 3
             },
             {
-                "Trophies": 242286,
+                "Trophies": 242292,
                 "ShieldColor": 12,
                 "ShieldEmblem": 15,
                 "Level": 391,
@@ -79555,7 +79555,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 235160,
+                "Trophies": 235165,
                 "ShieldColor": 1,
                 "ShieldEmblem": 10,
                 "Level": 694,
@@ -79565,7 +79565,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 230773,
+                "Trophies": 230774,
                 "ShieldColor": 4,
                 "ShieldEmblem": 13,
                 "Level": 426,
@@ -79575,7 +79575,7 @@
                 "ShieldRim": 3
             },
             {
-                "Trophies": 229380,
+                "Trophies": 229388,
                 "ShieldColor": 1,
                 "ShieldEmblem": 1,
                 "Level": 362,
@@ -79585,7 +79585,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 229217,
+                "Trophies": 229219,
                 "ShieldColor": 12,
                 "ShieldEmblem": 1,
                 "Level": 452,
@@ -79605,7 +79605,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 226443,
+                "Trophies": 226446,
                 "ShieldColor": 9,
                 "ShieldEmblem": 13,
                 "Level": 427,
@@ -79615,7 +79615,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 226265,
+                "Trophies": 226280,
                 "ShieldColor": 11,
                 "ShieldEmblem": 15,
                 "Level": 552,
@@ -79625,7 +79625,7 @@
                 "ShieldRim": 11
             },
             {
-                "Trophies": 217528,
+                "Trophies": 217534,
                 "ShieldColor": 12,
                 "ShieldEmblem": 10,
                 "Level": 241,
@@ -79635,7 +79635,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 216597,
+                "Trophies": 216602,
                 "ShieldColor": 12,
                 "ShieldEmblem": 14,
                 "Level": 570,
@@ -79645,7 +79645,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 214635,
+                "Trophies": 214658,
                 "ShieldColor": 1,
                 "ShieldEmblem": 11,
                 "Level": 393,
@@ -79655,7 +79655,7 @@
                 "ShieldRim": 9
             },
             {
-                "Trophies": 213463,
+                "Trophies": 213466,
                 "ShieldColor": 12,
                 "ShieldEmblem": 12,
                 "Level": 487,
@@ -79675,7 +79675,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 209937,
+                "Trophies": 209942,
                 "ShieldColor": 9,
                 "ShieldEmblem": 11,
                 "Level": 403,
@@ -79685,7 +79685,7 @@
                 "ShieldRim": 9
             },
             {
-                "Trophies": 207553,
+                "Trophies": 207565,
                 "ShieldColor": 4,
                 "UserGuild": true,
                 "ShieldEmblem": 10,
@@ -79696,7 +79696,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 204955,
+                "Trophies": 204961,
                 "ShieldColor": 10,
                 "ShieldEmblem": 11,
                 "Level": 377,
@@ -79716,7 +79716,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 201501,
+                "Trophies": 201515,
                 "ShieldColor": 12,
                 "ShieldEmblem": 11,
                 "Level": 291,
@@ -79726,7 +79726,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 200328,
+                "Trophies": 200343,
                 "ShieldColor": 11,
                 "ShieldEmblem": 15,
                 "Level": 444,
@@ -79746,7 +79746,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 193836,
+                "Trophies": 193847,
                 "ShieldColor": 1,
                 "ShieldEmblem": 11,
                 "Level": 336,
@@ -79756,7 +79756,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 193229,
+                "Trophies": 193235,
                 "ShieldColor": 12,
                 "ShieldEmblem": 11,
                 "Level": 280,
@@ -79766,7 +79766,7 @@
                 "ShieldRim": 4
             },
             {
-                "Trophies": 192420,
+                "Trophies": 192426,
                 "ShieldColor": 12,
                 "ShieldEmblem": 11,
                 "Level": 309,
@@ -79776,7 +79776,7 @@
                 "ShieldRim": 6
             },
             {
-                "Trophies": 192058,
+                "Trophies": 192064,
                 "ShieldColor": 11,
                 "ShieldEmblem": 10,
                 "Level": 365,
@@ -79786,7 +79786,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 190114,
+                "Trophies": 190127,
                 "ShieldColor": 9,
                 "ShieldEmblem": 11,
                 "Level": 228,
@@ -79796,7 +79796,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 188241,
+                "Trophies": 188247,
                 "ShieldColor": 4,
                 "ShieldEmblem": 7,
                 "Level": 355,
@@ -79806,7 +79806,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 188176,
+                "Trophies": 188182,
                 "ShieldColor": 1,
                 "ShieldEmblem": 15,
                 "Level": 370,
@@ -79816,7 +79816,7 @@
                 "ShieldRim": 5
             },
             {
-                "Trophies": 187096,
+                "Trophies": 187099,
                 "ShieldColor": 1,
                 "ShieldEmblem": 11,
                 "Level": 308,
@@ -79826,7 +79826,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 187004,
+                "Trophies": 187007,
                 "ShieldColor": 9,
                 "ShieldEmblem": 11,
                 "Level": 333,
@@ -79836,7 +79836,7 @@
                 "ShieldRim": 3
             },
             {
-                "Trophies": 186329,
+                "Trophies": 186372,
                 "ShieldColor": 12,
                 "ShieldEmblem": 12,
                 "Level": 224,
@@ -79846,7 +79846,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 186310,
+                "Trophies": 186317,
                 "ShieldColor": 7,
                 "ShieldEmblem": 3,
                 "Level": 349,
@@ -79866,7 +79866,7 @@
                 "ShieldRim": 9
             },
             {
-                "Trophies": 183944,
+                "Trophies": 183951,
                 "ShieldColor": 12,
                 "ShieldEmblem": 7,
                 "Level": 171,
@@ -79876,7 +79876,7 @@
                 "ShieldRim": 4
             },
             {
-                "Trophies": 183063,
+                "Trophies": 183086,
                 "ShieldColor": 12,
                 "ShieldEmblem": 16,
                 "Level": 465,
@@ -79886,7 +79886,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 181930,
+                "Trophies": 181935,
                 "ShieldColor": 4,
                 "ShieldEmblem": 7,
                 "Level": 236,
@@ -79896,7 +79896,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 180956,
+                "Trophies": 180967,
                 "ShieldColor": 1,
                 "ShieldEmblem": 11,
                 "Level": 256,
@@ -79906,7 +79906,7 @@
                 "ShieldRim": 4
             },
             {
-                "Trophies": 180943,
+                "Trophies": 180949,
                 "ShieldColor": 10,
                 "ShieldEmblem": 11,
                 "Level": 192,
@@ -79926,7 +79926,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 179265,
+                "Trophies": 179277,
                 "ShieldColor": 12,
                 "ShieldEmblem": 6,
                 "Level": 225,
@@ -79938,7 +79938,7 @@
         ],
         "RankingsTop": [
             {
-                "Trophies": 1019677,
+                "Trophies": 1019725,
                 "ShieldColor": 12,
                 "ShieldEmblem": 10,
                 "Level": 2458,
@@ -79948,7 +79948,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 791732,
+                "Trophies": 791747,
                 "ShieldColor": 7,
                 "ShieldEmblem": 10,
                 "Level": 2495,
@@ -79958,7 +79958,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 725915,
+                "Trophies": 725948,
                 "ShieldColor": 8,
                 "ShieldEmblem": 5,
                 "Level": 1338,
@@ -79968,7 +79968,7 @@
                 "ShieldRim": 9
             },
             {
-                "Trophies": 722958,
+                "Trophies": 722978,
                 "ShieldColor": 4,
                 "ShieldEmblem": 12,
                 "Level": 1572,
@@ -79978,7 +79978,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 660756,
+                "Trophies": 660771,
                 "ShieldColor": 1,
                 "ShieldEmblem": 16,
                 "Level": 1565,
@@ -79988,7 +79988,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 602817,
+                "Trophies": 602829,
                 "ShieldColor": 1,
                 "ShieldEmblem": 11,
                 "Level": 1824,
@@ -79998,7 +79998,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 596048,
+                "Trophies": 596074,
                 "ShieldColor": 12,
                 "ShieldEmblem": 7,
                 "Level": 1582,
@@ -80008,7 +80008,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 512001,
+                "Trophies": 512013,
                 "ShieldColor": 12,
                 "ShieldEmblem": 15,
                 "Level": 1127,
@@ -80018,7 +80018,7 @@
                 "ShieldRim": 10
             },
             {
-                "Trophies": 495656,
+                "Trophies": 495672,
                 "ShieldColor": 8,
                 "ShieldEmblem": 2,
                 "Level": 884,
@@ -80028,7 +80028,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 488069,
+                "Trophies": 488090,
                 "ShieldColor": 12,
                 "ShieldEmblem": 11,
                 "Level": 1090,
@@ -80038,7 +80038,7 @@
                 "ShieldRim": 9
             },
             {
-                "Trophies": 468224,
+                "Trophies": 468306,
                 "ShieldColor": 8,
                 "ShieldEmblem": 5,
                 "Level": 691,
@@ -80048,7 +80048,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 429869,
+                "Trophies": 429871,
                 "ShieldColor": 12,
                 "ShieldEmblem": 13,
                 "Level": 1497,
@@ -80058,7 +80058,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 421747,
+                "Trophies": 421762,
                 "ShieldColor": 2,
                 "ShieldEmblem": 10,
                 "Level": 839,
@@ -80068,7 +80068,7 @@
                 "ShieldRim": 4
             },
             {
-                "Trophies": 421588,
+                "Trophies": 421610,
                 "ShieldColor": 1,
                 "ShieldEmblem": 8,
                 "Level": 774,
@@ -80078,7 +80078,7 @@
                 "ShieldRim": 4
             },
             {
-                "Trophies": 408983,
+                "Trophies": 408989,
                 "ShieldColor": 9,
                 "ShieldEmblem": 12,
                 "Level": 2072,
@@ -80098,7 +80098,7 @@
                 "ShieldRim": 11
             },
             {
-                "Trophies": 395753,
+                "Trophies": 395769,
                 "ShieldColor": 11,
                 "ShieldEmblem": 1,
                 "Level": 600,
@@ -80108,7 +80108,7 @@
                 "ShieldRim": 11
             },
             {
-                "Trophies": 364217,
+                "Trophies": 364220,
                 "ShieldColor": 12,
                 "ShieldEmblem": 4,
                 "Level": 1131,
@@ -80118,7 +80118,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 360162,
+                "Trophies": 360168,
                 "ShieldColor": 12,
                 "ShieldEmblem": 11,
                 "Level": 648,
@@ -80128,7 +80128,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 351488,
+                "Trophies": 351500,
                 "ShieldColor": 12,
                 "ShieldEmblem": 9,
                 "Level": 686,
@@ -80138,7 +80138,7 @@
                 "ShieldRim": 10
             },
             {
-                "Trophies": 350005,
+                "Trophies": 350008,
                 "ShieldColor": 12,
                 "ShieldEmblem": 7,
                 "Level": 561,
@@ -80158,7 +80158,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 341629,
+                "Trophies": 341646,
                 "ShieldColor": 10,
                 "ShieldEmblem": 16,
                 "Level": 619,
@@ -80168,7 +80168,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 341150,
+                "Trophies": 341192,
                 "ShieldColor": 9,
                 "ShieldEmblem": 10,
                 "Level": 509,
@@ -80178,7 +80178,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 334039,
+                "Trophies": 334048,
                 "ShieldColor": 12,
                 "ShieldEmblem": 12,
                 "Level": 567,
@@ -80188,7 +80188,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 320713,
+                "Trophies": 320745,
                 "ShieldColor": 2,
                 "ShieldEmblem": 11,
                 "Level": 395,
@@ -80198,7 +80198,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 316854,
+                "Trophies": 316873,
                 "ShieldColor": 12,
                 "ShieldEmblem": 6,
                 "Level": 384,
@@ -80208,7 +80208,7 @@
                 "ShieldRim": 4
             },
             {
-                "Trophies": 312122,
+                "Trophies": 312170,
                 "ShieldColor": 8,
                 "ShieldEmblem": 7,
                 "Level": 702,
@@ -80218,7 +80218,7 @@
                 "ShieldRim": 1
             },
             {
-                "Trophies": 305702,
+                "Trophies": 305744,
                 "ShieldColor": 12,
                 "ShieldEmblem": 12,
                 "Level": 502,
@@ -80228,7 +80228,7 @@
                 "ShieldRim": 9
             },
             {
-                "Trophies": 298553,
+                "Trophies": 298564,
                 "ShieldColor": 10,
                 "ShieldEmblem": 11,
                 "Level": 309,
@@ -80238,7 +80238,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 298276,
+                "Trophies": 298285,
                 "ShieldColor": 12,
                 "ShieldEmblem": 13,
                 "Level": 606,
@@ -80248,7 +80248,7 @@
                 "ShieldRim": 7
             },
             {
-                "Trophies": 294823,
+                "Trophies": 294832,
                 "ShieldColor": 12,
                 "ShieldEmblem": 2,
                 "Level": 385,
@@ -80258,7 +80258,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 293808,
+                "Trophies": 293810,
                 "ShieldColor": 6,
                 "ShieldEmblem": 3,
                 "Level": 678,
@@ -80268,7 +80268,7 @@
                 "ShieldRim": 7
             },
             {
-                "Trophies": 290136,
+                "Trophies": 290141,
                 "ShieldColor": 11,
                 "ShieldEmblem": 11,
                 "Level": 478,
@@ -80278,7 +80278,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 286877,
+                "Trophies": 286884,
                 "ShieldColor": 10,
                 "ShieldEmblem": 1,
                 "Level": 504,
@@ -80288,7 +80288,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 272415,
+                "Trophies": 272431,
                 "ShieldColor": 6,
                 "ShieldEmblem": 1,
                 "Level": 409,
@@ -80298,7 +80298,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 267411,
+                "Trophies": 267417,
                 "ShieldColor": 8,
                 "ShieldEmblem": 11,
                 "Level": 492,
@@ -80318,7 +80318,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 252455,
+                "Trophies": 252459,
                 "ShieldColor": 12,
                 "ShieldEmblem": 11,
                 "Level": 491,
@@ -80328,7 +80328,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 247952,
+                "Trophies": 247955,
                 "ShieldColor": 5,
                 "ShieldEmblem": 15,
                 "Level": 509,
@@ -80338,7 +80338,7 @@
                 "ShieldRim": 11
             },
             {
-                "Trophies": 247209,
+                "Trophies": 247226,
                 "ShieldColor": 8,
                 "ShieldEmblem": 16,
                 "Level": 327,
@@ -80348,7 +80348,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 244001,
+                "Trophies": 244004,
                 "ShieldColor": 12,
                 "ShieldEmblem": 7,
                 "Level": 395,
@@ -80358,7 +80358,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 243775,
+                "Trophies": 243782,
                 "ShieldColor": 4,
                 "ShieldEmblem": 7,
                 "Level": 410,
@@ -80368,7 +80368,7 @@
                 "ShieldRim": 3
             },
             {
-                "Trophies": 243503,
+                "Trophies": 243526,
                 "ShieldColor": 8,
                 "ShieldEmblem": 4,
                 "Level": 263,
@@ -80378,7 +80378,7 @@
                 "ShieldRim": 3
             },
             {
-                "Trophies": 242286,
+                "Trophies": 242292,
                 "ShieldColor": 12,
                 "ShieldEmblem": 15,
                 "Level": 391,
@@ -80398,7 +80398,7 @@
                 "ShieldRim": 12
             },
             {
-                "Trophies": 235160,
+                "Trophies": 235165,
                 "ShieldColor": 1,
                 "ShieldEmblem": 10,
                 "Level": 694,
@@ -80408,7 +80408,7 @@
                 "ShieldRim": 2
             },
             {
-                "Trophies": 230773,
+                "Trophies": 230774,
                 "ShieldColor": 4,
                 "ShieldEmblem": 13,
                 "Level": 426,
@@ -80418,7 +80418,7 @@
                 "ShieldRim": 3
             },
             {
-                "Trophies": 229380,
+                "Trophies": 229388,
                 "ShieldColor": 1,
                 "ShieldEmblem": 1,
                 "Level": 362,
@@ -80428,7 +80428,7 @@
                 "ShieldRim": 8
             },
             {
-                "Trophies": 229217,
+                "Trophies": 229219,
                 "ShieldColor": 12,
                 "ShieldEmblem": 1,
                 "Level": 452,
@@ -80439,7 +80439,7 @@
             }
         ],
         "Rank": 60,
-        "Time": 1484662794958
+        "Time": 1484663387590
     },
     "Name": "404GuildNotFound",
     "Rank2Max": 35,
@@ -80447,76 +80447,6 @@
     "NextPromotion": 100,
     "Tokens": 45,
     "ActivityLog": [
-        {
-            "Type": 12,
-            "Data": [
-                "seth",
-                0,
-                3005,
-                2
-            ],
-            "Time": 1484657403819
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Rkag",
-                0,
-                3017,
-                1
-            ],
-            "Time": 1484657669970
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "seth",
-                0,
-                3000,
-                3
-            ],
-            "Time": 1484657846893
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Sweet-t310",
-                0,
-                3017,
-                3
-            ],
-            "Time": 1484658060151
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Rkag",
-                0,
-                3019,
-                2
-            ],
-            "Time": 1484658200118
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "seth",
-                0,
-                3017,
-                3
-            ],
-            "Time": 1484658498417
-        },
-        {
-            "Type": 12,
-            "Data": [
-                "Sweet-t310",
-                0,
-                3011,
-                3
-            ],
-            "Time": 1484658773965
-        },
         {
             "Type": 12,
             "Data": [
@@ -80746,6 +80676,76 @@
                 2
             ],
             "Time": 1484662761212
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "AkumulatoR",
+                0,
+                3014,
+                1
+            ],
+            "Time": 1484662905305
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Sweet-t310",
+                0,
+                3022,
+                3
+            ],
+            "Time": 1484662935742
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Arelana",
+                0,
+                3004,
+                1
+            ],
+            "Time": 1484663120731
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "AkumulatoR",
+                0,
+                3014,
+                0
+            ],
+            "Time": 1484663175557
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Sweet-t310",
+                0,
+                3020,
+                3
+            ],
+            "Time": 1484663184623
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "Arelana",
+                0,
+                3017,
+                2
+            ],
+            "Time": 1484663310956
+        },
+        {
+            "Type": 12,
+            "Data": [
+                "AkumulatoR",
+                0,
+                3014,
+                2
+            ],
+            "Time": 1484663334977
         }
     ],
     "Rank2Members": 0,
@@ -80901,7 +80901,7 @@
     "SealsWeekly": 5906,
     "TotalMembers": 28,
     "Id": "WmP20Ppu5K",
-    "Trophies": 207553,
+    "Trophies": 207565,
     "StatueXpRequiredPrev": [
         2252,
         1517,

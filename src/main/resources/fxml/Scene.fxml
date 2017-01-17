@@ -14,7 +14,6 @@
                     <children>
                         <ProgressBar fx:id="prg_loading" layoutX="200.0" layoutY="177.0" prefWidth="200.0" />
                         <Label fx:id="lbl_loading" layoutX="12.0" layoutY="195.0" maxWidth="577.0" minWidth="577.0" prefHeight="17.0" prefWidth="577.0" styleClass=".debug" text="Status?!" textAlignment="CENTER" />
-                        
                     </children>
                 </AnchorPane>
             </content>
@@ -31,6 +30,11 @@
                         <TextField fx:id="txt_username" editable="false" layoutX="72.0" layoutY="47.0" prefHeight="25.0" prefWidth="363.0" />
                         <TextField fx:id="txt_password" editable="false" layoutX="72.0" layoutY="79.0" prefHeight="25.0" prefWidth="363.0" />
                         <Label fx:id="lbl_config_password" layoutX="14.0" layoutY="83.0" text="Password" />
+                        <!--Requirements-->
+                        <TextField fx:id="txt_req_gold" layoutX="115.0" layoutY="111.0" prefWidth="323.0"/>
+                        <Label fx:id="lbl_req_gold" layoutX="14.0" layoutY="115.0" text="Gold Requirement"/>
+                        <TextField fx:id="txt_req_seals" layoutX="115.0" layoutY="140.0" prefWidth="323.0"/>
+                        <Label fx:id="lbl_req_seals" layoutX="14.0" layoutY="144.0" text="Seals Requirement"/>
                     </children>
                 </AnchorPane>
             </content>
