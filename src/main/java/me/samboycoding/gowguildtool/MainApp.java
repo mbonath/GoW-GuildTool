@@ -1,13 +1,14 @@
 package me.samboycoding.gowguildtool;
 
+import com.sun.javafx.collections.ObservableListWrapper;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.util.ArrayList;
 import javafx.application.Application;
 import static javafx.application.Application.launch;
 import javafx.application.Platform;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
@@ -17,12 +18,18 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import static javafx.scene.control.ButtonType.CLOSE;
 import static javafx.scene.control.ButtonType.OK;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 import me.samboycoding.gowguildtool.files.ConfigFileManager;
 import me.samboycoding.gowguildtool.files.DataFileManager;
 import me.samboycoding.gowguildtool.utils.Utils;
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.filefilter.WildcardFileFilter;
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class MainApp extends Application
@@ -55,47 +62,99 @@ public class MainApp extends Application
 
                     ctrl.lbl_loading.setText("Loading your user data...");
 
-                    new Thread(new Runnable()
+                    new Thread(() ->
                     {
-                        @Override
-                        public void run()
+                        try
                         {
-                            try
+                            JSONObject conf = ConfigFileManager.inst.getData();
+                            JSONObject userdata = new JSONObject(NetHandler.loadUserData(uname, pwd));
+
+                            Platform.runLater(() ->
                             {
-                                JSONObject userdata = new JSONObject(NetHandler.loadUserData(uname, pwd));
-                                                                
-                                Platform.runLater(new Runnable()
+                                ctrl.lbl_loading.setText("Loading Guild Data...");
+                            });
+
+                            JSONObject guilddata = new JSONObject(NetHandler.loadGuildData(userdata));
+
+                            if (guilddata.has("error"))
+                            {
+                                if (guilddata.getString("error").contains("NOT_IN_A_GUILD"))
                                 {
-                                    @Override
-                                    public void run()
-                                    {
-                                        ctrl.lbl_loading.setText("Loading Guild Data...");
-                                    }
-                                });
-                                
-                                JSONObject guilddata = new JSONObject(NetHandler.loadGuildData(userdata));
-                                
-                                if(guilddata.has("error"))
-                                {
-                                    if(guilddata.getString("error").contains("NOT_IN_A_GUILD"))
-                                    {
-                                        Utils.msgBoxThreadSafe(Alert.AlertType.ERROR, "We couldn't load guild data, because you are not in a guild.", OK);
-                                        return;
-                                    }
+                                    Utils.msgBoxThreadSafe(Alert.AlertType.ERROR, "We couldn't load guild data, because you are not in a guild.", OK);
+                                    return;
                                 }
-                                
-                                Platform.runLater(new Runnable()
-                                {
-                                    @Override
-                                    public void run()
-                                    {
-                                        ctrl.lbl_loading.setText("Rendering...");
-                                    }
-                                });
-                            } catch (IOException ex)
-                            {
-                                Utils.msgBoxThreadSafe(Alert.AlertType.ERROR, "Unable to load user data!", OK);
                             }
+
+                            Platform.runLater(() ->
+                            {
+                                ctrl.lbl_loading.setText("Rendering...");
+                            });
+
+                            TableView<User> table = new TableView<>();
+                            ObservableList<User> userList = new ObservableListWrapper<>(new ArrayList<>());
+
+                            JSONArray users = guilddata.getJSONObject("result").getJSONObject("GuildData").getJSONArray("Users");
+
+                            for (Object o : users)
+                            {
+                                JSONObject u = (JSONObject) o;
+                                User user = new User();
+
+                                user.setUsername(u.getString("Name"));
+                                user.setLevel(u.getInt("Level"));
+                                user.setGold(u.getInt("GuildGoldContributedWeekly"));
+                                user.setSeals(u.getInt("GuildSealsWeekly"));
+                                user.setTrophies(u.getInt("GuildTrophiesWeekly"));
+
+                                int gold = user.getGold();
+                                int seals = user.getSeals();
+                                int troph = user.getTrophies();
+
+                                JSONObject req = conf.getJSONObject("Requirements");
+
+                                if (req.getInt("Gold") != 0 && req.getInt("Seals") != 0 && req.getInt("Trophies") != 0)
+                                {
+                                    double score = Math.round((((user.getGold() / req.getInt("Gold")) * 0.3) + ((user.getSeals() / req.getInt("Seals")) * 0.4) + ((user.getTrophies() / req.getInt("Trophies") * 0.3))) * 100);
+                                    
+                                    user.setScore("" + score);
+                                } else
+                                {
+                                    user.setScore("Requirements Not Set");
+                                }
+                                userList.add(user);
+                            }
+
+                            TableColumn<User, String> usernameCol = new TableColumn<>("Username");
+                            usernameCol.setCellValueFactory(new PropertyValueFactory("username"));
+                            TableColumn<User, Integer> levelCol = new TableColumn<>("Level");
+                            levelCol.setCellValueFactory(new PropertyValueFactory("level"));
+                            TableColumn<User, Integer> goldCol = new TableColumn<>("Gold Donated");
+                            goldCol.setCellValueFactory(new PropertyValueFactory("gold"));
+                            TableColumn<User, Integer> sealsCol = new TableColumn<>("Seals Earned");
+                            sealsCol.setCellValueFactory(new PropertyValueFactory("seals"));
+                            TableColumn<User, Integer> trophiesCol = new TableColumn<>("Trophies Earned");
+                            trophiesCol.setCellValueFactory(new PropertyValueFactory("trophies"));
+                            TableColumn<User, String> scoreCol = new TableColumn<>("User Score");
+                            scoreCol.setCellValueFactory(new PropertyValueFactory("score"));
+
+                            table.getColumns().setAll(usernameCol, levelCol, goldCol, sealsCol, trophiesCol, scoreCol);
+
+                            Platform.runLater(() ->
+                            {
+                                ctrl.prg_loading.setVisible(false);
+                                ctrl.lbl_loading.setVisible(false);
+
+                                AnchorPane.setBottomAnchor(table, 1d);
+                                AnchorPane.setLeftAnchor(table, 1d);
+                                AnchorPane.setRightAnchor(table, 1d);
+                                AnchorPane.setTopAnchor(table, 30d);
+                                ctrl.panel_overview.getChildren().add(table);
+
+                                table.setItems(userList);
+                            });
+                        } catch (IOException ex)
+                        {
+                            Utils.msgBoxThreadSafe(Alert.AlertType.ERROR, "Unable to load user data!", OK);
                         }
                     }).start();
                 }

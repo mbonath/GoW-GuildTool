@@ -27,7 +27,6 @@ public class NetHandler
 
     public static String loadUserData(String uname, String pwd) throws UnsupportedEncodingException, IOException
     {
-        JSONObject savedData = ConfigFileManager.inst.getData();
         JSONObject payload = new JSONObject();
 
         payload.put("username", uname);
@@ -38,15 +37,13 @@ public class NetHandler
 
         String postData = payload.toString(4);
         
-        System.out.println(postData);
-
         CloseableHttpClient httpclient = HttpClients.createDefault();
         
         HttpPost post_get_userdata = new HttpPost("http://gemsofwar.parseapp.com/call_function");
         post_get_userdata.setEntity(new StringEntity(postData));
         post_get_userdata.setHeader("Content-Type", "application/json");
         
-        JSONObject result = null;
+        JSONObject result;
 
         try (CloseableHttpResponse response_get_userdata = httpclient.execute(post_get_userdata))
         {
@@ -55,8 +52,6 @@ public class NetHandler
             StringWriter writer = new StringWriter();
             IOUtils.copy(entity2.getContent(), writer, (String) null);
             String theString = writer.toString();
-            
-            System.out.println("StatusCode: " + response_get_userdata.getStatusLine().toString() + "\nResponse Data: " + theString);
 
             File save = new File("gameData.json");
 
@@ -80,7 +75,6 @@ public class NetHandler
 
     public static String loadGuildData(JSONObject userdata) throws UnsupportedEncodingException, IOException
     {
-        JSONObject savedData = ConfigFileManager.inst.getData();
         JSONObject payload = new JSONObject();
 
         payload.put("username", userdata.getJSONObject("result").getJSONObject("pCredentials").getString("username"));
@@ -92,15 +86,13 @@ public class NetHandler
 
         String postData = payload.toString(4);
         
-        System.out.println(postData);
-
         CloseableHttpClient httpclient = HttpClients.createDefault();
         
         HttpPost post_get_guilddata = new HttpPost("http://gemsofwar.parseapp.com/call_function");
         post_get_guilddata.setEntity(new StringEntity(postData));
         post_get_guilddata.setHeader("Content-Type", "application/json");
         
-        JSONObject result = null;
+        JSONObject result;
 
         try (CloseableHttpResponse response_get_guilddata = httpclient.execute(post_get_guilddata))
         {
@@ -110,8 +102,6 @@ public class NetHandler
             IOUtils.copy(entity2.getContent(), writer, (String) null);
             String theString = writer.toString();
             
-            System.out.println("StatusCode: " + response_get_guilddata.getStatusLine().toString() + "\nResponse Data: " + theString);
-
             File save = new File("guildData.json");
 
             if (save.exists())
