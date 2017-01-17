@@ -34,6 +34,27 @@ public class User
         return username;
     }
     
+    private StringProperty rawData;
+
+    public void setRawData(String value)
+    {
+        rawDataProperty().set(value);
+    }
+
+    public String getRawData()
+    {
+        return rawDataProperty().get();
+    }
+
+    public StringProperty rawDataProperty()
+    {
+        if (rawData == null)
+        {
+            rawData = new SimpleStringProperty(this, "username");
+        }
+        return rawData;
+    }
+    
     private IntegerProperty level;
 
     public void setLevel(int value)

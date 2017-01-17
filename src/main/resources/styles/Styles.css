@@ -1,0 +1,9 @@
+.tablecell-bad
+{
+    -fx-background-color: #F4C7C3;
+}
+
+.tablecell-good
+{
+    -fx-background-color: #B7E1CD;
+}

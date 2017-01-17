@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
@@ -10,31 +11,44 @@
     <tabs>
         <Tab fx:id="tab_overview" text="Overview">
             <content>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" fx:id="panel_overview">
+                <AnchorPane fx:id="panel_overview" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                     <children>
                         <ProgressBar fx:id="prg_loading" layoutX="200.0" layoutY="177.0" prefWidth="200.0" />
                         <Label fx:id="lbl_loading" layoutX="12.0" layoutY="195.0" maxWidth="577.0" minWidth="577.0" prefHeight="17.0" prefWidth="577.0" styleClass=".debug" text="Status?!" textAlignment="CENTER" />
+                  <Button fx:id="btn_refresh" layoutX="12.0" layoutY="14.0" mnemonicParsing="false" text="Refresh" />
+                  <Button fx:id="btn_upload" layoutX="530.0" layoutY="14.0" mnemonicParsing="false" text="Upload" />
                     </children>
                 </AnchorPane>
             </content>
         </Tab>
         <Tab fx:id="tab_config" text="Configuration">
             <content>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" fx:id="panel_config">
+                <AnchorPane fx:id="panel_config" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                     <children>
-                        <TextField fx:id="txt_datafile" editable="false" layoutX="72.0" layoutY="14.0" prefHeight="25.0" prefWidth="363.0" />
+                        <TextField fx:id="txt_datafile" editable="false" layoutX="74.0" layoutY="14.0" prefHeight="25.0" prefWidth="363.0" />
                         <Label fx:id="lbl_config_filepath" layoutX="14.0" layoutY="18.0" text="Data File:" />
-                        <Button fx:id="btn_browse_file" layoutX="443.0" layoutY="14.0" mnemonicParsing="false" text="Browse" />
-                        <Button fx:id="btn_autodetect_file" layoutX="504.0" layoutY="14.0" mnemonicParsing="false" text="Auto-Detect" />
-                        <Label fx:id="lbl_config_username" layoutX="14.0" layoutY="51.0" text="Username" />
-                        <TextField fx:id="txt_username" editable="false" layoutX="72.0" layoutY="47.0" prefHeight="25.0" prefWidth="363.0" />
-                        <TextField fx:id="txt_password" editable="false" layoutX="72.0" layoutY="79.0" prefHeight="25.0" prefWidth="363.0" />
-                        <Label fx:id="lbl_config_password" layoutX="14.0" layoutY="83.0" text="Password" />
+                        <Button fx:id="btn_browse_file" layoutX="445.0" layoutY="14.0" mnemonicParsing="false" text="Browse" />
+                        <Button fx:id="btn_autodetect_file" layoutX="506.0" layoutY="14.0" mnemonicParsing="false" text="Auto-Detect" />
+                        <Label layoutX="74.0" layoutY="41.0" prefHeight="36.0" prefWidth="483.0" text="If you click &quot;Browse&quot; you are looking for a file called User*****.json.&#10;If you click Auto-Detect we'll try to find it for you in the default location." wrapText="true" />
+                        <Label fx:id="lbl_config_username" layoutX="14.0" layoutY="87.0" text="Username" />
+                        <TextField fx:id="txt_username" editable="false" layoutX="74.0" layoutY="83.0" prefHeight="25.0" prefWidth="363.0" promptText="Will be auto-filled when a valid file is selected" />
+                        <Label fx:id="lbl_config_password" layoutX="14.0" layoutY="119.0" text="Password" />
+                        <TextField fx:id="txt_password" editable="false" layoutX="74.0" layoutY="115.0" prefHeight="25.0" prefWidth="363.0" promptText="Will be auto-filled when a valid file is selected" />
+                  <Label fx:id="lbl_config_serverurl" layoutX="14.0" layoutY="150.0" text="Server URL" />
+                  <TextField fx:id="txt_serverurl" layoutX="74.0" layoutY="146.0" prefHeight="25.0" prefWidth="363.0" promptText="https://404guild.samboycoding.me" />
+                        <Label layoutX="187.0" layoutY="188.0" text="Requirements:" underline="true">
+                            <font>
+                                <Font name="System Bold" size="20.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="lbl_req_gold" layoutX="14.0" layoutY="229.0" text="Gold" />
                         <!--Requirements-->
-                        <TextField fx:id="txt_req_gold" layoutX="115.0" layoutY="111.0" prefWidth="323.0"/>
-                        <Label fx:id="lbl_req_gold" layoutX="14.0" layoutY="115.0" text="Gold Requirement"/>
-                        <TextField fx:id="txt_req_seals" layoutX="115.0" layoutY="140.0" prefWidth="323.0"/>
-                        <Label fx:id="lbl_req_seals" layoutX="14.0" layoutY="144.0" text="Seals Requirement"/>
+                        <TextField fx:id="txt_req_gold" layoutX="72.0" layoutY="225.0" prefWidth="363.0" />
+                        <Label fx:id="lbl_req_seals" layoutX="14.0" layoutY="258.0" text="Seals" />
+                        <TextField fx:id="txt_req_seals" layoutX="72.0" layoutY="254.0" prefWidth="363.0" />
+                        <Label fx:id="lbl_req_trophies" layoutX="14.0" layoutY="288.0" text="Trophies" />
+                        <TextField fx:id="txt_req_trophies" layoutX="72.0" layoutY="285.0" prefHeight="25.0" prefWidth="363.0" />
+                        <Button fx:id="btn_save_requirements" layoutX="317.0" layoutY="318.0" mnemonicParsing="false" text="Save Requirements" />
                     </children>
                 </AnchorPane>
             </content>

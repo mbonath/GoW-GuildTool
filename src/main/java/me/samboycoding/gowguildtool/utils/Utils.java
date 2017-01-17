@@ -47,11 +47,11 @@ public class Utils
         try (ReadableByteChannel rbc = Channels.newChannel(website.openStream()); FileOutputStream fos = new FileOutputStream(localDes))
         {
             fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-        } catch(Exception ex)
+        } catch (Exception ex)
         {
             throw ex; //Report it upwards
         }
-        if(!(new File(localDes).exists()))
+        if (!(new File(localDes).exists()))
         {
             throw new IOException("File \"" + localDes + "\" was not downloaded!");
         }
@@ -65,15 +65,10 @@ public class Utils
 
     public static void msgBoxThreadSafe(final AlertType type, final String message, final ButtonType... btns)
     {
-        Platform.runLater(new Runnable()
+        Platform.runLater(() ->
         {
-            @Override
-            public void run()
-            {
-                Alert alert = new Alert(type, message, btns);
-                alert.showAndWait();
-            }
-
+            Alert alert = new Alert(type, message, btns);
+            alert.showAndWait();
         });
     }
 
@@ -103,7 +98,7 @@ public class Utils
             f.createNewFile();
         }
     }
-    
+
     public static void createFile(Path file, String initialtext) throws IOException
     {
         File f = file.toFile();

@@ -1,9 +1,9 @@
 {
     "ServerURL": null,
-    "FileLocation": "C:\\Users\\r3byass\\AppData\\Roaming\\com.infinite-interactive.GoW\\Local Store\\User76561198088931521Steam.json",
+    "FileLocation": "C:\\Users\\Sam\\AppData\\Roaming\\com.infinite-interactive.GoW\\Local Store\\User76561198088931521Steam.json",
     "Requirements": {
-        "Trophies": 0,
-        "Gold": 0,
-        "Seals": 0
+        "Trophies": 100,
+        "Gold": 100000,
+        "Seals": 650
     }
 }

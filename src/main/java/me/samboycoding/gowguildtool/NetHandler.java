@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.io.UnsupportedEncodingException;
-import me.samboycoding.gowguildtool.files.ConfigFileManager;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.http.HttpEntity;
@@ -120,5 +119,10 @@ public class NetHandler
         {
             return null;
         }
+    }
+
+    public static void uploadData(String string)
+    {
+        //TODO
     }
 }
