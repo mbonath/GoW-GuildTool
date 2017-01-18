@@ -18,3 +18,5 @@ target/
 target
 
 GuildToolConfig.json
+GuildToolConfig.json
+*.json
