@@ -96,6 +96,11 @@ public class MainApp extends Application
                         JSONObject conf = ConfigFileManager.inst.getData();
                         JSONObject userdata = new JSONObject(NetHandler.loadUserData(uname, pwd));
 
+                        if(userdata.has("error"))
+                        {
+                            Utils.msgBoxThreadSafe(Alert.AlertType.ERROR, "Unknown error recevied! Details: \n" + userdata.toString(2), OK);
+                        }
+                        
                         Platform.runLater(() ->
                         {
                             ctrl.lbl_loading.setText("Loading Guild Data...");
@@ -109,6 +114,9 @@ public class MainApp extends Application
                             {
                                 Utils.msgBoxThreadSafe(Alert.AlertType.ERROR, "We couldn't load guild data, because you are not in a guild.", OK);
                                 return;
+                            } else
+                            {
+                                Utils.msgBoxThreadSafe(Alert.AlertType.ERROR, "Unknown error recevied! Details: \n" + guilddata.toString(2), OK);
                             }
                         }
 
