@@ -893,6 +893,10 @@
         "Quest_Gold": 100,
         "StarterOffer_Souls": 750,
         "GuildSealsWeeklyMaxUser": 1500,
+<<<<<<< HEAD
+=======
+        "DefenseGoldDefeat_GemChance": 0.05,
+>>>>>>> 659e299a3f231cbcac32ee0a039225908ee83615
         "DefenseGoldDefeat_Glory": 1,
         "DefenseGoldDefeat_GemChance": 0.05,
         "KingdomPower_PointsPerTroop": 50,
@@ -2644,7 +2648,11 @@
             "Demotion": 999900
         }
     ],
+<<<<<<< HEAD
     "ServerToken": "hqKyvsuzjZ3P",
+=======
+    "ServerToken": "JUtBCsu1UH1A",
+>>>>>>> 659e299a3f231cbcac32ee0a039225908ee83615
     "pTraitsTable": [
         {
             "Runes": [
@@ -19078,20 +19086,37 @@
     "pUser": {
         "UnspentLevelUpPoints": 0,
         "GuildGoldContributedWeekly": 55000,
+<<<<<<< HEAD
         "Souls": 2698,
         "ArmorNew": 9,
         "Gems": 237,
         "GuildGoldContributedTotal": 530601,
         "Difficulty": 0,
         "ChatRoomId": 2,
+=======
+        "ArmorNew": 9,
+        "Gems": 237,
+        "Souls": 2698,
+        "ChatRoomId": 2,
+        "Difficulty": 0,
+        "GuildGoldContributedTotal": 530601,
+>>>>>>> 659e299a3f231cbcac32ee0a039225908ee83615
         "Gender": 0,
         "RacesOwned": [],
         "Skin_Face": -1,
         "PvPWinStreak": 1,
         "ForceStageVersionNumber": null,
+<<<<<<< HEAD
+=======
+        "PvPWinStreak": 1,
+>>>>>>> 659e299a3f231cbcac32ee0a039225908ee83615
         "CurrentObjectiveIndex": 0,
         "NextStartDayTime": 1484809200000,
         "ForceVersionNumber": "2.2.007",
+<<<<<<< HEAD
+=======
+        "NextStartDayTime": 1484809200000,
+>>>>>>> 659e299a3f231cbcac32ee0a039225908ee83615
         "EventTroopFile1": 6304,
         "Skin_HairColor": 0,
         "EventTroopFile2": 6143,
@@ -19107,15 +19132,26 @@
             82,
             75
         ],
+<<<<<<< HEAD
         "ServerTime": 1484768366570,
+=======
+        "ServerTime": 1484743527687,
+>>>>>>> 659e299a3f231cbcac32ee0a039225908ee83615
         "GuildTroopHealthBonus": 0,
         "PvPTier": 14,
         "GuildId": "WmP20Ppu5K",
         "GloryTargetOld": 11700,
+<<<<<<< HEAD
         "Seals": 949,
         "Refunds": [],
         "Level": 44,
         "GuildColdContributedTotal": 530601,
+=======
+        "Refunds": [],
+        "Seals": 949,
+        "GuildColdContributedTotal": 530601,
+        "Level": 44,
+>>>>>>> 659e299a3f231cbcac32ee0a039225908ee83615
         "GuildPurchase": 1,
         "TroopMagicBonus": 0,
         "WeeklyTokens": {
@@ -19126,9 +19162,13 @@
         "HasPvPRewards": false,
         "TroopAttackBonus": 0,
         "SpellPower": 3,
+<<<<<<< HEAD
         "ServerVersion": "2.2",
         "OfferCurrent": 0,
         "LastDynamicDataCheck": 1484768366385,
+=======
+        "LastDynamicDataCheck": 1484743526306,
+>>>>>>> 659e299a3f231cbcac32ee0a039225908ee83615
         "LastHeroDataSave": 1484728887505,
         "EmailLinked": true,
         "SkinsOwned": [
@@ -20633,6 +20673,10 @@
                 "QuestsComplete": 0
             }
         },
+<<<<<<< HEAD
+=======
+        "Skin_Costume": 2,
+>>>>>>> 659e299a3f231cbcac32ee0a039225908ee83615
         "DefendWins": 37,
         "GuildSealsWeekly": 299,
         "GuildTasksCompleted": [
@@ -20646,7 +20690,7 @@
         "GuildTroopAttackBonus": 3,
         "CurrentKingdomId": 3004,
         "HasPurchased": true,
-        "HasNewMail": true,
+        "HasNewMail": false,
         "MaxHealthNew": 15,
         "EquippedWeaponId": 1064,
         "Data_Check": [
@@ -20743,9 +20787,15 @@
             "3025": 1
         },
         "ServerStatus": 0,
+<<<<<<< HEAD
         "OfferStartTime": 0,
         "EventPoints": 11,
         "TreasureMaps": 69,
+=======
+        "EventPoints": 11,
+        "TreasureMaps": 69,
+        "Gold": 9380,
+>>>>>>> 659e299a3f231cbcac32ee0a039225908ee83615
         "Skin_FaceFeature": -1,
         "Gold": 9380,
         "GuildTroopMagicBonus": 2,
@@ -20811,15 +20861,25 @@
                 "NextRankRequiredPoints": 600
             },
             "3001": {
+<<<<<<< HEAD
                 "Troops": 10,
                 "NextRank": 2,
+=======
+                "NextRank": 2,
+                "Troops": 10,
+>>>>>>> 659e299a3f231cbcac32ee0a039225908ee83615
                 "Points": 600,
                 "TroopsPoints": 500,
                 "TraitsPoints": 0,
                 "Levels": 10,
                 "CurrentRank": 1,
+<<<<<<< HEAD
                 "LevelsPoints": 100,
                 "CurrentRankRequiredPoints": 600,
+=======
+                "CurrentRankRequiredPoints": 600,
+                "LevelsPoints": 100,
+>>>>>>> 659e299a3f231cbcac32ee0a039225908ee83615
                 "Traits": 0,
                 "NextRankRequiredPoints": 1200
             },
@@ -21206,8 +21266,13 @@
             0,
             1
         ],
+<<<<<<< HEAD
         "StartDayTime": 1484722800000,
         "GloryTargetNext": 12700,
+=======
+        "GloryTargetNext": 12700,
+        "StartDayTime": 1484722800000,
+>>>>>>> 659e299a3f231cbcac32ee0a039225908ee83615
         "Attack": 6,
         "ShowGrowthPacks": true,
         "Skin_Body": 13,
@@ -21487,6 +21552,10 @@
         "Souls": 0,
         "XP": 0
     },
+<<<<<<< HEAD
+=======
+    "nLastDynamicDataCheck": 1484743526306,
+>>>>>>> 659e299a3f231cbcac32ee0a039225908ee83615
     "pEvents": [
         {
             "BonusType": "wildfolk",
