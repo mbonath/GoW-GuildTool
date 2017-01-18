@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import javafx.application.Application;
 import static javafx.application.Application.launch;
 import javafx.application.Platform;
@@ -44,6 +45,7 @@ public class MainApp extends Application
     TableView<User> table = null;
     public static ArrayList<User> users = new ArrayList<>();
 
+    //@SuppressWarnings("unchecked")
     private void doLoadData()
     {
         try
@@ -184,7 +186,8 @@ public class MainApp extends Application
                         TableColumn<User, Integer> scoreCol = new TableColumn<>("User Score");
                         scoreCol.setCellValueFactory(new PropertyValueFactory<>("score"));
 
-                        table.getColumns().setAll(usernameCol, levelCol, goldCol, sealsCol, trophiesCol, scoreCol);
+                        //All of this balony because "unchecked"
+                        table.getColumns().setAll(new ArrayList<>(Arrays.asList(usernameCol, levelCol, goldCol, sealsCol,trophiesCol,scoreCol)));
 
                         Platform.runLater(() ->
                         {
