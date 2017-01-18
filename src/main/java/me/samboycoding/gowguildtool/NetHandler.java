@@ -130,7 +130,7 @@ public class NetHandler
         }
     }
 
-    public static void uploadData(String url, final ArrayList<User> users, TableView table)
+    public static void uploadData(String url, final ArrayList<User> users, TableView<User> table)
     {
         new Thread(() ->
         {
