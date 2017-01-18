@@ -1,7 +1,7 @@
 {"result": {
     "pEconomyModel": {
-        "ClassUnlockPerk1": 10,
         "PillageStronger_Bonus": 1.1,
+        "ClassUnlockPerk1": 10,
         "TroopMaxLevel_WithAscension": 20,
         "MagicKeyTroopChance": [
             0.6,
@@ -58,8 +58,6 @@
             1000
         ],
         "BattleWin_Gold": 7,
-        "ClassUnlockPerk2": 25,
-        "DefenseGoldDefeat_KeyChance": 0.25,
         "TroopLevelCost_Souls_R5": [
             0,
             20,
@@ -82,6 +80,8 @@
             1000,
             1200
         ],
+        "DefenseGoldDefeat_KeyChance": 0.25,
+        "ClassUnlockPerk2": 25,
         "ClassUnlockPerk3": 50,
         "MatchmakingPvPScores_Min": [
             0,
@@ -273,8 +273,8 @@
         },
         "AdaptiveAIFactor": 0.5,
         "LootTurns": 8,
-        "KingdomPower_PointsPerTrait_Extended": 10,
         "PvPGoldToWin_BaseEnemyMultiplierLo": 0.5,
+        "KingdomPower_PointsPerTrait_Extended": 10,
         "KingdomLevelData": {
             "3002": {
                 "Stat": "life",
@@ -408,7 +408,6 @@
             2,
             3
         ],
-        "GrowthPack_ShowLevel": 8,
         "WeeklySoulBonus": [
             0,
             5,
@@ -426,6 +425,7 @@
             75,
             100
         ],
+        "GrowthPack_ShowLevel": 8,
         "RandomKey_Chance": 0.03,
         "TimeBetweenAds": 1200,
         "PvPGoldToWin_RandomFactor": 30,
@@ -518,8 +518,8 @@
         },
         "Casket_Souls": 100,
         "Battle_Max_Gold": 100,
-        "PvPDefense_PointsLost_Multiplier": 0.1,
         "PvPGoldToWin_Max": 2250,
+        "PvPDefense_PointsLost_Multiplier": 0.1,
         "BattleCostTutorial_Gold": 0,
         "Explore_RunePerKingdom": {
             "3002": [27],
@@ -892,9 +892,9 @@
         "Initial_Souls": 0,
         "Quest_Gold": 100,
         "StarterOffer_Souls": 750,
-        "GuildSealsWeeklyMaxUser": 1700,
-        "DefenseGoldDefeat_GemChance": 0.05,
+        "GuildSealsWeeklyMaxUser": 1500,
         "DefenseGoldDefeat_Glory": 1,
+        "DefenseGoldDefeat_GemChance": 0.05,
         "KingdomPower_PointsPerTroop": 50,
         "Battle_Max_Souls": 40,
         "ArenaTroopLevels": 15,
@@ -986,7 +986,6 @@
             10
         ],
         "PvPSkip_Cost": 10,
-        "EventMenuTutorial_ShowLevel": 11,
         "GuildLegendaryTaskRewards": [
             [
                 {
@@ -1125,6 +1124,7 @@
                 }
             ]
         ],
+        "EventMenuTutorial_ShowLevel": 11,
         "PathToGlory2Sub_Rewards": [
             {
                 "LootTables": [{"Runes": [{
@@ -1193,10 +1193,32 @@
                 "Day": 8
             },
             {
-                "LootTables": [{"Runes": [{
-                    "RuneAmount": 6,
-                    "RuneId": 24
-                }]}],
+                "LootTables": [{"Runes": [
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 24
+                    },
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 25
+                    },
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 26
+                    },
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 27
+                    },
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 28
+                    },
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 19
+                    }
+                ]}],
                 "Day": 9
             },
             {
@@ -1210,8 +1232,28 @@
                         "RuneId": 13
                     },
                     {
-                        "RuneAmount": 5,
+                        "RuneAmount": 1,
                         "RuneId": 24
+                    },
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 25
+                    },
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 26
+                    },
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 27
+                    },
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 28
+                    },
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 19
                     }
                 ]}],
                 "Day": 10
@@ -1359,10 +1401,32 @@
                 "Day": 26
             },
             {
-                "LootTables": [{"Runes": [{
-                    "RuneAmount": 6,
-                    "RuneId": 38
-                }]}],
+                "LootTables": [{"Runes": [
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 38
+                    },
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 23
+                    },
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 28
+                    },
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 32
+                    },
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 35
+                    },
+                    {
+                        "RuneAmount": 1,
+                        "RuneId": 37
+                    }
+                ]}],
                 "Day": 27
             },
             {
@@ -1418,8 +1482,8 @@
             2,
             100
         ],
-        "KingdomPower_PointsPerLevel": 10,
         "PvPGoldToWin_ActualLevelBonusFactor": 0.8,
+        "KingdomPower_PointsPerLevel": 10,
         "LoyaltyBonusPerDay_Gold": 50,
         "WeeklyGloryBonus": [
             0,
@@ -1481,8 +1545,8 @@
         "HeroMaxLevel": 1000,
         "ChestVIP_GoldBonus": 2000,
         "KingdomPower_PointsPerTrait": 25,
-        "AITraitFirstHeroLevel": 50,
         "DefendWinsRequired": 60,
+        "AITraitFirstHeroLevel": 50,
         "ChangeClassCost": 50,
         "MatchmakingPvPScores_Max": [
             500,
@@ -1535,8 +1599,8 @@
             100
         ],
         "Match5_Gold": 5,
-        "PvPCasualRefresh_Cost": 50,
         "StarterOffer_Keys": 3,
+        "PvPCasualRefresh_Cost": 50,
         "DefendGoldBonus": 2000,
         "DefendLevelRestriction": 8,
         "GuildSealsChestUpgrades": [
@@ -1560,6 +1624,7 @@
             150
         ],
         "Chest10_Discount": 5,
+        "Explore_SpecialRuneChance": 0.045,
         "ArenaRewards": [
             {
                 "Trophies": 0,
@@ -1616,7 +1681,6 @@
                 "Keys": 5
             }
         ],
-        "Explore_SpecialRuneChance": 0.045,
         "PvPGoldToWin_Min": 50,
         "ClassLevelForKingdomBonus": 10,
         "ArenaWinsRequiredForOffer": 6,
@@ -1624,88 +1688,88 @@
             {
                 "Gold": 25000,
                 "Specials": 11,
-                "Gems": 50,
                 "Souls": 2500,
+                "Gems": 50,
                 "MaxRank": 1,
                 "MinRank": 1
             },
             {
                 "Gold": 20000,
                 "Specials": 6,
-                "Gems": 40,
                 "Souls": 2000,
+                "Gems": 40,
                 "MaxRank": 3,
                 "MinRank": 2
             },
             {
                 "Gold": 15000,
                 "Specials": 3,
-                "Gems": 30,
                 "Souls": 1500,
+                "Gems": 30,
                 "MaxRank": 6,
                 "MinRank": 4
             },
             {
                 "Gold": 10000,
                 "Specials": 2,
-                "Gems": 20,
                 "Souls": 1000,
+                "Gems": 20,
                 "MaxRank": 10,
                 "MinRank": 7
             },
             {
                 "Gold": 7500,
                 "Specials": 1,
-                "Gems": 10,
                 "Souls": 800,
+                "Gems": 10,
                 "MaxRank": 20,
                 "MinRank": 11
             },
             {
                 "Gold": 5000,
                 "Specials": 0,
-                "Gems": 5,
                 "Souls": 700,
+                "Gems": 5,
                 "MaxRank": 50,
                 "MinRank": 21
             },
             {
                 "Gold": 4000,
                 "Specials": 0,
-                "Gems": 4,
                 "Souls": 600,
+                "Gems": 4,
                 "MaxRank": 100,
                 "MinRank": 51
             },
             {
                 "Gold": 3000,
                 "Specials": 0,
-                "Gems": 3,
                 "Souls": 500,
+                "Gems": 3,
                 "MaxRank": 200,
                 "MinRank": 101
             },
             {
                 "Gold": 2000,
                 "Specials": 0,
-                "Gems": 2,
                 "Souls": 250,
+                "Gems": 2,
                 "MaxRank": 500,
                 "MinRank": 201
             },
             {
                 "Gold": 1000,
                 "Specials": 0,
-                "Gems": 1,
                 "Souls": 100,
+                "Gems": 1,
                 "MaxRank": 1000,
                 "MinRank": 501
             },
             {
                 "Gold": 500,
                 "Specials": 0,
-                "Gems": 0,
                 "Souls": 50,
+                "Gems": 0,
                 "MaxRank": 1000000,
                 "MinRank": 1001
             }
@@ -2199,10 +2263,10 @@
             ]
         },
         "EventBonus_LevelBegin": 10,
-        "CurrentEventKingdomId": 3027,
         "MasteryLimit": 0.73,
-        "ClassAugmentMana": 2,
+        "CurrentEventKingdomId": 3027,
         "PvPGoldToWin_Max_Variance": 20,
+        "ClassAugmentMana": 2,
         "AITraitChance_Max": 80,
         "MatchmakingLevels_Max": [
             10,
@@ -2259,7 +2323,6 @@
         "StarterOffer_Skin": 3,
         "MagicKeyShinyChance": 0,
         "PvPGoldToWin_EnemyRankFactor": 1,
-        "KingdomPower_PointsPerLevel_Extended": 2,
         "TroopFusionBonus_Stats": [
             {
                 "SpellPower": 0,
@@ -2298,8 +2361,8 @@
                 "Attack": 1
             }
         ],
+        "KingdomPower_PointsPerLevel_Extended": 2,
         "IntermediateOffer_ShopItemIndex": 7,
-        "ChangeClassFreeTime_Days": 1,
         "DifficultyLevelLock": [
             0,
             10,
@@ -2308,15 +2371,16 @@
             100,
             150
         ],
+        "ChangeClassFreeTime_Days": 1,
         "PvPBonusPerRank_Gold": 10,
         "DefenseGoldVictory_Glory": 3,
-        "ClassAugmentArmor": 8,
         "Quest_XP": 25,
         "TributeChance_Base": 0,
+        "ClassAugmentArmor": 8,
         "DefenseGoldVictory_Bonus": 100,
         "PvPDefense_PointsWon_Multiplier": 1,
-        "GrowthPathToGloryPopup_TimeInterval": 0,
         "ModifyPvPRewardsForFreeBattles": 0.85,
+        "GrowthPathToGloryPopup_TimeInterval": 0,
         "AdaptiveAIFactor_Arena": [
             0.1,
             0.5,
@@ -2414,8 +2478,8 @@
         "StarterOffer_ShopItemIndex": 6,
         "Initial_Gold": 900,
         "TroopMaxLevel": 15,
-        "ArenaTroopCostDiscount": 0.55,
         "KingdomPower_PointsPerTroop_Extended": 10,
+        "ArenaTroopCostDiscount": 0.55,
         "GoldCollectionWait": 60
     },
     "pGuildRanks": [
@@ -2580,7 +2644,7 @@
             "Demotion": 999900
         }
     ],
-    "ServerToken": "5RtUrHzQqPcp",
+    "ServerToken": "hqKyvsuzjZ3P",
     "pTraitsTable": [
         {
             "Runes": [
@@ -19013,59 +19077,59 @@
     ],
     "pUser": {
         "UnspentLevelUpPoints": 0,
-        "GuildGoldContributedWeekly": 25000,
+        "GuildGoldContributedWeekly": 55000,
+        "Souls": 2698,
         "ArmorNew": 9,
-        "Gems": 47,
-        "Souls": 2622,
-        "ChatRoomId": 2,
+        "Gems": 237,
+        "GuildGoldContributedTotal": 530601,
         "Difficulty": 0,
-        "GuildGoldContributedTotal": 500601,
+        "ChatRoomId": 2,
         "Gender": 0,
         "RacesOwned": [],
         "Skin_Face": -1,
+        "PvPWinStreak": 1,
         "ForceStageVersionNumber": null,
-        "PvPWinStreak": 0,
         "CurrentObjectiveIndex": 0,
+        "NextStartDayTime": 1484809200000,
         "ForceVersionNumber": "2.2.007",
-        "NextStartDayTime": 1484722800000,
         "EventTroopFile1": 6304,
         "Skin_HairColor": 0,
         "EventTroopFile2": 6143,
-        "DefenseTeam": 1,
         "Skin_FaceFeatureColor": 0,
+        "DefenseTeam": 1,
         "TroopArmorBonus": 0,
         "KingdomTroops": [],
         "GuildStatueLevels": [
-            92,
+            93,
             75,
             82,
             76,
             82,
             75
         ],
-        "ServerTime": 1484682416951,
+        "ServerTime": 1484768366570,
         "GuildTroopHealthBonus": 0,
         "PvPTier": 14,
         "GuildId": "WmP20Ppu5K",
-        "GloryTargetOld": 11200,
+        "GloryTargetOld": 11700,
+        "Seals": 949,
         "Refunds": [],
-        "Seals": 892,
-        "GuildColdContributedTotal": 500601,
-        "Level": 43,
+        "Level": 44,
+        "GuildColdContributedTotal": 530601,
         "GuildPurchase": 1,
         "TroopMagicBonus": 0,
         "WeeklyTokens": {
             "Type": 100,
             "AmountToday": 3,
-            "Amount": 801
+            "Amount": 819
         },
-        "HasPvPRewards": true,
+        "HasPvPRewards": false,
         "TroopAttackBonus": 0,
-        "OfferCurrent": 0,
-        "ServerVersion": "2.2",
         "SpellPower": 3,
-        "LastDynamicDataCheck": 1484682416757,
-        "LastHeroDataSave": 1484642650376,
+        "ServerVersion": "2.2",
+        "OfferCurrent": 0,
+        "LastDynamicDataCheck": 1484768366385,
+        "LastHeroDataSave": 1484728887505,
         "EmailLinked": true,
         "SkinsOwned": [
             0,
@@ -19075,7 +19139,7 @@
             10,
             13
         ],
-        "LevelNew": 43,
+        "LevelNew": 44,
         "Troops": {
             "6230": {
                 "Amount": 40,
@@ -19191,7 +19255,7 @@
             "6242": {
                 "CurrentRarity": 3,
                 "FusionCards": 10,
-                "Amount": 1,
+                "Amount": 2,
                 "Level": 1
             },
             "6003": {
@@ -19243,7 +19307,7 @@
             "6246": {
                 "CurrentRarity": 3,
                 "FusionCards": 7,
-                "Amount": 4,
+                "Amount": 5,
                 "Level": 1
             },
             "1": {},
@@ -19252,7 +19316,7 @@
                 "Level": 1
             },
             "6238": {
-                "Amount": 1,
+                "Amount": 2,
                 "Level": 1
             },
             "6116": {
@@ -19269,6 +19333,10 @@
             },
             "6131": {
                 "Amount": 11,
+                "Level": 1
+            },
+            "6252": {
+                "Amount": 1,
                 "Level": 1
             },
             "6130": {
@@ -19289,7 +19357,7 @@
                 "Amount": 5,
                 "TraitsOwned": 2,
                 "Level": 18,
-                "Invasions": 196
+                "Invasions": 197
             },
             "6254": {
                 "Amount": 36,
@@ -19368,7 +19436,7 @@
                 "Level": 1
             },
             "6249": {
-                "Amount": 29,
+                "Amount": 30,
                 "Level": 1
             },
             "6006": {
@@ -19380,7 +19448,7 @@
                 "Level": 1
             },
             "6248": {
-                "Amount": 2,
+                "Amount": 3,
                 "Level": 1
             },
             "6009": {
@@ -19410,7 +19478,7 @@
                 "Level": 1
             },
             "6141": {
-                "Amount": 7,
+                "Amount": 8,
                 "Level": 1
             },
             "6262": {
@@ -19438,7 +19506,7 @@
                 "FusionCards": 2,
                 "Amount": 1,
                 "Level": 19,
-                "Invasions": 6
+                "Invasions": 7
             },
             "6264": {
                 "CurrentRarity": 1,
@@ -19571,7 +19639,7 @@
                 "Level": 1
             },
             "6035": {
-                "Amount": 3,
+                "Amount": 4,
                 "Level": 1
             },
             "6156": {
@@ -19649,7 +19717,7 @@
                 "Level": 1
             },
             "6285": {
-                "Amount": 1,
+                "Amount": 2,
                 "Level": 1
             },
             "6042": {
@@ -19733,7 +19801,7 @@
                 "Level": 1
             },
             "6282": {
-                "Amount": 4,
+                "Amount": 6,
                 "Level": 1
             },
             "6039": {
@@ -19785,7 +19853,7 @@
             "6179": {
                 "CurrentRarity": 2,
                 "FusionCards": 13,
-                "Amount": 9,
+                "Amount": 10,
                 "Level": 1
             },
             "6057": {
@@ -19956,7 +20024,7 @@
                 "Level": 1
             },
             "6190": {
-                "Amount": 1,
+                "Amount": 2,
                 "Level": 1
             },
             "6072": {
@@ -19999,7 +20067,7 @@
                 "Amount": 2,
                 "TraitsOwned": 1,
                 "Level": 19,
-                "Invasions": 78
+                "Invasions": 79
             },
             "6082": {
                 "Amount": 1,
@@ -20055,7 +20123,7 @@
                 "Level": 1
             },
             "6304": {
-                "Amount": 2,
+                "Amount": 3,
                 "Level": 1
             },
             "6303": {
@@ -20195,7 +20263,7 @@
                 "Amount": 2,
                 "TraitsOwned": 2,
                 "Level": 18,
-                "Invasions": 78
+                "Invasions": 79
             },
             "6217": {
                 "Amount": 25,
@@ -20211,7 +20279,7 @@
             }
         },
         "GuildJoinTime": 1481470637987,
-        "GloryTargetPrev": 11700,
+        "GloryTargetPrev": 12200,
         "ProgressTutorial": {
             "45": true,
             "1020": true,
@@ -20301,16 +20369,17 @@
                 "Banner": 3000
             }
         ],
+        "StartWeekTime": 1484550000000,
         "KeyTypes": [
-            2,
+            0,
             0,
             0,
             0,
             0,
             0
         ],
-        "StartWeekTime": 1484550000000,
         "EventFile": "Event.atf",
+        "Skin_Costume": 2,
         "Progress": {
             "3002": {
                 "Status": 0,
@@ -20424,7 +20493,7 @@
                 "Banner": 3000,
                 "Income": 1,
                 "QuestsComplete": 0,
-                "Invasions": 6
+                "Invasions": 7
             },
             "3014": {
                 "Status": 2,
@@ -20564,18 +20633,17 @@
                 "QuestsComplete": 0
             }
         },
-        "Skin_Costume": 2,
-        "DefendWins": 36,
-        "GuildSealsWeekly": 242,
+        "DefendWins": 37,
+        "GuildSealsWeekly": 299,
         "GuildTasksCompleted": [
+            9,
             6,
-            5,
-            11,
+            12,
             5,
             5,
             5
         ],
-        "GuildTroopAttackBonus": 0,
+        "GuildTroopAttackBonus": 3,
         "CurrentKingdomId": 3004,
         "HasPurchased": true,
         "HasNewMail": true,
@@ -20588,25 +20656,25 @@
             3603680776,
             3603441058
         ],
-        "Email": "sam@whcuk.net",
         "OfferShownTime": 0,
+        "Email": "sam@whcuk.net",
         "VIPBonus": {
             "BonusSouls": 0,
             "BonusGold": 25,
             "BonusXP": 10
         },
-        "OfferEndTime": 0,
         "ScoutCost": 50,
+        "OfferEndTime": 0,
         "CurrentQuestId": 0,
         "VIPChests": false,
         "OutOfDateURL_IOS": "https://itunes.apple.com/app/gems-of-war/id897954560",
         "ShowPathToGlory": true,
-        "HomeKingdomId": 3000,
         "KingdomWeapon": {},
         "Name": "SamboyGaming",
+        "HomeKingdomId": 3000,
         "TroopHealthBonus": 0,
-        "GuildTrophiesTotal": 294,
-        "GuildSealsTotal": 2722,
+        "GuildTrophiesTotal": 296,
+        "GuildSealsTotal": 2779,
         "WeaponsOwned": [
             1064,
             1002,
@@ -20674,17 +20742,17 @@
             "3003": 1,
             "3025": 1
         },
-        "OfferStartTime": 0,
         "ServerStatus": 0,
-        "EventPoints": 10,
+        "OfferStartTime": 0,
+        "EventPoints": 11,
         "TreasureMaps": 69,
-        "Gold": 27542,
         "Skin_FaceFeature": -1,
+        "Gold": 9380,
         "GuildTroopMagicBonus": 2,
         "GemMastery": [
             5,
             8,
-            12,
+            13,
             3,
             9,
             5
@@ -20696,8 +20764,8 @@
         "MaxHealth": 15,
         "CurrentBattleIndex": -1,
         "VIPPoints": 50,
-        "Class": "warrior",
         "GuildName": "404GuildNotFound",
+        "Class": "warrior",
         "NameCode": "SAMBOYGAMING",
         "AchievementProgress": [
             1,
@@ -20725,372 +20793,372 @@
             1
         ],
         "LastSelectedTeam": 1,
-        "GuildTrophiesWeekly": 12,
-        "Glory": 12198,
+        "GuildTrophiesWeekly": 14,
+        "Glory": 12272,
         "SpellPowerNew": 3,
         "KingdomPower": {
             "3024": {
-                "NextRank": 1,
                 "Troops": 8,
+                "NextRank": 1,
                 "Points": 480,
                 "TroopsPoints": 400,
                 "TraitsPoints": 0,
                 "Levels": 8,
                 "CurrentRank": 0,
-                "CurrentRankRequiredPoints": 0,
                 "LevelsPoints": 80,
+                "CurrentRankRequiredPoints": 0,
                 "Traits": 0,
                 "NextRankRequiredPoints": 600
             },
             "3001": {
-                "NextRank": 1,
-                "Troops": 9,
-                "Points": 540,
-                "TroopsPoints": 450,
+                "Troops": 10,
+                "NextRank": 2,
+                "Points": 600,
+                "TroopsPoints": 500,
                 "TraitsPoints": 0,
-                "Levels": 9,
-                "CurrentRank": 0,
-                "CurrentRankRequiredPoints": 0,
-                "LevelsPoints": 90,
+                "Levels": 10,
+                "CurrentRank": 1,
+                "LevelsPoints": 100,
+                "CurrentRankRequiredPoints": 600,
                 "Traits": 0,
-                "NextRankRequiredPoints": 600
+                "NextRankRequiredPoints": 1200
             },
             "3000": {
-                "NextRank": 2,
                 "Troops": 9,
+                "NextRank": 2,
                 "Points": 750,
                 "TroopsPoints": 450,
                 "TraitsPoints": 50,
                 "Levels": 25,
                 "CurrentRank": 1,
-                "CurrentRankRequiredPoints": 600,
                 "LevelsPoints": 250,
+                "CurrentRankRequiredPoints": 600,
                 "Traits": 2,
                 "NextRankRequiredPoints": 1200
             },
             "3022": {
-                "NextRank": 2,
                 "Troops": 10,
+                "NextRank": 2,
                 "Points": 600,
                 "TroopsPoints": 500,
                 "TraitsPoints": 0,
                 "Levels": 10,
                 "CurrentRank": 1,
-                "CurrentRankRequiredPoints": 600,
                 "LevelsPoints": 100,
+                "CurrentRankRequiredPoints": 600,
                 "Traits": 0,
                 "NextRankRequiredPoints": 1200
             },
             "3021": {
-                "NextRank": 1,
                 "Troops": 9,
+                "NextRank": 1,
                 "Points": 540,
                 "TroopsPoints": 450,
                 "TraitsPoints": 0,
                 "Levels": 9,
                 "CurrentRank": 0,
-                "CurrentRankRequiredPoints": 0,
                 "LevelsPoints": 90,
+                "CurrentRankRequiredPoints": 0,
                 "Traits": 0,
                 "NextRankRequiredPoints": 600
             },
             "3020": {
-                "NextRank": 2,
                 "Troops": 10,
+                "NextRank": 2,
                 "Points": 600,
                 "TroopsPoints": 500,
                 "TraitsPoints": 0,
                 "Levels": 10,
                 "CurrentRank": 1,
-                "CurrentRankRequiredPoints": 600,
                 "LevelsPoints": 100,
+                "CurrentRankRequiredPoints": 600,
                 "Traits": 0,
                 "NextRankRequiredPoints": 1200
             },
             "3019": {
-                "NextRank": 1,
                 "Troops": 7,
+                "NextRank": 1,
                 "Points": 420,
                 "TroopsPoints": 350,
                 "TraitsPoints": 0,
                 "Levels": 7,
                 "CurrentRank": 0,
-                "CurrentRankRequiredPoints": 0,
                 "LevelsPoints": 70,
+                "CurrentRankRequiredPoints": 0,
                 "Traits": 0,
                 "NextRankRequiredPoints": 600
             },
             "3018": {
-                "NextRank": 2,
                 "Troops": 7,
+                "NextRank": 2,
                 "Points": 640,
                 "TroopsPoints": 350,
                 "TraitsPoints": 50,
                 "Levels": 24,
                 "CurrentRank": 1,
-                "CurrentRankRequiredPoints": 600,
                 "LevelsPoints": 240,
+                "CurrentRankRequiredPoints": 600,
                 "Traits": 2,
                 "NextRankRequiredPoints": 1200
             },
             "3017": {
-                "NextRank": 1,
                 "Troops": 8,
+                "NextRank": 1,
                 "Points": 480,
                 "TroopsPoints": 400,
                 "TraitsPoints": 0,
                 "Levels": 8,
                 "CurrentRank": 0,
-                "CurrentRankRequiredPoints": 0,
                 "LevelsPoints": 80,
+                "CurrentRankRequiredPoints": 0,
                 "Traits": 0,
                 "NextRankRequiredPoints": 600
             },
             "3016": {
-                "NextRank": 2,
                 "Troops": 9,
+                "NextRank": 2,
                 "Points": 710,
                 "TroopsPoints": 450,
                 "TraitsPoints": 0,
                 "Levels": 26,
                 "CurrentRank": 1,
-                "CurrentRankRequiredPoints": 600,
                 "LevelsPoints": 260,
+                "CurrentRankRequiredPoints": 600,
                 "Traits": 0,
                 "NextRankRequiredPoints": 1200
             },
             "3015": {
-                "NextRank": 1,
                 "Troops": 9,
+                "NextRank": 1,
                 "Points": 540,
                 "TroopsPoints": 450,
                 "TraitsPoints": 0,
                 "Levels": 9,
                 "CurrentRank": 0,
-                "CurrentRankRequiredPoints": 0,
                 "LevelsPoints": 90,
+                "CurrentRankRequiredPoints": 0,
                 "Traits": 0,
                 "NextRankRequiredPoints": 600
             },
             "3014": {
-                "NextRank": 2,
                 "Troops": 10,
+                "NextRank": 2,
                 "Points": 600,
                 "TroopsPoints": 500,
                 "TraitsPoints": 0,
                 "Levels": 10,
                 "CurrentRank": 1,
-                "CurrentRankRequiredPoints": 600,
                 "LevelsPoints": 100,
+                "CurrentRankRequiredPoints": 600,
                 "Traits": 0,
                 "NextRankRequiredPoints": 1200
             },
             "3013": {
-                "NextRank": 2,
                 "Troops": 11,
+                "NextRank": 2,
                 "Points": 825,
                 "TroopsPoints": 510,
                 "TraitsPoints": 25,
                 "Levels": 29,
                 "CurrentRank": 1,
-                "CurrentRankRequiredPoints": 600,
                 "LevelsPoints": 290,
+                "CurrentRankRequiredPoints": 600,
                 "Traits": 1,
                 "NextRankRequiredPoints": 1200
             },
             "3012": {
-                "NextRank": 2,
                 "Troops": 10,
+                "NextRank": 2,
                 "Points": 600,
                 "TroopsPoints": 500,
                 "TraitsPoints": 0,
                 "Levels": 10,
                 "CurrentRank": 1,
-                "CurrentRankRequiredPoints": 600,
                 "LevelsPoints": 100,
+                "CurrentRankRequiredPoints": 600,
                 "Traits": 0,
                 "NextRankRequiredPoints": 1200
             },
             "3011": {
-                "NextRank": 1,
                 "Troops": 9,
+                "NextRank": 1,
                 "Points": 540,
                 "TroopsPoints": 450,
                 "TraitsPoints": 0,
                 "Levels": 9,
                 "CurrentRank": 0,
-                "CurrentRankRequiredPoints": 0,
                 "LevelsPoints": 90,
+                "CurrentRankRequiredPoints": 0,
                 "Traits": 0,
                 "NextRankRequiredPoints": 600
             },
             "3031": {
-                "NextRank": 1,
                 "Troops": 0,
+                "NextRank": 1,
                 "Points": 0,
                 "TroopsPoints": 0,
                 "TraitsPoints": 0,
                 "Levels": 0,
                 "CurrentRank": 0,
-                "CurrentRankRequiredPoints": 0,
                 "LevelsPoints": 0,
+                "CurrentRankRequiredPoints": 0,
                 "Traits": 0,
                 "NextRankRequiredPoints": 600
             },
             "3008": {
-                "NextRank": 2,
                 "Troops": 9,
+                "NextRank": 2,
                 "Points": 680,
                 "TroopsPoints": 450,
                 "TraitsPoints": 50,
                 "Levels": 18,
                 "CurrentRank": 1,
-                "CurrentRankRequiredPoints": 600,
                 "LevelsPoints": 180,
+                "CurrentRankRequiredPoints": 600,
                 "Traits": 2,
                 "NextRankRequiredPoints": 1200
             },
             "3007": {
-                "NextRank": 2,
                 "Troops": 12,
+                "NextRank": 2,
                 "Points": 820,
                 "TroopsPoints": 520,
                 "TraitsPoints": 0,
                 "Levels": 30,
                 "CurrentRank": 1,
-                "CurrentRankRequiredPoints": 600,
                 "LevelsPoints": 300,
+                "CurrentRankRequiredPoints": 600,
                 "Traits": 0,
                 "NextRankRequiredPoints": 1200
             },
             "3029": {
-                "NextRank": 1,
                 "Troops": 9,
+                "NextRank": 1,
                 "Points": 540,
                 "TroopsPoints": 450,
                 "TraitsPoints": 0,
                 "Levels": 9,
                 "CurrentRank": 0,
-                "CurrentRankRequiredPoints": 0,
                 "LevelsPoints": 90,
+                "CurrentRankRequiredPoints": 0,
                 "Traits": 0,
                 "NextRankRequiredPoints": 600
             },
             "3006": {
-                "NextRank": 1,
                 "Troops": 8,
+                "NextRank": 1,
                 "Points": 565,
                 "TroopsPoints": 400,
                 "TraitsPoints": 25,
                 "Levels": 14,
                 "CurrentRank": 0,
-                "CurrentRankRequiredPoints": 0,
                 "LevelsPoints": 140,
+                "CurrentRankRequiredPoints": 0,
                 "Traits": 1,
                 "NextRankRequiredPoints": 600
             },
             "3028": {
-                "NextRank": 2,
                 "Troops": 8,
+                "NextRank": 2,
                 "Points": 700,
                 "TroopsPoints": 400,
                 "TraitsPoints": 50,
                 "Levels": 25,
                 "CurrentRank": 1,
-                "CurrentRankRequiredPoints": 600,
                 "LevelsPoints": 250,
+                "CurrentRankRequiredPoints": 600,
                 "Traits": 2,
                 "NextRankRequiredPoints": 1200
             },
             "3005": {
-                "NextRank": 1,
                 "Troops": 9,
+                "NextRank": 1,
                 "Points": 540,
                 "TroopsPoints": 450,
                 "TraitsPoints": 0,
                 "Levels": 9,
                 "CurrentRank": 0,
-                "CurrentRankRequiredPoints": 0,
                 "LevelsPoints": 90,
+                "CurrentRankRequiredPoints": 0,
                 "Traits": 0,
                 "NextRankRequiredPoints": 600
             },
             "3027": {
-                "NextRank": 2,
                 "Troops": 11,
+                "NextRank": 2,
                 "Points": 800,
                 "TroopsPoints": 510,
                 "TraitsPoints": 0,
                 "Levels": 29,
                 "CurrentRank": 1,
-                "CurrentRankRequiredPoints": 600,
                 "LevelsPoints": 290,
+                "CurrentRankRequiredPoints": 600,
                 "Traits": 0,
                 "NextRankRequiredPoints": 1200
             },
             "3004": {
-                "NextRank": 1,
                 "Troops": 9,
+                "NextRank": 1,
                 "Points": 540,
                 "TroopsPoints": 450,
                 "TraitsPoints": 0,
                 "Levels": 9,
                 "CurrentRank": 0,
-                "CurrentRankRequiredPoints": 0,
                 "LevelsPoints": 90,
+                "CurrentRankRequiredPoints": 0,
                 "Traits": 0,
                 "NextRankRequiredPoints": 600
             },
             "3026": {
-                "NextRank": 1,
                 "Troops": 7,
+                "NextRank": 1,
                 "Points": 420,
                 "TroopsPoints": 350,
                 "TraitsPoints": 0,
                 "Levels": 7,
                 "CurrentRank": 0,
-                "CurrentRankRequiredPoints": 0,
                 "LevelsPoints": 70,
+                "CurrentRankRequiredPoints": 0,
                 "Traits": 0,
                 "NextRankRequiredPoints": 600
             },
             "3003": {
-                "NextRank": 1,
                 "Troops": 8,
+                "NextRank": 1,
                 "Points": 480,
                 "TroopsPoints": 400,
                 "TraitsPoints": 0,
                 "Levels": 8,
                 "CurrentRank": 0,
-                "CurrentRankRequiredPoints": 0,
                 "LevelsPoints": 80,
+                "CurrentRankRequiredPoints": 0,
                 "Traits": 0,
                 "NextRankRequiredPoints": 600
             },
             "3025": {
-                "NextRank": 2,
                 "Troops": 10,
+                "NextRank": 2,
                 "Points": 600,
                 "TroopsPoints": 500,
                 "TraitsPoints": 0,
                 "Levels": 10,
                 "CurrentRank": 1,
-                "CurrentRankRequiredPoints": 600,
                 "LevelsPoints": 100,
+                "CurrentRankRequiredPoints": 600,
                 "Traits": 0,
                 "NextRankRequiredPoints": 1200
             }
         },
-        "GuildSealsWeeklyMaxUser": 1900,
+        "GuildSealsWeeklyMaxUser": 1700,
         "Armor": 9,
-        "EventKingdomFile": 3027,
         "GuildTaskBonuses": [
             1485046844479,
             null,
-            1478998864259,
+            1485286667561,
             null,
             1485036567631
         ],
+        "EventKingdomFile": 3027,
         "Race": 3,
         "SelectedKingdomId": 3000,
         "GuildRank": 4,
@@ -21107,16 +21175,16 @@
             "11": 68,
             "33": 1,
             "12": 10,
-            "13": 6,
+            "13": 7,
             "35": 1,
             "14": 9,
-            "15": 11,
+            "15": 12,
             "37": 1,
-            "16": 18,
+            "16": 19,
             "17": 4,
             "39": 1,
             "0": 75,
-            "1": 97,
+            "1": 98,
             "2": 109,
             "3": 126,
             "4": 105,
@@ -21127,24 +21195,24 @@
             "9": 64,
             "21": 2
         },
-        "LastCollectTime": 1484641751949,
+        "LastCollectTime": 1484728525289,
         "SealsTasksCompleteWeekly": [
+            0,
+            0,
             1,
             0,
-            3,
+            1,
             0,
             0,
-            0,
-            0,
-            3
+            1
         ],
-        "GloryTargetNext": 12200,
-        "StartDayTime": 1484636400000,
+        "StartDayTime": 1484722800000,
+        "GloryTargetNext": 12700,
         "Attack": 6,
         "ShowGrowthPacks": true,
         "Skin_Body": 13,
-        "LastPlayed": 1484642649030,
-        "LastLoginTime": 1484641742110,
+        "LastPlayed": 1484728701052,
+        "LastLoginTime": 1484728491698,
         "ClassData": {
             "mechanist": {
                 "Level": 10,
@@ -21154,7 +21222,7 @@
             "warrior": {
                 "Level": 20,
                 "Spell": 0,
-                "Wins": 199
+                "Wins": 200
             }
         },
         "CostumeBonus": {
@@ -21412,14 +21480,13 @@
         },
         "AttackNew": 6,
         "OutOfDateURL_Android": "https://play.google.com/store/apps/details?id=air.com.and.games505.gemsofwar",
-        "EventRewardsCollected": []
+        "EventRewardsCollected": [1]
     },
     "pBoosts": {
         "Gold": 0,
         "Souls": 0,
         "XP": 0
     },
-    "nLastDynamicDataCheck": 1484682416757,
     "pEvents": [
         {
             "BonusType": "wildfolk",
@@ -21463,15 +21530,15 @@
                 "it_IT": "Utilizza il Minogor in PVP e ottieni 5 punti Gloria extra per ogni vittoria.",
                 "en_US": "Use the Minogor in PVP, and receive an extra 5 Glory per victory.",
                 "es_ES": "Usa el Minogor en JcJ y recibe un bono extra de 5 Gloria por victoria.",
-                "fr_FR": "Utilisez le Minogore en JcJ, et gagnez 5 de Gloire supplÃ©mentaire par victoire.",
-                "de_DE": "Benutze den Minogor im PVP und erhalte 5 zusÃ¤tzlichen Ruhm bei jedem Sieg."
+                "fr_FR": "Utilisez le Minogore en JcJ, et gagnez 5 de Gloire supplémentaire par victoire.",
+                "de_DE": "Benutze den Minogor im PVP und erhalte 5 zusätzlichen Ruhm bei jedem Sieg."
             },
             "EndTime": 1485154800,
             "EventType": "TeamBonusEvent",
             "Difficulty": "all",
             "Priority": 3,
-            "StartTime": 1484550000,
             "TeamTroop": 6304,
+            "StartTime": 1484550000,
             "BattleType": "pvp",
             "TroopId": 6304,
             "IconBackdrop": 7,
@@ -21479,7 +21546,7 @@
             "Name": {
                 "it_IT": "Gloria Bonus",
                 "en_US": "Bonus Glory",
-                "es_ES": "La gloria de bonificaciÃ³n",
+                "es_ES": "La gloria de bonificación",
                 "fr_FR": "De Gloire Bonus",
                 "de_DE": "Bonus Ruhm"
             },
@@ -21490,8 +21557,8 @@
             "Description": {
                 "it_IT": "Sconfiggi nemici che usano il Mana Viola per riportare la luce nelle Pianure Selvagge!",
                 "en_US": "Defeat Purple Enemies to restore light to the Wild Plains!",
-                "es_ES": "Â¡Derrota a Enemigos Morados para recuperar la luz en las Llanuras Salvajes!",
-                "fr_FR": "Combattez des Ennemis Violets pour ramener la lumiÃ¨re aux Plaines Sauvages !",
+                "es_ES": "¡Derrota a Enemigos Morados para recuperar la luz en las Llanuras Salvajes!",
+                "fr_FR": "Combattez des Ennemis Violets pour ramener la lumière aux Plaines Sauvages !",
                 "de_DE": "Besiege lilane Feinde, um das Licht in den Wilden Ebenen wiederherzustellen!"
             },
             "EndTime": 1485154800,
@@ -21550,8 +21617,10 @@
             ]
         }
     ],
+    "nLastDynamicDataCheck": 1484768366385,
     "pBonuses": [
         {
+            "Name": "[BONUS_COLOR_0]",
             "Masteries": [
                 25,
                 0,
@@ -21559,10 +21628,10 @@
                 0,
                 0,
                 0
-            ],
-            "Name": "[BONUS_COLOR_0]"
+            ]
         },
         {
+            "Name": "[BONUS_COLOR_1]",
             "Masteries": [
                 0,
                 25,
@@ -21570,10 +21639,10 @@
                 0,
                 0,
                 0
-            ],
-            "Name": "[BONUS_COLOR_1]"
+            ]
         },
         {
+            "Name": "[BONUS_COLOR_2]",
             "Masteries": [
                 0,
                 0,
@@ -21581,10 +21650,10 @@
                 0,
                 0,
                 0
-            ],
-            "Name": "[BONUS_COLOR_2]"
+            ]
         },
         {
+            "Name": "[BONUS_COLOR_3]",
             "Masteries": [
                 0,
                 0,
@@ -21592,10 +21661,10 @@
                 25,
                 0,
                 0
-            ],
-            "Name": "[BONUS_COLOR_3]"
+            ]
         },
         {
+            "Name": "[BONUS_COLOR_4]",
             "Masteries": [
                 0,
                 0,
@@ -21603,10 +21672,10 @@
                 0,
                 25,
                 0
-            ],
-            "Name": "[BONUS_COLOR_4]"
+            ]
         },
         {
+            "Name": "[BONUS_COLOR_5]",
             "Masteries": [
                 0,
                 0,
@@ -21614,8 +21683,7 @@
                 0,
                 0,
                 25
-            ],
-            "Name": "[BONUS_COLOR_5]"
+            ]
         },
         {
             "SpellPower": 0,
@@ -22655,7 +22723,7 @@
         }
     ],
     "pServerConfig": {"environment": -1},
-    "sSessionToken": "v2J26ecItfdUY9UpYBugrzAHe",
+    "sSessionToken": "r:d1f970a92ed189362d402cc440363b0a",
     "pChests": [
         {
             "Type": "Gold",
@@ -25480,7 +25548,7 @@
         "EndTime": 1485154800,
         "NewsTypeString": "WeeklyEvent",
         "SubTitleText": {
-            "it_IT": "Non saremo al sicuro fino a quando non sarÃ  morto",
+            "it_IT": "Non saremo al sicuro fino a quando non sarà morto",
             "en_US": "We're not safe until he's dead",
             "es_ES": "No estaremos a salvo hasta que este muerto",
             "fr_FR": "Son existence nous met tous en danger",
@@ -25488,29 +25556,29 @@
         },
         "Priority": 3,
         "StartTime": 1484550000,
+        "LeftTroopId": 6304,
         "HeadingText": {
             "it_IT": "Uccidi la Bestia",
             "en_US": "Kill the Beast",
             "es_ES": "Mata a la Bestia",
-            "fr_FR": "Tuer la BÃªte",
-            "de_DE": "TÃ¶te die Bestie"
+            "fr_FR": "Tuer la Bête",
+            "de_DE": "Töte die Bestie"
         },
-        "LeftTroopId": 6304,
         "KingdomId": 3027,
+        "RightTroopId": 6143,
         "MessageText": {
             "it_IT": "Ottieni il Minogor dalle Ricompense nel Negozio.",
             "en_US": "Get the Minogor from the rewards tab of the shop.",
-            "es_ES": "Consigue a Minogor en la pestaÃ±a de recompensas de la tienda.",
-            "fr_FR": "RÃ©cupÃ©rez le Minogore dans l'onglet RÃ©compenses de la Boutique.",
+            "es_ES": "Consigue a Minogor en la pestaña de recompensas de la tienda.",
+            "fr_FR": "Récupérez le Minogore dans l'onglet Récompenses de la Boutique.",
             "de_DE": "Hol dir den Minogor unter den Belohnungen im Shop."
         },
-        "RightTroopId": 6143,
         "URL": "",
         "ButtonText": {
             "it_IT": "Ottieni ricompense",
             "en_US": "Get Rewards",
             "es_ES": "Conseguir recompensas",
-            "fr_FR": "Obtenir des rÃ©compenses",
+            "fr_FR": "Obtenir des récompenses",
             "de_DE": "Unsere Gutschein"
         }
     }],
@@ -25527,18 +25595,18 @@
         ],
         "Disenchant_Limits": true,
         "GooglePlus_Android": false,
-        "CorruptData_Link": "https://gemsofwar.zendesk.com/hc/en-us/articles/212286703-The-game-responded-with-an-error-code-while-loading",
         "CraftingMenu": true,
+        "CorruptData_Link": "https://gemsofwar.zendesk.com/hc/en-us/articles/212286703-The-game-responded-with-an-error-code-while-loading",
         "Asset_Decode_Limit_PC": 0,
         "StunDeathFix": true,
-        "Global_Chat_iOS": true,
         "StarterOffer_Menu": true,
+        "Global_Chat_iOS": true,
         "Global_Chat_Login_Timeout": 10,
-        "Facebook_iOS": false,
         "KingdomLevels": true,
+        "Facebook_iOS": false,
         "News_Menu": true,
-        "Parse_Timeout": 15,
         "Use_Matchmaking_Table": true,
+        "Parse_Timeout": 15,
         "GemSpamDenyTurn_Weighting": 2,
         "Asset_Decode_Limit_Android": 3,
         "Community_Links": [
@@ -25587,9 +25655,9 @@
         "KeyMenu": true,
         "Mail_GuildRewards": true,
         "ExtraPvPRewards": true,
+        "Kingdom_Menu_Rank": true,
         "EnhancedGuildMenu": true,
         "Gem_Speed": 1.4,
-        "Kingdom_Menu_Rank": true,
         "PvPMenu": true,
         "CodeRedemption": false,
         "DifficultyMenu": true,
@@ -25611,8 +25679,8 @@
         "Guild_Chat": true,
         "Global_Chat_Message_Chance": 100,
         "Defend_Mode": true,
-        "EnhancedStore": true,
         "Epic_Arena": false,
+        "EnhancedStore": true,
         "Global_Chat_Room_Hard_Limit": 1000,
         "Global_Chat_Android": true,
         "Arena_Mode": true,
@@ -25633,8 +25701,8 @@
         "Other_Puzzle_Speed": 1.4,
         "EnhancedPvPMenu": true,
         "Global_Chat_Ping_Time": 1130,
-        "AccountLinking_FromTutorial": true,
         "Asset_Decode_Limit_iOS": 3,
+        "AccountLinking_FromTutorial": true,
         "Mail_Subscriptions": true,
         "Advanced_Offers": true,
         "Free_Gems": true,
@@ -25644,8 +25712,8 @@
         "Spell_Speed": 1.5,
         "Guild_Roster_Info": true,
         "Global_Chat_PC": true,
-        "Facebook_Android": false,
-        "Use_Correct_Soul_Icon_In_Rewards": true
+        "Use_Correct_Soul_Icon_In_Rewards": true,
+        "Facebook_Android": false
     },
     "objectId": "mSigJnoPc6"
 }}

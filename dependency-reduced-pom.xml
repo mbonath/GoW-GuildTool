@@ -4,7 +4,7 @@
   <groupId>me.samboycoding</groupId>
   <artifactId>GowGuildTool</artifactId>
   <name>GowGuildTool</name>
-  <version>1.0</version>
+  <version>1.1.1</version>
   <organization>
     <name>Your Organisation</name>
   </organization>
@@ -22,7 +22,7 @@
               <goal>exec</goal>
             </goals>
             <configuration>
-              <executable>${java.home}/../bin/javafxpackager</executable>
+              <executable>${java.home}/../bin/javapackager</executable>
               <arguments>
                 <argument>-createjar</argument>
                 <argument>-nocss2bin</argument>

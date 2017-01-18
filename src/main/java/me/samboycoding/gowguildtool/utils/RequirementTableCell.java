@@ -1,7 +1,6 @@
 package me.samboycoding.gowguildtool.utils;
 
 import javafx.scene.control.TableCell;
-import me.samboycoding.gowguildtool.MainApp;
 import me.samboycoding.gowguildtool.User;
 import me.samboycoding.gowguildtool.files.ConfigFileManager;
 
@@ -10,11 +9,11 @@ import me.samboycoding.gowguildtool.files.ConfigFileManager;
  *
  * @author Sam
  */
-public class RequirementTableCell extends TableCell<User, Integer>
+public class RequirementTableCell extends TableCell<User, Double>
 {
 
     private int type;
-    private int req;
+    private double req;
 
     /**
      * Constructor
@@ -46,10 +45,10 @@ public class RequirementTableCell extends TableCell<User, Integer>
     }
 
     @Override
-    protected void updateItem(final Integer item, final boolean empty)
+    protected void updateItem(final Double item, final boolean empty)
     {
         super.updateItem(item, empty);
-        setText(empty ? "" : item.toString());
+        setText(empty ? "" : "" + item.intValue());
 
         getStyleClass().removeAll("tablecell-bad", "tablecell-good");
 
@@ -57,7 +56,7 @@ public class RequirementTableCell extends TableCell<User, Integer>
 
     }
 
-    private void updateStyles(Integer item)
+    private void updateStyles(Double item)
     {
         if (item == null)
         {
@@ -80,17 +79,17 @@ public class RequirementTableCell extends TableCell<User, Integer>
     private static class RequirementStore
     {
 
-        public static int reqGold = -1;
-        public static int reqSeals = -1;
-        public static int reqTrophies = -1;
+        public static double reqGold = -1;
+        public static double reqSeals = -1;
+        public static double reqTrophies = -1;
 
         public RequirementStore()
         {
-            reqGold = ConfigFileManager.inst.getData().getJSONObject("Requirements").getInt("Gold");
+            reqGold = ConfigFileManager.inst.getData().getJSONObject("Requirements").getDouble("Gold");
 
-            reqSeals = ConfigFileManager.inst.getData().getJSONObject("Requirements").getInt("Seals");
+            reqSeals = ConfigFileManager.inst.getData().getJSONObject("Requirements").getDouble("Seals");
 
-            reqTrophies = ConfigFileManager.inst.getData().getJSONObject("Requirements").getInt("Trophies");
+            reqTrophies = ConfigFileManager.inst.getData().getJSONObject("Requirements").getDouble("Trophies");
         }
 
     }

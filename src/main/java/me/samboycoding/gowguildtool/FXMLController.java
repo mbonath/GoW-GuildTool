@@ -61,6 +61,8 @@ public class FXMLController implements Initializable {
     @FXML
     public Label lbl_loading;
     @FXML
+    public Label lbl_no_score;
+    @FXML
     public AnchorPane panel_overview;
     @FXML
     public AnchorPane panel_config;

@@ -1,6 +1,8 @@
 package me.samboycoding.gowguildtool;
 
+import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
@@ -76,86 +78,86 @@ public class User
         return level;
     }
     
-    private IntegerProperty gold;
+    private DoubleProperty gold;
 
-    public void setGold(int value)
+    public void setGold(double value)
     {
         goldProperty().set(value);
     }
 
-    public int getGold()
+    public double getGold()
     {
         return goldProperty().get();
     }
 
-    public IntegerProperty goldProperty()
+    public DoubleProperty goldProperty()
     {
         if (gold == null)
         {
-            gold = new SimpleIntegerProperty(this, "gold");
+            gold = new SimpleDoubleProperty(this, "gold");
         }
         return gold;
     }
     
-    private IntegerProperty seals;
+    private DoubleProperty seals;
 
-    public void setSeals(int value)
+    public void setSeals(double value)
     {
         sealsProperty().set(value);
     }
 
-    public int getSeals()
+    public double getSeals()
     {
         return sealsProperty().get();
     }
 
-    public IntegerProperty sealsProperty()
+    public DoubleProperty sealsProperty()
     {
         if (seals == null)
         {
-            seals = new SimpleIntegerProperty(this, "seals");
+            seals = new SimpleDoubleProperty(this, "seals");
         }
         return seals;
     }
     
-    private IntegerProperty trophies;
+    private DoubleProperty trophies;
 
-    public void setTrophies(int value)
+    public void setTrophies(double value)
     {
         trophiesProperty().set(value);
     }
 
-    public int getTrophies()
+    public double getTrophies()
     {
         return trophiesProperty().get();
     }
 
-    public IntegerProperty trophiesProperty()
+    public DoubleProperty trophiesProperty()
     {
         if (trophies == null)
         {
-            trophies = new SimpleIntegerProperty(this, "trophies");
+            trophies = new SimpleDoubleProperty(this, "trophies");
         }
         return trophies;
     }
     
-    private StringProperty score;
+    private IntegerProperty score;
 
-    public void setScore(String value)
+    public void setScore(int value)
     {
         scoreProperty().set(value);
     }
 
-    public String getScore()
+    public int getScore()
     {
         return scoreProperty().get();
     }
 
-    public StringProperty scoreProperty()
+    public IntegerProperty scoreProperty()
     {
         if (score == null)
         {
-            score = new SimpleStringProperty(this, "score");
+            score = new SimpleIntegerProperty(this, "score");
         }
         return score;
     }

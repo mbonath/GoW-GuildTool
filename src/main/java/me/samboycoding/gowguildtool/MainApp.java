@@ -5,8 +5,6 @@ import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javafx.application.Application;
 import static javafx.application.Application.launch;
 import javafx.application.Platform;
@@ -41,7 +39,7 @@ import org.json.JSONObject;
 public class MainApp extends Application
 {
 
-    FXMLController ctrl;
+    public static FXMLController ctrl;
     DataFileManager m = new DataFileManager();
     TableView<User> table = null;
     public static ArrayList<User> users = new ArrayList<>();
@@ -89,6 +87,7 @@ public class MainApp extends Application
                         Platform.runLater(() ->
                         {
                             ctrl.btn_refresh.setDisable(true);
+                            ctrl.btn_upload.setDisable(true);
                         });
 
                         ctrl.prg_loading.setVisible(true);
@@ -129,25 +128,27 @@ public class MainApp extends Application
 
                             user.setUsername(u.getString("Name"));
                             user.setLevel(u.getInt("Level"));
-                            user.setGold(u.getInt("GuildGoldContributedWeekly"));
-                            user.setSeals(u.getInt("GuildSealsWeekly"));
-                            user.setTrophies(u.getInt("GuildTrophiesWeekly"));
+                            user.setGold(u.getDouble("GuildGoldContributedWeekly"));
+                            user.setSeals(u.getDouble("GuildSealsWeekly"));
+                            user.setTrophies(u.getDouble("GuildTrophiesWeekly"));
                             user.setRawData(u.toString());
 
-                            int gold = user.getGold();
-                            int seals = user.getSeals();
-                            int troph = user.getTrophies();
+                            double gold = user.getGold();
+                            double seals = user.getSeals();
+                            double troph = user.getTrophies();
 
                             JSONObject req = conf.getJSONObject("Requirements");
 
-                            if (req.getInt("Gold") != 0 && req.getInt("Seals") != 0 && req.getInt("Trophies") != 0)
+                            if (req.getDouble("Gold") != 0 && req.getDouble("Seals") != 0 && req.getDouble("Trophies") != 0)
                             {
-                                double score = Math.round((((gold / req.getInt("Gold")) * 0.3) + ((seals / req.getInt("Seals")) * 0.4) + ((troph / req.getInt("Trophies") * 0.3))) * 100);
+                                double score = Math.round((((gold / req.getDouble("Gold")) * 0.3d) + ((seals / req.getDouble("Seals")) * 0.4d) + ((troph / req.getDouble("Trophies") * 0.3d))) * 100d);
 
-                                user.setScore("" + ((int) score));
+                                user.setScore(((int) score));
+                                ctrl.lbl_no_score.setVisible(false);
                             } else
                             {
-                                user.setScore("(Requirements Not Set)");
+                                user.setScore(-1);
+                                ctrl.lbl_no_score.setVisible(true);
                             }
                             users.add(user);
                             userList.add(user);
@@ -159,28 +160,28 @@ public class MainApp extends Application
                         TableColumn<User, Integer> levelCol = new TableColumn<>("Level");
                         levelCol.setCellValueFactory(new PropertyValueFactory<>("level"));
 
-                        TableColumn<User, Integer> goldCol = new TableColumn<>("Gold Donated");
+                        TableColumn<User, Double> goldCol = new TableColumn<>("Gold Donated");
                         goldCol.setCellValueFactory(new PropertyValueFactory<>("gold"));
-                        goldCol.setCellFactory((final TableColumn<User, Integer> personStringTableColumn) ->
+                        goldCol.setCellFactory((final TableColumn<User, Double> personStringTableColumn) ->
                         {
                             return new RequirementTableCell(0);
                         });
 
-                        TableColumn<User, Integer> sealsCol = new TableColumn<>("Seals Earned");
+                        TableColumn<User, Double> sealsCol = new TableColumn<>("Seals Earned");
                         sealsCol.setCellValueFactory(new PropertyValueFactory<>("seals"));
-                        sealsCol.setCellFactory((final TableColumn<User, Integer> personStringTableColumn) ->
+                        sealsCol.setCellFactory((final TableColumn<User, Double> personStringTableColumn) ->
                         {
                             return new RequirementTableCell(1);
                         });
 
-                        TableColumn<User, Integer> trophiesCol = new TableColumn<>("Trophies Earned");
+                        TableColumn<User, Double> trophiesCol = new TableColumn<>("Trophies Earned");
                         trophiesCol.setCellValueFactory(new PropertyValueFactory<>("trophies"));
-                        trophiesCol.setCellFactory((final TableColumn<User, Integer> personStringTableColumn) ->
+                        trophiesCol.setCellFactory((final TableColumn<User, Double> personStringTableColumn) ->
                         {
                             return new RequirementTableCell(2);
                         });
 
-                        TableColumn<User, String> scoreCol = new TableColumn<>("User Score");
+                        TableColumn<User, Integer> scoreCol = new TableColumn<>("User Score");
                         scoreCol.setCellValueFactory(new PropertyValueFactory<>("score"));
 
                         table.getColumns().setAll(usernameCol, levelCol, goldCol, sealsCol, trophiesCol, scoreCol);
@@ -198,6 +199,7 @@ public class MainApp extends Application
 
                             table.setItems(userList);
                             ctrl.btn_refresh.setDisable(false);
+                            ctrl.btn_upload.setDisable(false);
                         });
                     } catch (IOException ex)
                     {
@@ -233,6 +235,7 @@ public class MainApp extends Application
         ctrl.txt_req_gold.setText(requimnts.getInt("Gold") + "");
         ctrl.txt_req_seals.setText(requimnts.getInt("Seals") + "");
         ctrl.txt_req_trophies.setText(requimnts.getInt("Trophies") + "");
+        ctrl.lbl_no_score.setVisible(false);
         if (!ConfigFileManager.inst.getData().isNull("ServerURL"))
         {
             ctrl.txt_serverurl.setText(ConfigFileManager.inst.getData().getString("ServerURL"));
@@ -393,7 +396,10 @@ public class MainApp extends Application
         {
             if (!ConfigFileManager.inst.getData().isNull("ServerURL"))
             {
-                NetHandler.uploadData(ConfigFileManager.inst.getData().getString("ServerURL"));
+                NetHandler.uploadData(ConfigFileManager.inst.getData().getString("ServerURL"), users, table);
+            } else
+            {
+                Utils.msgBox(Alert.AlertType.WARNING, "You have no URL defined. Please define a URL", OK);
             }
         });
 
