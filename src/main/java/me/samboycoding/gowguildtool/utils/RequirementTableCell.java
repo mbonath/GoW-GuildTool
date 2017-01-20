@@ -76,7 +76,7 @@ public class RequirementTableCell extends TableCell<User, Double>
         }
     }
 
-    private static class RequirementStore
+    public static class RequirementStore
     {
 
         public static double reqGold = -1;

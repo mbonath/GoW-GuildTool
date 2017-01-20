@@ -4,8 +4,14 @@ import com.sun.javafx.collections.ObservableListWrapper;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.TextStyle;
+import java.time.temporal.TemporalField;
+import java.time.temporal.WeekFields;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Locale;
 import javafx.application.Application;
 import static javafx.application.Application.launch;
 import javafx.application.Platform;
@@ -125,6 +131,8 @@ public class MainApp extends Application
 
                         JSONArray rawUsers = guilddata.getJSONObject("result").getJSONObject("GuildData").getJSONArray("Users");
                         users.clear();
+                        JSONObject toSave = new JSONObject();
+
                         for (Object o : rawUsers)
                         {
                             JSONObject u = (JSONObject) o;
@@ -136,6 +144,13 @@ public class MainApp extends Application
                             user.setSeals(u.getDouble("GuildSealsWeekly"));
                             user.setTrophies(u.getDouble("GuildTrophiesWeekly"));
                             user.setRawData(u.toString());
+
+                            JSONObject toAdd = new JSONObject();
+                            toAdd.put("Level", u.getInt("Level"));
+                            toAdd.put("Gold", u.getDouble("GuildGoldContributedWeekly"));
+                            toAdd.put("Seals", u.getDouble("GuildSealsWeekly"));
+                            toAdd.put("Trophies", u.getDouble("GuildTrophiesWeekly"));
+                            toSave.put(user.getUsername(), toAdd);
 
                             double gold = user.getGold();
                             double seals = user.getSeals();
@@ -158,11 +173,29 @@ public class MainApp extends Application
                             userList.add(user);
                         }
 
+                        LocalDateTime now = LocalDateTime.now();
+
+                        TemporalField fieldISO = WeekFields.of(Locale.FRANCE).dayOfWeek();
+                        File saveFile = new File("data/" + now.getYear() + "/" + now.getMonth().getValue() + "/Week-Commencing-" + now.with(fieldISO, 1).format(DateTimeFormatter.ofPattern("dd-MM-YYYY")) + ".json");
+
+                        System.out.println(saveFile.getAbsolutePath());
+
+                        if (saveFile.exists())
+                        {
+                            saveFile.delete();
+                        }
+                        saveFile.getParentFile().mkdirs();
+                        saveFile.createNewFile();
+
+                        FileUtils.writeStringToFile(saveFile, toSave.toString(4));
+
                         TableColumn<User, String> usernameCol = new TableColumn<>("Username");
                         usernameCol.setCellValueFactory(new PropertyValueFactory<>("username"));
 
                         TableColumn<User, Integer> levelCol = new TableColumn<>("Level");
                         levelCol.setCellValueFactory(new PropertyValueFactory<>("level"));
+
+                        new RequirementTableCell.RequirementStore();
 
                         TableColumn<User, Double> goldCol = new TableColumn<>("Gold Donated");
                         goldCol.setCellValueFactory(new PropertyValueFactory<>("gold"));
@@ -209,6 +242,7 @@ public class MainApp extends Application
                     } catch (IOException ex)
                     {
                         Utils.msgBoxThreadSafe(Alert.AlertType.ERROR, "Unable to load user data!", OK);
+                        ex.printStackTrace();
                     }
                 }).start();
             }
