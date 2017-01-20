@@ -109,6 +109,8 @@ public class MainApp extends Application
                             if (guilddata.getString("error").contains("NOT_IN_A_GUILD"))
                             {
                                 Utils.msgBoxThreadSafe(Alert.AlertType.ERROR, "We couldn't load guild data, because you are not in a guild.", OK);
+                                ctrl.prg_loading.setVisible(false);
+                                ctrl.lbl_loading.setVisible(false);
                                 return;
                             }
                         }
@@ -187,7 +189,7 @@ public class MainApp extends Application
                         scoreCol.setCellValueFactory(new PropertyValueFactory<>("score"));
 
                         //All of this balony because "unchecked"
-                        table.getColumns().setAll(new ArrayList<>(Arrays.asList(usernameCol, levelCol, goldCol, sealsCol,trophiesCol,scoreCol)));
+                        table.getColumns().setAll(new ArrayList<>(Arrays.asList(usernameCol, levelCol, goldCol, sealsCol, trophiesCol, scoreCol)));
 
                         Platform.runLater(() ->
                         {
