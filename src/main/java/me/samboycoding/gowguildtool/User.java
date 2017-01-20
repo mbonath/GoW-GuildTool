@@ -15,6 +15,12 @@ import javafx.beans.property.StringProperty;
 public class User
 {
 
+    @Override
+    public String toString()
+    {
+        return "User {name=" + username.get() + "level=" + level.get() + ", gold=" + gold.get() + ", trophies=" + trophies.get() + ", seals=" + seals.get() + "}";
+    }
+    
     private StringProperty username;
 
     public void setUsername(String value)

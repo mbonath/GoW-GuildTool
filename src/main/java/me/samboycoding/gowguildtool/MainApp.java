@@ -6,7 +6,6 @@ import java.io.FilenameFilter;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.time.format.TextStyle;
 import java.time.temporal.TemporalField;
 import java.time.temporal.WeekFields;
 import java.util.ArrayList;
@@ -23,13 +22,21 @@ import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.chart.CategoryAxis;
+import javafx.scene.chart.LineChart;
+import javafx.scene.chart.NumberAxis;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.Alert;
 import static javafx.scene.control.ButtonType.CLOSE;
 import static javafx.scene.control.ButtonType.OK;
+import javafx.scene.control.Tab;
 import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableRow;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.input.MouseButton;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.GridPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
@@ -39,6 +46,7 @@ import me.samboycoding.gowguildtool.utils.RequirementTableCell;
 import me.samboycoding.gowguildtool.utils.Utils;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.filefilter.WildcardFileFilter;
+import org.controlsfx.control.GridView;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -174,9 +182,8 @@ public class MainApp extends Application
                         }
 
                         LocalDateTime now = LocalDateTime.now();
-
-                        TemporalField fieldISO = WeekFields.of(Locale.FRANCE).dayOfWeek();
-                        File saveFile = new File("data/" + now.getYear() + "/" + now.getMonth().getValue() + "/Week-Commencing-" + now.with(fieldISO, 1).format(DateTimeFormatter.ofPattern("dd-MM-YYYY")) + ".json");
+                        TemporalField fieldISO = WeekFields.of(Locale.FRENCH).dayOfWeek();
+                        File saveFile = new File("data/" + now.with(fieldISO, 1).format(DateTimeFormatter.ofPattern("dd-MM-YYYY")) + ".json");
 
                         System.out.println(saveFile.getAbsolutePath());
 
@@ -222,7 +229,7 @@ public class MainApp extends Application
                         scoreCol.setCellValueFactory(new PropertyValueFactory<>("score"));
 
                         //All of this balony because "unchecked"
-                        table.getColumns().setAll(new ArrayList<>(Arrays.asList(usernameCol, levelCol, goldCol, sealsCol, trophiesCol, scoreCol)));
+                        table.getColumns().setAll(Arrays.asList(usernameCol, levelCol, goldCol, sealsCol, trophiesCol, scoreCol));
 
                         Platform.runLater(() ->
                         {
@@ -238,6 +245,88 @@ public class MainApp extends Application
                             table.setItems(userList);
                             ctrl.btn_refresh.setDisable(false);
                             ctrl.btn_upload.setDisable(false);
+
+                            table.setRowFactory(tv ->
+                            {
+                                TableRow<User> row = new TableRow<>();
+                                row.setOnMouseClicked(event ->
+                                {
+                                    if (!row.isEmpty() && event.getButton() == MouseButton.PRIMARY)
+                                    {
+                                        User clickedRow = row.getItem();
+                                        
+                                        /*CategoryAxis xAxis = new CategoryAxis();
+                                        NumberAxis yAxis = new NumberAxis();
+                                        xAxis.setLabel("Date");
+                                        yAxis.setLabel("Amount");*/
+                                        
+                                        LineChart<String, Number> goldChart = new LineChart<>(new CategoryAxis(), new NumberAxis());
+                                        goldChart.setTitle("Weekly Gold for " + clickedRow.getUsername());
+                                        XYChart.Series<String, Number> goldSeries = new XYChart.Series<>();
+                                        goldSeries.setName("Gold");
+                                        
+                                        LineChart<String, Number> sealsChart = new LineChart<>(new CategoryAxis(), new NumberAxis());
+                                        sealsChart.setTitle("Weekly Seals for " + clickedRow.getUsername());
+                                        XYChart.Series<String, Number> sealsSeries = new XYChart.Series<>();
+                                        goldSeries.setName("Seals");
+                                        
+                                        LineChart<String, Number> trophiesChart = new LineChart<>(new CategoryAxis(), new NumberAxis());
+                                        trophiesChart.setTitle("Weekly Trophies for " + clickedRow.getUsername());
+                                        XYChart.Series<String, Number> trophiesSeries = new XYChart.Series<>();
+                                        goldSeries.setName("Trophies");
+                                        
+                                        LineChart<String, Number> levelChart = new LineChart<>(new CategoryAxis(), new NumberAxis());
+                                        levelChart.setTitle("Weekly Level for " + clickedRow.getUsername());
+                                        XYChart.Series<String, Number> levelSeries = new XYChart.Series<>();
+                                        goldSeries.setName("Level");
+                                        
+                                        File[] dataFiles = new File("data/").listFiles();
+                                        
+                                        for(File f : dataFiles)
+                                        {
+                                            try
+                                            {
+                                                JSONObject weeklyData = new JSONObject(FileUtils.readFileToString(f, "UTF-8"));
+                                                if(!weeklyData.has(clickedRow.getUsername()))
+                                                {
+                                                    continue;
+                                                }
+                                                
+                                                JSONObject userWeekly = weeklyData.getJSONObject(clickedRow.getUsername());
+                                                goldSeries.getData().add(new XYChart.Data<>(f.getName().replace("-", "/").replace(".json", ""), userWeekly.getInt("Gold")));
+                                                sealsSeries.getData().add(new XYChart.Data<>(f.getName().replace("-", "/").replace(".json", ""), userWeekly.getInt("Seals")));
+                                                trophiesSeries.getData().add(new XYChart.Data<>(f.getName().replace("-", "/").replace(".json", ""), userWeekly.getInt("Trophies")));
+                                                levelSeries.getData().add(new XYChart.Data<>(f.getName().replace("-", "/").replace(".json", ""), userWeekly.getInt("Level")));
+                                            } catch(JSONException e)
+                                            {
+                                                //Ignore
+                                            } catch (IOException ex)
+                                            {
+                                                //Ignore
+                                            }
+                                        }
+                                        
+                                        goldChart.getData().add(goldSeries);
+                                        sealsChart.getData().add(sealsSeries);
+                                        trophiesChart.getData().add(trophiesSeries);
+                                        levelChart.getData().add(levelSeries);
+                                        
+                                        GridPane gridPane = new GridPane();
+                                        GridPane.setConstraints(goldChart, 0, 0);
+                                        GridPane.setConstraints(sealsChart, 0, 1);
+                                        GridPane.setConstraints(trophiesChart, 1, 0);
+                                        GridPane.setConstraints(levelChart, 1, 1);
+                                        
+                                        gridPane.getChildren().addAll(Arrays.asList(goldChart, sealsChart, trophiesChart, levelChart));
+                                        //GridView<LineChart<String, Number>> panel = new GridView<>(new ObservableListWrapper<>(Arrays.asList(goldChart, sealsChart, trophiesChart, levelChart)));
+                                        
+                                        Tab newTab = new Tab("User View: " + clickedRow.getUsername(), gridPane);
+                                        ctrl.tabpane.getTabs().add(1, newTab);
+                                        ctrl.tabpane.getSelectionModel().select(newTab);
+                                    }
+                                });
+                                return row;
+                            });
                         });
                     } catch (IOException ex)
                     {
