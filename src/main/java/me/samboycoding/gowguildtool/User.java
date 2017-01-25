@@ -18,7 +18,7 @@ public class User
     @Override
     public String toString()
     {
-        return "User {name=" + username.get() + "level=" + level.get() + ", gold=" + gold.get() + ", trophies=" + trophies.get() + ", seals=" + seals.get() + "}";
+        return "User {name=" + username.get() + "level=" + level.get() + ", gold=" + gold.get() + ", trophies=" + trophies.get() + ", seals=" + seals.get() + ", goldall=" + goldall.get() + ", trophiesall=" + trophiesall.get() + "}";
     }
     
     private StringProperty username;
@@ -166,5 +166,45 @@ public class User
             score = new SimpleIntegerProperty(this, "score");
         }
         return score;
+    }
+	private DoubleProperty goldall;
+
+    public void setGoldall(double value)
+    {
+        goldallProperty().set(value);
+    }
+
+    public double getGoldall()
+    {
+        return goldallProperty().get();
+    }
+
+    public DoubleProperty goldallProperty()
+    {
+        if (goldall == null)
+        {
+            goldall = new SimpleDoubleProperty(this, "goldall");
+        }
+        return goldall;
+    }
+	private DoubleProperty trophiesall;
+
+    public void setTrophiesall(double value)
+    {
+        trophiesallProperty().set(value);
+    }
+
+    public double getTrophiesall()
+    {
+        return trophiesallProperty().get();
+    }
+
+    public DoubleProperty trophiesallProperty()
+    {
+        if (trophiesall == null)
+        {
+            trophiesall = new SimpleDoubleProperty(this, "trophiesall");
+        }
+        return trophiesall;
     }
 }

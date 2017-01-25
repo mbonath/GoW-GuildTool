@@ -151,6 +151,8 @@ public class MainApp extends Application
                             user.setGold(u.getDouble("GuildGoldContributedWeekly"));
                             user.setSeals(u.getDouble("GuildSealsWeekly"));
                             user.setTrophies(u.getDouble("GuildTrophiesWeekly"));
+							user.setGoldall(u.getDouble("GuildGoldContributedTotal"));
+                            user.setTrophiesall(u.getDouble("GuildTrophiesTotal"));
                             user.setRawData(u.toString());
 
                             JSONObject toAdd = new JSONObject();
@@ -158,11 +160,15 @@ public class MainApp extends Application
                             toAdd.put("Gold", u.getDouble("GuildGoldContributedWeekly"));
                             toAdd.put("Seals", u.getDouble("GuildSealsWeekly"));
                             toAdd.put("Trophies", u.getDouble("GuildTrophiesWeekly"));
+							toAdd.put("Gold all", u.getDouble("GuildGoldContributedTotal"));
+                            toAdd.put("Trophies all", u.getDouble("GuildTrophiesTotal"));
                             toSave.put(user.getUsername(), toAdd);
 
                             double gold = user.getGold();
                             double seals = user.getSeals();
                             double troph = user.getTrophies();
+							double goldall = user.getGoldall();
+                            double trophall = user.getTrophiesall();
 
                             JSONObject req = conf.getJSONObject("Requirements");
 
@@ -225,11 +231,25 @@ public class MainApp extends Application
                             return new RequirementTableCell(2);
                         });
 
+						TableColumn<User, Double> goldallCol = new TableColumn<>("Gold all Donated");
+                        goldallCol.setCellValueFactory(new PropertyValueFactory<>("goldall"));
+                        goldallCol.setCellFactory((final TableColumn<User, Double> personStringTableColumn) ->
+                        {
+                            return new RequirementTableCell(3);
+                        });
+						
+						TableColumn<User, Double> trophiesallCol = new TableColumn<>("Trophies all Earned");
+                        trophiesallCol.setCellValueFactory(new PropertyValueFactory<>("trophiesall"));
+                        trophiesallCol.setCellFactory((final TableColumn<User, Double> personStringTableColumn) ->
+                        {
+                            return new RequirementTableCell(4);
+                        });
+						
                         TableColumn<User, Integer> scoreCol = new TableColumn<>("User Score");
                         scoreCol.setCellValueFactory(new PropertyValueFactory<>("score"));
 
                         //All of this balony because "unchecked"
-                        table.getColumns().setAll(Arrays.asList(usernameCol, levelCol, goldCol, sealsCol, trophiesCol, scoreCol));
+                        table.getColumns().setAll(Arrays.asList(usernameCol, levelCol, goldCol, sealsCol, trophiesCol, goldallCol, trophiesallCol, scoreCol));
 
                         Platform.runLater(() ->
                         {

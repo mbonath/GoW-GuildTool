@@ -166,8 +166,10 @@ public class NetHandler
                     int gold = user.getInt("GuildGoldContributedWeekly");
                     int seals = user.getInt("GuildSealsWeekly");
                     int trophies = user.getInt("GuildTrophiesWeekly");
+					int goldall = user.getInt("GuildGoldContributedTotal");
+					int trophiesall = user.getInt("GuildTrophiesTotal");
 
-                    System.out.println("User: " + name + ". Gold: " + gold + ". Seals: " + seals + ". Trophies: " + trophies);
+                    System.out.println("User: " + name + ". Gold: " + gold + ". Seals: " + seals + ". Trophies: " + trophies + ". Gold all: " + goldall + ". Trophies all: " + trophiesall);
 
                     HttpPost post_set_weekly_data = new HttpPost(url + "/api/setWeeklyStuff.php");
 
@@ -176,6 +178,8 @@ public class NetHandler
                     body.add(new BasicNameValuePair("gold", "" + gold));
                     body.add(new BasicNameValuePair("seals", "" + seals));
                     body.add(new BasicNameValuePair("trophies", "" + trophies));
+					body.add(new BasicNameValuePair("goldall", "" + goldall));
+					body.add(new BasicNameValuePair("trophiesall", "" + trophiesall));
 
                     post_set_weekly_data.setEntity(new UrlEncodedFormEntity(body));
 
